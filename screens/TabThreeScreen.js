@@ -4,10 +4,10 @@ import { StyleSheet } from 'react-native';
 import { Text, View } from '../components/Themed';
 import texts from '../constants/texts'
 
-//Mis charlas
-const TabTwoScreen = () => (
+//Sponsors
+const TabThreeScreen = () => (
   <View style={styles.container}>
-    <Text style={styles.title}>{texts.screens.title2}</Text>
+    <Text style={styles.title}>{texts.screens.title3}</Text>
   </View>
 );
 
@@ -28,4 +28,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default TabTwoScreen;
+export default TabThreeScreen;

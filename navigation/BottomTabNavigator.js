@@ -7,64 +7,86 @@ import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import TabOneScreen from '../screens/TabOneScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
+import TabThreeScreen from '../screens/TabThreeScreen';
+import texts from '../constants/texts'
 
 const BottomTab = createBottomTabNavigator();
 
-export default function BottomTabNavigator() {
+const { title1, title2, title3 } = texts.screens
+
+const BottomTabNavigator = () => {
   const colorScheme = useColorScheme();
 
   return (
     <BottomTab.Navigator
-      initialRouteName="TabOne"
-      tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}>
+      initialRouteName="Calendario"
+      tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}
+    >
       <BottomTab.Screen
-        name="TabOne"
+        name={title1}
         component={TabOneNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="md-calendar" color={color} />,
         }}
       />
       <BottomTab.Screen
-        name="TabTwo"
+        name={title2}
         component={TabTwoNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="md-heart" color={color} />,
+        }}
+      />
+      <BottomTab.Screen
+        name={title3}
+        component={TabThreeNavigator}
+        options={{
+          tabBarIcon: ({ color }) => <TabBarIcon name="md-people" color={color} />,
         }}
       />
     </BottomTab.Navigator>
   );
 }
 
-function TabBarIcon(props) {
-  return <Ionicons size={30} style={{ marginBottom: -3 }} {...props} />;
-}
+const TabBarIcon = (props) => (
+  <Ionicons size={30} style={{ marginBottom: -3 }} {...props} />
+)
 
 // Each tab has its own navigation stack, you can read more about this pattern here:
 // https://reactnavigation.org/docs/tab-based-navigation#a-stack-navigator-for-each-tab
 const TabOneStack = createStackNavigator();
 
-function TabOneNavigator() {
-  return (
-    <TabOneStack.Navigator>
-      <TabOneStack.Screen
-        name="TabOneScreen"
-        component={TabOneScreen}
-        options={{ headerTitle: 'titulo 1' }}
-      />
-    </TabOneStack.Navigator>
-  );
-}
+const TabOneNavigator = () => (
+  <TabOneStack.Navigator>
+    <TabOneStack.Screen
+      name="TabOneScreen"
+      component={TabOneScreen}
+      options={{ headerTitle: title1 }}
+    />
+  </TabOneStack.Navigator>
+);
 
 const TabTwoStack = createStackNavigator();
 
-function TabTwoNavigator() {
-  return (
-    <TabTwoStack.Navigator>
-      <TabTwoStack.Screen
-        name="TabTwoScreen"
-        component={TabTwoScreen}
-        options={{ headerTitle: 'titulo 2' }}
-      />
-    </TabTwoStack.Navigator>
-  );
-}
+const TabTwoNavigator = () => (
+  <TabTwoStack.Navigator>
+    <TabTwoStack.Screen
+      name="TabTwoScreen"
+      component={TabTwoScreen}
+      options={{ headerTitle: title2 }}
+    />
+  </TabTwoStack.Navigator>
+);
+
+const TabThreeStack = createStackNavigator();
+
+const TabThreeNavigator = () => (
+  <TabThreeStack.Navigator>
+    <TabThreeStack.Screen
+      name="TabThreeScreen"
+      component={TabThreeScreen}
+      options={{ headerTitle: title3 }}
+    />
+  </TabThreeStack.Navigator>
+);
+
+export default BottomTabNavigator;
