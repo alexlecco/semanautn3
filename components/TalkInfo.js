@@ -45,11 +45,19 @@ const TalkInfo = () => {
       break;
   }
 
+  const showOrHideTalkInfo = () => {
+    setState({
+      ...state,
+      talk: {},
+      talkInfoVisible: false,
+    })
+  }
+
   return(
     <Container style={styles.container}>
       <Header>
         <Left>
-          <Button transparent onPress={() => {}}>
+          <Button transparent onPress={() => showOrHideTalkInfo()}>
             <Icon name='arrow-back' />
           </Button>
         </Left>
