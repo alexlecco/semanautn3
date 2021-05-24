@@ -1,6 +1,8 @@
-import React, { useEffect, useContext }  from 'react';
+// libraries
+import React, { useContext }  from 'react';
 import { View, Text, StyleSheet, Dimensions, TouchableWithoutFeedback, } from 'react-native';
 
+// helpers
 import { AppContext } from '../context/provider';
 
 const TalkCard = ({ talk }) => {

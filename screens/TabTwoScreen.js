@@ -1,11 +1,13 @@
+// libraries
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
 
-import { Text, View } from '../components/Themed';
+// helpers
 import texts from '../constants/texts'
+import { Text, View } from '../components/Themed';
 
 //Mis charlas
-const TabTwoScreen = () => (
+const TabTwoScreen = _ => (
   <View style={styles.container}>
     <Text style={styles.title}>{texts.screens.title2}</Text>
   </View>

@@ -1,11 +1,13 @@
+// libraries
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
 
-import { Text, View } from '../components/Themed';
+// helpers
 import texts from '../constants/texts'
+import { Text, View } from '../components/Themed';
 
 //Sponsors
-const TabThreeScreen = () => (
+const TabThreeScreen = _ => (
   <View style={styles.container}>
     <Text style={styles.title}>{texts.screens.title3}</Text>
   </View>

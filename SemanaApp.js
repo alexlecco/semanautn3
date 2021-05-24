@@ -1,9 +1,14 @@
+// libraries
 import React, { useContext } from 'react';
 
+// components
 import Navigation from './navigation/Navigation';
+import TalkInfo from './components/TalkInfo';
+
+// custom hooks
 import useColorScheme from './hooks/useColorScheme';
 
-import TalkInfo from './components/TalkInfo';
+// helpers
 import { AppContext } from './context/provider'
 
 const SemanaApp = _ => {

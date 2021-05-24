@@ -1,3 +1,4 @@
+// libraries
 import React, { useState, useContext } from 'react';
 import { StyleSheet, View, Image, } from 'react-native';
 import {
@@ -12,9 +13,10 @@ import {
   Text,
 } from 'native-base';
 
+// helpers
 import { AppContext } from '../context/provider';
 
-const TalkInfo = () => {
+const TalkInfo = _ => {
   const [ state, setState ] = useContext(AppContext)
   const [ buttonText, setButtonText ] = useState('me interesa');
 

@@ -1,11 +1,21 @@
+// libraries
 import React from 'react';
 import { FlatList, SafeAreaView, StatusBar, StyleSheet, TouchableOpacity } from 'react-native';
-
 import { Container, Tab, Tabs, TabHeading, } from 'native-base';
 
-import { Text, View } from '../components/Themed';
+// components
 import TalkCard from '../components/TalkCard';
+const Item = ({ item, onPress, backgroundColor, textColor }) => (
+  <TouchableOpacity onPress={onPress} style={[styles.item, backgroundColor]}>
+    <Text style={[styles.title, textColor]}>{item.title}</Text>
+  </TouchableOpacity>
+);
 
+// helpers
+import { Text, View } from '../components/Themed';
+
+// constants
+const days = ['lun', 'mar', 'mie', 'jue', 'vie'];
 const TALKS = [
   {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
@@ -33,16 +43,8 @@ const TALKS = [
   },
 ];
 
-const Item = ({ item, onPress, backgroundColor, textColor }) => (
-  <TouchableOpacity onPress={onPress} style={[styles.item, backgroundColor]}>
-    <Text style={[styles.title, textColor]}>{item.title}</Text>
-  </TouchableOpacity>
-);
-
-const days = ['lun', 'mar', 'mie', 'jue', 'vie'];
-
 //Calendario
-const TabOneScreen = () => {
+const TabOneScreen = _ => {
   const renderTimeYesOrNo = (talk) => (
       <TalkCard
         talk={talk}
