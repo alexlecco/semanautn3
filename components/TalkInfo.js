@@ -12,16 +12,21 @@ import {
   Button,
   Text,
 } from 'native-base';
+import {
+  useFonts,
+  Roboto_500Medium
+} from '@expo-google-fonts/roboto';
 
 // helpers
 import { AppContext } from '../context/provider';
 
 const TalkInfo = _ => {
+  let [ fontsLoaded ] = useFonts({ Roboto_500Medium });
   const [ state, setState ] = useContext(AppContext)
   const { talk, speakers } = state;
   const [ buttonText, setButtonText ] = useState('me interesa');
 
-  const getSpeakerPhoto = (photo) => {
+  const getSpeakerPhoto = photo => {
     return `https://firebasestorage.googleapis.com/v0/b/semana-utn-c9f91.appspot.com/o/speakers%2F${photo}.png?alt=media`
   }
 
@@ -60,6 +65,10 @@ const TalkInfo = _ => {
       talk: {},
       talkInfoVisible: false,
     })
+  }
+
+  if (!fontsLoaded) {
+    return null
   }
 
   return(

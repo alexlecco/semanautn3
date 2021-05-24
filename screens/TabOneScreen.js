@@ -1,7 +1,7 @@
 // libraries
 import React, { useContext } from 'react';
-import { FlatList, SafeAreaView, StatusBar, StyleSheet, TouchableOpacity } from 'react-native';
-import { Container, Tab, Tabs, TabHeading, } from 'native-base';
+import { FlatList, SafeAreaView, StyleSheet, TouchableOpacity } from 'react-native';
+import { Container, Tab, Tabs, TabHeading, DefaultTabBar } from 'native-base';
 
 // components
 import TalkCard from '../components/TalkCard';
@@ -30,14 +30,19 @@ const TabOneScreen = _ => {
     if (day === 'mar') return talksTue
     if (day === 'mie') return talksWed
     if (day === 'jue') return talksThu
-    return talksFri
+    if (day === 'vie') return talksFri
   }
+
+  const renderTabBar = (props) => {
+    props.tabStyle = Object.create(props.tabStyle);
+    return <DefaultTabBar {...props} />;
+  };
 
   return (
     <View style={styles.container}>
       <Container>
         <SafeAreaView style={styles.container}>
-          <Tabs>
+          <Tabs renderTabBar={renderTabBar}>
             {
               days.map(day => (
                 <Tab heading={<TabHeading><Text>{day}</Text></TabHeading>} key={day}>

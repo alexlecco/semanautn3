@@ -2,7 +2,6 @@
 import React from 'react';
 import { LogBox } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { AppLoading } from 'expo';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import {
   useFonts,
@@ -23,7 +22,9 @@ const App = _ => {
   const isLoadingComplete = useCachedResources();
   let [ fontsLoaded ] = useFonts({ Roboto_500Medium });
 
-  if (!fontsLoaded) <AppLoading />
+  if (!fontsLoaded) {
+    return null
+  }
 
   return (
     !isLoadingComplete ?
