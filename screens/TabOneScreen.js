@@ -1,5 +1,5 @@
 // libraries
-import React from 'react';
+import React, { useContext } from 'react';
 import { FlatList, SafeAreaView, StatusBar, StyleSheet, TouchableOpacity } from 'react-native';
 import { Container, Tab, Tabs, TabHeading, } from 'native-base';
 
@@ -13,46 +13,25 @@ const Item = ({ item, onPress, backgroundColor, textColor }) => (
 
 // helpers
 import { Text, View } from '../components/Themed';
+import { AppContext } from '../context/provider';
 
 // constants
 const days = ['lun', 'mar', 'mie', 'jue', 'vie'];
-const TALKS = [
-  {
-    id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
-    title: 'First Item',
-    description: 'En el marco de la Semana de la  Ingeniería 2019 se desarrollará',
-    time: '09:00',
-    speaker: "8",
-    day: 'monday',
-  },
-  {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    title: "Second Item",
-    description: 'En el marco de la Semana de la  Ingeniería 2019 se desarrollará',
-    time: '19:00',
-    speaker: "2",
-    day: 'tuesday',
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-    description: 'En el marco de la Semana de la  Ingeniería 2019 se desarrollará',
-    time: '23:00',
-    speaker: "1",
-    day: 'monday',
-  },
-];
 
 //Calendario
 const TabOneScreen = _ => {
-  const renderTimeYesOrNo = (talk) => (
-      <TalkCard
-        talk={talk}
-        showOrHideTalkInfo={() => {}}
-        renderTime={() => {}}
-        backTo={() => {}}
-      />
-  )
+  const [ state ] = useContext(AppContext)
+  const { talksMon, talksTue, talksWed, talksThu, talksFri } = state;
+
+  const renderTalkCard = (talk) => <TalkCard talk={talk} />
+
+  function getTalksArray(day) {
+    if (day === 'lun') return talksMon
+    if (day === 'mar') return talksTue
+    if (day === 'mie') return talksWed
+    if (day === 'jue') return talksThu
+    return talksFri
+  }
 
   return (
     <View style={styles.container}>
@@ -61,11 +40,11 @@ const TabOneScreen = _ => {
           <Tabs>
             {
               days.map(day => (
-                <Tab heading={<TabHeading><Text>{day}</Text></TabHeading> } key={day}>
+                <Tab heading={<TabHeading><Text>{day}</Text></TabHeading>} key={day}>
                   <FlatList
-                    data={TALKS}
-                    renderItem={renderTimeYesOrNo}
-                    keyExtractor={(talk) => talk.id}
+                    data={getTalksArray(day)}
+                    renderItem={renderTalkCard}
+                    keyExtractor={talk => talk._key}
                   />
                 </Tab>
               ))

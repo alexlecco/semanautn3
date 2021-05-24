@@ -3,6 +3,12 @@ import React, { useState, createContext } from 'react';
 const initialState = {
   talk: {},
   talkInfoVisible: false,
+  talks: [],
+  talksMon: [],
+  talksTue: [],
+  talksWed: [],
+  talksThu: [],
+  talksFri: [],
 };
 
 const ContextProvider = ({children}) => {

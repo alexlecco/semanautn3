@@ -4,6 +4,10 @@ import { LogBox } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { AppLoading } from 'expo';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import {
+  useFonts,
+  Roboto_500Medium
+} from '@expo-google-fonts/roboto';
 
 // custom hooks
 import useCachedResources from './hooks/useCachedResources';
@@ -13,11 +17,6 @@ import SemanaApp from './SemanaApp';
 
 // helpers
 import ContextProvider from './context/provider';
-
-import {
-  useFonts,
-  Roboto_500Medium
-} from '@expo-google-fonts/roboto';
 
 const App = _ => {
   LogBox.ignoreAllLogs()
