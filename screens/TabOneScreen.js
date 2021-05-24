@@ -5,7 +5,6 @@ import { Container, Tab, Tabs, TabHeading, } from 'native-base';
 
 import { Text, View } from '../components/Themed';
 import TalkCard from '../components/TalkCard';
-import sites from '../constants/sites';
 
 const TALKS = [
   {
@@ -13,24 +12,24 @@ const TALKS = [
     title: 'First Item',
     description: 'En el marco de la Semana de la  Ingeniería 2019 se desarrollará',
     time: '09:00',
+    speaker: "8",
     day: 'monday',
-    site: 'site01',
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     title: "Second Item",
     description: 'En el marco de la Semana de la  Ingeniería 2019 se desarrollará',
     time: '19:00',
+    speaker: "2",
     day: 'tuesday',
-    site: 'site02',
   },
   {
     id: "58694a0f-3da1-471f-bd96-145571e29d72",
     title: "Third Item",
     description: 'En el marco de la Semana de la  Ingeniería 2019 se desarrollará',
     time: '23:00',
+    speaker: "1",
     day: 'monday',
-    site: 'site03',
   },
 ];
 
@@ -47,7 +46,6 @@ const TabOneScreen = () => {
   const renderTimeYesOrNo = (talk) => (
       <TalkCard
         talk={talk}
-        sites={sites}
         showOrHideTalkInfo={() => {}}
         renderTime={() => {}}
         backTo={() => {}}
@@ -61,7 +59,7 @@ const TabOneScreen = () => {
           <Tabs>
             {
               days.map(day => (
-                <Tab heading={<TabHeading><Text>{day}</Text></TabHeading> }>
+                <Tab heading={<TabHeading><Text>{day}</Text></TabHeading> } key={day}>
                   <FlatList
                     data={TALKS}
                     renderItem={renderTimeYesOrNo}

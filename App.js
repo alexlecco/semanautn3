@@ -6,6 +6,10 @@ import useCachedResources from './hooks/useCachedResources';
 import useColorScheme from './hooks/useColorScheme';
 import Navigation from './navigation/Navigation';
 
+import SemanaApp from './SemanaApp';
+
+import ContextProvider from './context/provider';
+
 const App = () => {
   const isLoadingComplete = useCachedResources();
   const colorScheme = useColorScheme();
@@ -15,7 +19,9 @@ const App = () => {
       null
     :
       <SafeAreaProvider>
-        <Navigation colorScheme={colorScheme} />
+        <ContextProvider>
+          <SemanaApp />
+        </ContextProvider>
         <StatusBar />
       </SafeAreaProvider>
   )

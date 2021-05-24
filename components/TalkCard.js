@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useEffect, useContext }  from 'react';
 import { View, Text, StyleSheet, Dimensions, TouchableWithoutFeedback, } from 'react-native';
 
-const TalkCard = ({ talk, sites }) => {
-	const getSiteName = (sites, siteId) => {
-    const site = sites.filter(obj => (
-      obj.id === siteId
-    ))
-    return site[0].name
+import { AppContext } from '../context/provider';
+
+const TalkCard = ({ talk }) => {
+  const [ state, setState ] = useContext(AppContext)
+
+  const showOrHideTalkInfo = (talk) => {
+    setState({
+      ...state,
+      talk: talk.item,
+      talkInfoVisible: true,
+    })
   }
 
   return(
     <TouchableWithoutFeedback
-      onPress={() => {}}
+      onPress={() => showOrHideTalkInfo(talk)}
     >
       <View style={styles.TalkCardContainer}>
         <View styke={styles.TalCardColumn}>
@@ -23,16 +28,6 @@ const TalkCard = ({ talk, sites }) => {
         <View style={styles.TalCardColumn}>
           <View style={styles.TalkTitleContainer}>
             <Text style={styles.TalkText}>{talk.item.title}</Text>
-          </View>
-          <View style={styles.TalkSiteContainer}>
-            <Text
-              style={[
-                styles.TalkSiteText, {
-                  color: 'red'}
-                ]}
-              >
-              {getSiteName(sites, talk.item.site)}
-            </Text>
           </View>
         </View>
       </View>
@@ -62,15 +57,6 @@ const styles = StyleSheet.create({
 		flexWrap: 'wrap',
 		flexDirection: 'row',
 		width: Dimensions.get('window').width - 82,
-	},
-	TalkSiteContainer: {
-		flexWrap: 'wrap',
-		paddingBottom: 10,
-		flexDirection: 'row',
-		width: Dimensions.get('window').width - 82,
-	},
-	TalkSiteText: {
-		fontSize: 13,
 	},
 	TalkText: {
 		fontSize: 17,
