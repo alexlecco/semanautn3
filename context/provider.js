@@ -9,6 +9,7 @@ const initialState = {
   talksWed: [],
   talksThu: [],
   talksFri: [],
+  speakers: [],
 };
 
 const ContextProvider = ({children}) => {

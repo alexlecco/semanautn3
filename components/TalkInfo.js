@@ -18,14 +18,21 @@ import { AppContext } from '../context/provider';
 
 const TalkInfo = _ => {
   const [ state, setState ] = useContext(AppContext)
+  const { talk, speakers } = state;
   const [ buttonText, setButtonText ] = useState('me interesa');
 
   const getSpeakerPhoto = (photo) => {
     return `https://firebasestorage.googleapis.com/v0/b/semana-utn-c9f91.appspot.com/o/speakers%2F${photo}.png?alt=media`
   }
 
-  let day = state.talk.day;
-  let dayToShow = 'perrito';
+  const getSpeaker = (speakers, speakerId) => (
+    speakers.filter(sp => sp.id === speakerId)[0]
+  )
+  
+  const speaker = getSpeaker(speakers, talk.speaker)
+
+  let day = talk.day;
+  let dayToShow = '';
   switch(day) {
     case 'monday':
       dayToShow = 'lunes';
@@ -64,40 +71,42 @@ const TalkInfo = _ => {
           </Button>
         </Left>
         <Body>
-          <Title> { dayToShow } - { state.talk.time } </Title>
+          <Title> { dayToShow } - { talk.time } </Title>
         </Body>
       </Header>
       <Content style={styles.dark}>
         <View style={styles.TalkContainer}>
           <View style={styles.TalkTitleContainer}>
-            <Text style={styles.TalkTitle}>{ state.talk.title }</Text>
+            <Text style={styles.TalkTitle}>{ talk.title }</Text>
           </View>
           <View style={styles.TalkBodyContainer}>
-            <Text style={styles.TalkBody}>{ state.talk.description }</Text>
+            <Text style={styles.TalkBody}>{ talk.description }</Text>
           </View>
           <View style={styles.speakerContainer}>
             <View style={styles.TalkSpeakerContainer}>
               <Text style={styles.TalkSpeaker}>
               {
-                state.talk.speaker ?
-                  `${"speaker.name"}` : ""
+                talk.speaker ?
+                  `${speaker.name}` : ""
               }
               </Text>
             </View>
             <View>
               {
-                "speaker.photo" ?
+                speaker.photo ?
                   <Image
-                    source={{uri: getSpeakerPhoto("speaker.photo")}}
+                    source={{uri: getSpeakerPhoto(speaker.photo)}}
                     style={{height: 200, width: null, flex: 1}}
-                    style={styles.infoImage} /> : <Text />
+                    style={styles.infoImage} />
+                :
+                  null
               }
             </View>
             <View style={styles.TalkSpeakerBioContainer}>
               <Text style={styles.TalkSpeakerBio}>
                 {
-                  "speaker.bio" ?
-                    "speaker.bio" : ""
+                  speaker.bio ?
+                    speaker.bio : ""
                 }
               </Text>
             </View>

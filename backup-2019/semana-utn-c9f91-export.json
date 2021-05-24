@@ -1,0 +1,3627 @@
+{
+  "feedbacks" : {
+    "-LgPLpEAgBL5Z15SpG1R" : {
+      "body" : "44",
+      "starCount" : 4,
+      "user" : "ku8eb9KBVSP9FODESqwJioiIRP12"
+    }
+  },
+  "infos" : {
+    "info01" : {
+      "body" : "Desde los comienzos de la Semana de la Ingeniería nos hemos puesto como objetivo ir atravesando los diferenctes caminos por los que circunda la ingeniería y sus saberes técnicos en relación con lo social. De este modo hemos organizado estos eventos los últimos cinco años invitando a conferencistas internacionales y nacionales que aborden temas tales como: el medioambientes, las energías renovables y sustentables. software y educación, entre otros.",
+      "title" : "Bienvenidos a la semana de la ingeniería 2018"
+    }
+  },
+  "mobileUsers" : {
+    "0R2186YyVIMHiM0jxbseA1IGeTR2" : {
+      "name" : "Mariana Dorigatti",
+      "userId" : "0R2186YyVIMHiM0jxbseA1IGeTR2"
+    },
+    "1yMt0yyNBGcgAoXRurlVlMAj3Sh1" : {
+      "name" : "Carlos Medina",
+      "userId" : "1yMt0yyNBGcgAoXRurlVlMAj3Sh1"
+    },
+    "2HCR9wroAtMOsxVzQFd9IcsqrtJ2" : {
+      "name" : "Joel Banegas",
+      "userId" : "2HCR9wroAtMOsxVzQFd9IcsqrtJ2"
+    },
+    "2rjFO48L3lY97viyybHh51ldxPF2" : {
+      "name" : "Mauricio Batista",
+      "userId" : "2rjFO48L3lY97viyybHh51ldxPF2"
+    },
+    "30VLz9Nv78M3u8U60ZmvQmNgPDH3" : {
+      "name" : "Emmanuel Lopez",
+      "userId" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "3Z889afHFkNYGhpdS0bfarvmreL2" : {
+      "name" : "Franco Brun",
+      "userId" : "3Z889afHFkNYGhpdS0bfarvmreL2"
+    },
+    "3fePZ2nyTSNoKbHakjWFjZBH4us1" : {
+      "name" : "Tomas Salazar",
+      "userId" : "3fePZ2nyTSNoKbHakjWFjZBH4us1"
+    },
+    "3qeCkW6G3KP6wrKoaQT2MwAVeKK2" : {
+      "name" : "Nicolas Gonzalez",
+      "userId" : "3qeCkW6G3KP6wrKoaQT2MwAVeKK2"
+    },
+    "4T1utTm91Cdm80vpSUdsBICSmw32" : {
+      "name" : "Gabriel Luna",
+      "userId" : "4T1utTm91Cdm80vpSUdsBICSmw32"
+    },
+    "4mbjRTDMYfeorFSE7TIvAlZPQhK2" : {
+      "name" : "Benjamin Ramasco",
+      "userId" : "4mbjRTDMYfeorFSE7TIvAlZPQhK2"
+    },
+    "4yfQyJ73RsRO338jHpMFgkOvCFF2" : {
+      "name" : "Dani Nuñez",
+      "userId" : "4yfQyJ73RsRO338jHpMFgkOvCFF2"
+    },
+    "5R79YVWWwkMAwxUlSgCf0NnmYxt1" : {
+      "name" : "Rodrigo Albornoz",
+      "userId" : "5R79YVWWwkMAwxUlSgCf0NnmYxt1"
+    },
+    "5gkReGj5w2Q1J0D88ntrk7uySjn1" : {
+      "name" : "Germán David Correa",
+      "userId" : "5gkReGj5w2Q1J0D88ntrk7uySjn1"
+    },
+    "6Seq7xUJgQQkqmUs1tTp5HKGrqv1" : {
+      "name" : "Anto Valerie G",
+      "userId" : "6Seq7xUJgQQkqmUs1tTp5HKGrqv1"
+    },
+    "6bALOpBFv3Rvelru97BZrIP2UoI3" : {
+      "name" : "German Alejandro Fringes",
+      "userId" : "6bALOpBFv3Rvelru97BZrIP2UoI3"
+    },
+    "6btbrUGjBfPFsMghWbgzmTK2wuG3" : {
+      "name" : "Tono Murillo",
+      "userId" : "6btbrUGjBfPFsMghWbgzmTK2wuG3"
+    },
+    "6crTa2834UXQ5oxjFeheUhNbOH43" : {
+      "name" : "Ceci Armengol",
+      "userId" : "6crTa2834UXQ5oxjFeheUhNbOH43"
+    },
+    "7YHmGqz3OfbN728aQmZpL6noM9h2" : {
+      "name" : "Diego Quispe Palomino",
+      "userId" : "7YHmGqz3OfbN728aQmZpL6noM9h2"
+    },
+    "7vB4lMdku3WUGQHVKipMwgmx8fW2" : {
+      "name" : "Roy Erick",
+      "userId" : "7vB4lMdku3WUGQHVKipMwgmx8fW2"
+    },
+    "80FWAPoKk6ZdngXaUYQpFw5a2RH3" : {
+      "name" : "Mario Celis",
+      "userId" : "80FWAPoKk6ZdngXaUYQpFw5a2RH3"
+    },
+    "8BiIofRRQKUfFj0SSGCuSwHkzLb2" : {
+      "name" : "Lucas Asan",
+      "userId" : "8BiIofRRQKUfFj0SSGCuSwHkzLb2"
+    },
+    "8dySakEi2Sg8wOll6HCPrhmTxzE2" : {
+      "name" : "Leo Espeche",
+      "userId" : "8dySakEi2Sg8wOll6HCPrhmTxzE2"
+    },
+    "8llZarMhGcZbHKmvdGiedj3wy8D3" : {
+      "name" : "Paula Bazán ",
+      "userId" : "8llZarMhGcZbHKmvdGiedj3wy8D3"
+    },
+    "96gl6L3jP0aMLINOSpyP4fV8FsH2" : {
+      "name" : "Antonella Guerrero",
+      "userId" : "96gl6L3jP0aMLINOSpyP4fV8FsH2"
+    },
+    "98vnSOpYdBYRXgFOQuhvOGnIJ1S2" : {
+      "name" : "Nico Blasco",
+      "userId" : "98vnSOpYdBYRXgFOQuhvOGnIJ1S2"
+    },
+    "9JfjHfvWcqNSDcTSRnigFGfT1AS2" : {
+      "name" : "Grecia Berrondo",
+      "userId" : "9JfjHfvWcqNSDcTSRnigFGfT1AS2"
+    },
+    "9NSPM1DbC9SQ1QWzP65kRGj3iME2" : {
+      "name" : "Emmanuel Gorraiz",
+      "userId" : "9NSPM1DbC9SQ1QWzP65kRGj3iME2"
+    },
+    "9hOrmpZTqGPXiNyVYy0Zp86QKb83" : {
+      "name" : "Alex Villecco",
+      "userId" : "9hOrmpZTqGPXiNyVYy0Zp86QKb83"
+    },
+    "9wIKUmLdKaZEGdcgFBE3bIGD1rm2" : {
+      "name" : "Mily Hoffman",
+      "userId" : "9wIKUmLdKaZEGdcgFBE3bIGD1rm2"
+    },
+    "9wwDu7FdE1fnrHW3zox1UPHqYfF2" : {
+      "name" : "Lourdes Ailen Arena",
+      "userId" : "9wwDu7FdE1fnrHW3zox1UPHqYfF2"
+    },
+    "AVnY2TfueROvUVIGu8sjtaCqxwL2" : {
+      "name" : "Antonella Mercado",
+      "userId" : "AVnY2TfueROvUVIGu8sjtaCqxwL2"
+    },
+    "Aeuelr1TEaNGX4WVe9j0jsH5Izx2" : {
+      "name" : "Nicolas Berdu",
+      "userId" : "Aeuelr1TEaNGX4WVe9j0jsH5Izx2"
+    },
+    "AotqdNm3N2RpwVGej7ZaQtoOirp1" : {
+      "name" : "Matias Gonzalez",
+      "userId" : "AotqdNm3N2RpwVGej7ZaQtoOirp1"
+    },
+    "BeYUUMDDobY0P2t41gxs1U4zaRl1" : {
+      "name" : "Daniel Pérez Rossi",
+      "userId" : "BeYUUMDDobY0P2t41gxs1U4zaRl1"
+    },
+    "BgzWMBVB5eOzENrIJrNarIya5Gq2" : {
+      "name" : "Patricio Mitrov",
+      "userId" : "BgzWMBVB5eOzENrIJrNarIya5Gq2"
+    },
+    "BlFmZDAlzcOeuypZn9bk6cuqXRB3" : {
+      "name" : "Jessy Danert",
+      "userId" : "BlFmZDAlzcOeuypZn9bk6cuqXRB3"
+    },
+    "BnQ9ycANUNTYjvO7vud9kUvBo9u1" : {
+      "name" : "Adolfo Daniel",
+      "userId" : "BnQ9ycANUNTYjvO7vud9kUvBo9u1"
+    },
+    "Bx34r2g058NJt04IjlQncSEZOfA3" : {
+      "name" : "Julian Delgado",
+      "userId" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "C4LDpTyJ8ZOF9Ows8ask9vlaCn03" : {
+      "name" : "Gonzalo Sachetti",
+      "userId" : "C4LDpTyJ8ZOF9Ows8ask9vlaCn03"
+    },
+    "CLTKt6EPe5PYAiqlYnkIbtMDQDy1" : {
+      "name" : "Miguel Yangüez",
+      "userId" : "CLTKt6EPe5PYAiqlYnkIbtMDQDy1"
+    },
+    "CpFk9VUe0TdXPduXnWd3aKwH1772" : {
+      "name" : "Moises Salem",
+      "userId" : "CpFk9VUe0TdXPduXnWd3aKwH1772"
+    },
+    "DmCxrkuZnsQXxIrTxQXQgl1Audw1" : {
+      "name" : "Nacho Rebolleda",
+      "userId" : "DmCxrkuZnsQXxIrTxQXQgl1Audw1"
+    },
+    "E8AuOoJzRCXa1Qh7LX0s1rWH16H3" : {
+      "name" : "Cristhian Fernández",
+      "userId" : "E8AuOoJzRCXa1Qh7LX0s1rWH16H3"
+    },
+    "EMb3euate3RW5Kbpz2Rnag98AG12" : {
+      "name" : "Andres Abregú",
+      "userId" : "EMb3euate3RW5Kbpz2Rnag98AG12"
+    },
+    "EV21NjxQBEQAbPB7ueIaX4DgsKf1" : {
+      "name" : "Noelia Brito",
+      "userId" : "EV21NjxQBEQAbPB7ueIaX4DgsKf1"
+    },
+    "EckVW6ZjehVs9StVSe50xcU6hVF3" : {
+      "name" : "Facundo Peralta",
+      "userId" : "EckVW6ZjehVs9StVSe50xcU6hVF3"
+    },
+    "EpxAF53KGHMyZPuHDHVn7vEouVq1" : {
+      "name" : "Simón Altamiranda",
+      "userId" : "EpxAF53KGHMyZPuHDHVn7vEouVq1"
+    },
+    "FAQtq3HgVjdzhPFiwOPEwWZ3Ffr2" : {
+      "name" : "Emi Campanelli",
+      "userId" : "FAQtq3HgVjdzhPFiwOPEwWZ3Ffr2"
+    },
+    "FMS3LkPArEPf72KYwtzGOVoVcVb2" : {
+      "name" : "Mel Rosales",
+      "userId" : "FMS3LkPArEPf72KYwtzGOVoVcVb2"
+    },
+    "FSdPujLb6mVxsm4wTc1ucQf1gau1" : {
+      "name" : "Diego Auad",
+      "userId" : "FSdPujLb6mVxsm4wTc1ucQf1gau1"
+    },
+    "Fu8LszwWmmbfUFpbHWisDvrJqOQ2" : {
+      "name" : "Giselle Herrera",
+      "userId" : "Fu8LszwWmmbfUFpbHWisDvrJqOQ2"
+    },
+    "GCnUEhG5OJNNxG6Z781on53TTRz1" : {
+      "name" : "Matias Mansilla",
+      "userId" : "GCnUEhG5OJNNxG6Z781on53TTRz1"
+    },
+    "GbAaA8mFj8Z9Muobf9KXLMWrSjf2" : {
+      "name" : "Tony Zerpa",
+      "userId" : "GbAaA8mFj8Z9Muobf9KXLMWrSjf2"
+    },
+    "HFuor6LBcwXsWPUtfQJSDgs4bhM2" : {
+      "name" : "Luis M. A. Ruiz",
+      "userId" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "HHVhoWp3GMhpvWGduUuyFyzcos72" : {
+      "name" : "David Boullhesen",
+      "userId" : "HHVhoWp3GMhpvWGduUuyFyzcos72"
+    },
+    "HdhffPM1aggFOGy5xZrk9mPh3io1" : {
+      "name" : "Fatima Alfaro",
+      "userId" : "HdhffPM1aggFOGy5xZrk9mPh3io1"
+    },
+    "I025AWN1p2gQnAm4b7qtHcThxV33" : {
+      "name" : "Alvaro Martínez",
+      "userId" : "I025AWN1p2gQnAm4b7qtHcThxV33"
+    },
+    "IWXTiOJRlzUadtzvog9To5UNsYB2" : {
+      "name" : "Tomas Fuentes",
+      "userId" : "IWXTiOJRlzUadtzvog9To5UNsYB2"
+    },
+    "Ib5Ruo3ZiXWEKtD22rI8OUN67kR2" : {
+      "name" : "Oscar Velasco",
+      "userId" : "Ib5Ruo3ZiXWEKtD22rI8OUN67kR2"
+    },
+    "IealLIQHzWRk9L68K7nYfmkjJdz2" : {
+      "name" : "Vale Saccone",
+      "userId" : "IealLIQHzWRk9L68K7nYfmkjJdz2"
+    },
+    "Iqz9f9o0GKZhuviC4l3XIVHiUFn1" : {
+      "name" : "Mariano Re",
+      "userId" : "Iqz9f9o0GKZhuviC4l3XIVHiUFn1"
+    },
+    "IrFVqJ2qxGXYqdlDcT15Dz8wDiW2" : {
+      "name" : "Carlos Serrano",
+      "userId" : "IrFVqJ2qxGXYqdlDcT15Dz8wDiW2"
+    },
+    "JMiieXqnbqVZZj1TtqemR4kaGNS2" : {
+      "name" : "René A. Astorga",
+      "userId" : "JMiieXqnbqVZZj1TtqemR4kaGNS2"
+    },
+    "JcIyo4ZYoAS9dJfXnJL725GhDP52" : {
+      "name" : "Andres Marchese",
+      "userId" : "JcIyo4ZYoAS9dJfXnJL725GhDP52"
+    },
+    "K2d3lKewe7eFh4lCVeaHxQ88wWU2" : {
+      "name" : "Lucas Mateo Zottola",
+      "userId" : "K2d3lKewe7eFh4lCVeaHxQ88wWU2"
+    },
+    "KLEgzJt8TQXqH1T0IvjVTxEsmSh1" : {
+      "name" : "Cristian Bilacha Ortiz",
+      "userId" : "KLEgzJt8TQXqH1T0IvjVTxEsmSh1"
+    },
+    "KWZ41Y5KarhPfxdt0q7zh9mZX4S2" : {
+      "name" : "Bruno Ojeda",
+      "userId" : "KWZ41Y5KarhPfxdt0q7zh9mZX4S2"
+    },
+    "L6jF6bhTEuShqyVgjm4eB8zLVPJ3" : {
+      "name" : "David Leila",
+      "userId" : "L6jF6bhTEuShqyVgjm4eB8zLVPJ3"
+    },
+    "LDIUKOVcyhVwbYBGmBFvKcLydAH3" : {
+      "name" : "Emanuel Naranjo",
+      "userId" : "LDIUKOVcyhVwbYBGmBFvKcLydAH3"
+    },
+    "LVVLF4b9jZcpRXUmbFv78MhVAiF3" : {
+      "name" : "Utn Cursos Cisco Tucumán",
+      "userId" : "LVVLF4b9jZcpRXUmbFv78MhVAiF3"
+    },
+    "LgMtdZmTaWZeYLTKu7GzEKFKclq2" : {
+      "name" : "Nazareno Lazarte",
+      "userId" : "LgMtdZmTaWZeYLTKu7GzEKFKclq2"
+    },
+    "LvQEO23diaOuDFIGw6JYkrPzP8h2" : {
+      "name" : "Luna Alejandro",
+      "userId" : "LvQEO23diaOuDFIGw6JYkrPzP8h2"
+    },
+    "Lz5BCe4rSah2ncXZ9nOKBkrVVou2" : {
+      "name" : "Macarena Juarez Salazar",
+      "userId" : "Lz5BCe4rSah2ncXZ9nOKBkrVVou2"
+    },
+    "M8JF1bKUcidUylzJPTZoRlRwON82" : {
+      "name" : "Daniel Argañaraz",
+      "userId" : "M8JF1bKUcidUylzJPTZoRlRwON82"
+    },
+    "M8fYGnStvgOarjJYw84SspedmHo1" : {
+      "name" : "Benjamín Ardiles",
+      "userId" : "M8fYGnStvgOarjJYw84SspedmHo1"
+    },
+    "MFCn6CoB70Uko3Ye4EG7ENqNsJ53" : {
+      "name" : "Santiago José Salas",
+      "userId" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "MHmSOtrG3SXPHdGTiz5Zm8vpl1x2" : {
+      "name" : "Mati Juarez",
+      "userId" : "MHmSOtrG3SXPHdGTiz5Zm8vpl1x2"
+    },
+    "MI0hm4woMGPrhyoQEXRczCY4bcX2" : {
+      "name" : "Patricio Campos",
+      "userId" : "MI0hm4woMGPrhyoQEXRczCY4bcX2"
+    },
+    "MULo5OumMhTXZRMJGtNRmmdQhJi1" : {
+      "name" : "Ceci Jandar",
+      "userId" : "MULo5OumMhTXZRMJGtNRmmdQhJi1"
+    },
+    "MyiZIjqijgTx1sUCnWzDndRaeZx1" : {
+      "name" : "Gabriela Ballesteros",
+      "userId" : "MyiZIjqijgTx1sUCnWzDndRaeZx1"
+    },
+    "N552J2LlzWNUBN0aE9ymiLMohJm2" : {
+      "name" : "Lucas Umo Herrera",
+      "userId" : "N552J2LlzWNUBN0aE9ymiLMohJm2"
+    },
+    "NaniGtAKKhUsuU1MpMU00K2KLSk1" : {
+      "name" : "Lucas Ledesma",
+      "userId" : "NaniGtAKKhUsuU1MpMU00K2KLSk1"
+    },
+    "NelDwhZpygQEjbyB6aaPvV9vyxf1" : {
+      "name" : "Santiago Valdez",
+      "userId" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "OCPxqNwNbzbROegUGE3xIxYpnB03" : {
+      "name" : "Vir Botta",
+      "userId" : "OCPxqNwNbzbROegUGE3xIxYpnB03"
+    },
+    "OknbTaJSWoQX6Rb3SBaAPnaoQ643" : {
+      "name" : "Urtiaga Juan",
+      "userId" : "OknbTaJSWoQX6Rb3SBaAPnaoQ643"
+    },
+    "P0OPS8afu3YNERDq5ezRq8x9rZI2" : {
+      "name" : "Facundo Hernando Ruiz",
+      "userId" : "P0OPS8afu3YNERDq5ezRq8x9rZI2"
+    },
+    "P8j81SrhuGgZFz0QpMzeMxxKmh02" : {
+      "name" : "Francisco José Mir Vera",
+      "userId" : "P8j81SrhuGgZFz0QpMzeMxxKmh02"
+    },
+    "PWKXh6oDzSZu82gug9pQIRMZsHE3" : {
+      "name" : "Daniiel Brandan",
+      "userId" : "PWKXh6oDzSZu82gug9pQIRMZsHE3"
+    },
+    "PxP5p0CGC7fOHL0KWY2yAmFpqXF3" : {
+      "name" : "Gabriel Lazo",
+      "userId" : "PxP5p0CGC7fOHL0KWY2yAmFpqXF3"
+    },
+    "QANrls3i19hFBo7Aqd9kjkFbfRE2" : {
+      "name" : "Leonardo Sosa",
+      "userId" : "QANrls3i19hFBo7Aqd9kjkFbfRE2"
+    },
+    "QJ7MTEzmwaczdJtu2I2elZo8lJV2" : {
+      "name" : "Paco Tevez",
+      "userId" : "QJ7MTEzmwaczdJtu2I2elZo8lJV2"
+    },
+    "Qr3TJwCzxbWpup4QNV26Yt8SFxF2" : {
+      "name" : "Fabricio Arismendi Svistoñuk",
+      "userId" : "Qr3TJwCzxbWpup4QNV26Yt8SFxF2"
+    },
+    "QxcaEbbg4kMF6Ap4vU9eUwwqh6u1" : {
+      "name" : "Analía Barrionuevo",
+      "userId" : "QxcaEbbg4kMF6Ap4vU9eUwwqh6u1"
+    },
+    "R4bN10SV8DUVb6bHYU49rK6ZZZg1" : {
+      "name" : "Carlos Durant Teves",
+      "userId" : "R4bN10SV8DUVb6bHYU49rK6ZZZg1"
+    },
+    "R6YffdZeBXRGTsCZV2YKym8CW372" : {
+      "name" : "Alejandro Oscar Pintos Soraire",
+      "userId" : "R6YffdZeBXRGTsCZV2YKym8CW372"
+    },
+    "RWpn66LRVscAHMtssBy2uHJ9Jvd2" : {
+      "name" : "Cubbo Ic",
+      "userId" : "RWpn66LRVscAHMtssBy2uHJ9Jvd2"
+    },
+    "Rtfg9LPZ51Q4sWPxKJ7tlXKPXan2" : {
+      "name" : "Mauricio Sanchez",
+      "userId" : "Rtfg9LPZ51Q4sWPxKJ7tlXKPXan2"
+    },
+    "SFnjGevUSFNWWYemOwwwYtWhnth1" : {
+      "name" : "Agustin Becker",
+      "userId" : "SFnjGevUSFNWWYemOwwwYtWhnth1"
+    },
+    "SOX97mMM4qc0HLJhqFIB7AOoaKH2" : {
+      "name" : "Julio Sueldo",
+      "userId" : "SOX97mMM4qc0HLJhqFIB7AOoaKH2"
+    },
+    "SYQmVIeYQohVqvOm3Xl9iPebOYk2" : {
+      "name" : "Juanchy Meson",
+      "userId" : "SYQmVIeYQohVqvOm3Xl9iPebOYk2"
+    },
+    "T5pPrvGaDCfEHfASBF4i0tr9DpJ3" : {
+      "name" : "Oscar Nalín",
+      "userId" : "T5pPrvGaDCfEHfASBF4i0tr9DpJ3"
+    },
+    "TCUKDmaKxCSMikim6yMvYCofqe72" : {
+      "name" : "Jose Eugenio Bovi",
+      "userId" : "TCUKDmaKxCSMikim6yMvYCofqe72"
+    },
+    "TGXLhrtSahYdOmltWNyPkOaQX3j1" : {
+      "name" : "Ana Mendieta",
+      "userId" : "TGXLhrtSahYdOmltWNyPkOaQX3j1"
+    },
+    "TM1N7NxwswZ8262yUP3h8OhMD4f2" : {
+      "name" : "Fernando Orquera",
+      "userId" : "TM1N7NxwswZ8262yUP3h8OhMD4f2"
+    },
+    "TOcVHvJUBRUmWQpJDcqUIAvN8Sc2" : {
+      "name" : "Kevin Quinteros",
+      "userId" : "TOcVHvJUBRUmWQpJDcqUIAvN8Sc2"
+    },
+    "UIN6auQbJncnfofVSbaYYGcyJXn1" : {
+      "name" : "Martín Tolava",
+      "userId" : "UIN6auQbJncnfofVSbaYYGcyJXn1"
+    },
+    "URCnF1XMgoOQ1tefx2WKtYo965t2" : {
+      "name" : "Romina Medina",
+      "userId" : "URCnF1XMgoOQ1tefx2WKtYo965t2"
+    },
+    "USxuPLQzG9RgPGfTfNu0JcF2jk02" : {
+      "name" : "Josee Aguirre",
+      "userId" : "USxuPLQzG9RgPGfTfNu0JcF2jk02"
+    },
+    "UTF8t9mktoNgL4K3oJ95t1yLPFm2" : {
+      "name" : "Georgina Antonia Mustafa",
+      "userId" : "UTF8t9mktoNgL4K3oJ95t1yLPFm2"
+    },
+    "UlgwhEanAneGjBBwmp9niTskfDt1" : {
+      "name" : "Pau Garrocho",
+      "userId" : "UlgwhEanAneGjBBwmp9niTskfDt1"
+    },
+    "VFTY6In53Vf5ORqCCLsdBaV0fnx1" : {
+      "name" : "Linda Ruiz",
+      "userId" : "VFTY6In53Vf5ORqCCLsdBaV0fnx1"
+    },
+    "VTQU8d2EMHbfMD2cEYBuHow54sw2" : {
+      "name" : "Milagros F. Medina",
+      "userId" : "VTQU8d2EMHbfMD2cEYBuHow54sw2"
+    },
+    "VVeIHl6RySP8qyXMT1Dtc5eEvjQ2" : {
+      "name" : "Juan Rd",
+      "userId" : "VVeIHl6RySP8qyXMT1Dtc5eEvjQ2"
+    },
+    "VZYq2NjAWrM0UY7z1ZcsCt62NY33" : {
+      "name" : "Angie Cardozo",
+      "userId" : "VZYq2NjAWrM0UY7z1ZcsCt62NY33"
+    },
+    "VwsMGU8JehOLV1MnVMaejgQwxe03" : {
+      "name" : "Lucas Alurralde",
+      "userId" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "WPk1hlBax4QbEfHZhsO3HUo4e4C3" : {
+      "name" : "Gustavo Robles",
+      "userId" : "WPk1hlBax4QbEfHZhsO3HUo4e4C3"
+    },
+    "WiZ9DaskTuW01lObXAInHr0oeWj2" : {
+      "name" : "Salina Matias",
+      "userId" : "WiZ9DaskTuW01lObXAInHr0oeWj2"
+    },
+    "Wrp83WLmOrPXyAftiaSQGp4QNwg2" : {
+      "name" : "Maria Lezcano",
+      "userId" : "Wrp83WLmOrPXyAftiaSQGp4QNwg2"
+    },
+    "XEWJvuscypaDwZCtUZucsmEDxFK2" : {
+      "name" : "Belu Palacios",
+      "userId" : "XEWJvuscypaDwZCtUZucsmEDxFK2"
+    },
+    "XMgf8J3uCvdUOdqPdKgyKbtfK3L2" : {
+      "name" : "Santiago Moron",
+      "userId" : "XMgf8J3uCvdUOdqPdKgyKbtfK3L2"
+    },
+    "Z1LxnyGM2DY5zBsy851nfbXNOGB3" : {
+      "name" : "Lois Ortega",
+      "userId" : "Z1LxnyGM2DY5zBsy851nfbXNOGB3"
+    },
+    "Z3QA791sPSMje7AfPPKNU7LXE4d2" : {
+      "name" : "Isaias Medina",
+      "userId" : "Z3QA791sPSMje7AfPPKNU7LXE4d2"
+    },
+    "ZmMMQYkDDOhky2BCMbiJZvKAeFH2" : {
+      "name" : "Hugo Leturia",
+      "userId" : "ZmMMQYkDDOhky2BCMbiJZvKAeFH2"
+    },
+    "a46aoRH8cwT1KNPtRqwrk9q9mBU2" : {
+      "name" : "Alexandra Dufour",
+      "userId" : "a46aoRH8cwT1KNPtRqwrk9q9mBU2"
+    },
+    "a5FTzF8DI1M2oA455fGRcNx8qSm2" : {
+      "name" : "Santiago Lech",
+      "userId" : "a5FTzF8DI1M2oA455fGRcNx8qSm2"
+    },
+    "aEj7pSqXtFUd6iAiVEJDuDSPvc42" : {
+      "name" : "Karen Urueña",
+      "userId" : "aEj7pSqXtFUd6iAiVEJDuDSPvc42"
+    },
+    "aJ03pWH00qZLYQQx0TRsag0DMv72" : {
+      "name" : "Mauricio Teruel",
+      "userId" : "aJ03pWH00qZLYQQx0TRsag0DMv72"
+    },
+    "ata4qtaFOXhAbETcPBZpBhxe56d2" : {
+      "name" : "Gaston Danndy",
+      "userId" : "ata4qtaFOXhAbETcPBZpBhxe56d2"
+    },
+    "bOStL7fJQTPghr7qJXt5I6Er1cp1" : {
+      "name" : "Emy Kraska",
+      "userId" : "bOStL7fJQTPghr7qJXt5I6Er1cp1"
+    },
+    "bT2enE9ZHUP1f59gzKTOoiJykfB3" : {
+      "name" : "Pablo González",
+      "userId" : "bT2enE9ZHUP1f59gzKTOoiJykfB3"
+    },
+    "bz8vbW3YlWZ08xWptTLtmCKR5o03" : {
+      "name" : "Matías Reales",
+      "userId" : "bz8vbW3YlWZ08xWptTLtmCKR5o03"
+    },
+    "cTHmVifYgzLsPhf3lgLN7ar9k3q2" : {
+      "name" : "Noe Moyano",
+      "userId" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "d4bQtJI7OHVsJZCwJfDM1FvDJHn1" : {
+      "name" : "Sebastian Soraire",
+      "userId" : "d4bQtJI7OHVsJZCwJfDM1FvDJHn1"
+    },
+    "edj0oAf0VQh2JV5wZ5vsi0IcvDz2" : {
+      "name" : "Vik Humberto",
+      "userId" : "edj0oAf0VQh2JV5wZ5vsi0IcvDz2"
+    },
+    "emygxT076ncCwYy6u3w7yYgUVsy1" : {
+      "name" : "Lean Ibarra",
+      "userId" : "emygxT076ncCwYy6u3w7yYgUVsy1"
+    },
+    "exeacqszFoRahYavBFL3gjPZYge2" : {
+      "name" : "Jesus Enrique Campos",
+      "userId" : "exeacqszFoRahYavBFL3gjPZYge2"
+    },
+    "fAH1biKj3YfrLUZCvBSt37v2XhE3" : {
+      "name" : "Julio Medina",
+      "userId" : "fAH1biKj3YfrLUZCvBSt37v2XhE3"
+    },
+    "fqv462wbSnZs9a0XRdWUIZoBW0B3" : {
+      "name" : "Abigail Décima",
+      "userId" : "fqv462wbSnZs9a0XRdWUIZoBW0B3"
+    },
+    "g7rIwbU5ZWb7kbL58ZolIl2ZUAx2" : {
+      "name" : "Agos Aguirre",
+      "userId" : "g7rIwbU5ZWb7kbL58ZolIl2ZUAx2"
+    },
+    "gqdrWI1i38ZUrygdceS2ghqzb4E2" : {
+      "name" : "Hage Valero",
+      "userId" : "gqdrWI1i38ZUrygdceS2ghqzb4E2"
+    },
+    "hXBVsIVnBJbCnSRRzP4cWJAVV3f1" : {
+      "name" : "Exequiel Ruiz",
+      "userId" : "hXBVsIVnBJbCnSRRzP4cWJAVV3f1"
+    },
+    "i35eb843ahYVzwTTQkQrwShkk2l1" : {
+      "name" : "Gonzalo Corbella",
+      "userId" : "i35eb843ahYVzwTTQkQrwShkk2l1"
+    },
+    "jBd2fiaBIEXAR9OBxKlGS9Y28YD2" : {
+      "name" : "Bernabé Chamut",
+      "userId" : "jBd2fiaBIEXAR9OBxKlGS9Y28YD2"
+    },
+    "jFJEPGIyrFds6THjWtKbaQvvctE3" : {
+      "name" : "Francisco Medina Raed",
+      "userId" : "jFJEPGIyrFds6THjWtKbaQvvctE3"
+    },
+    "jkn6OAOJpoarhjhP41x224WAjJh2" : {
+      "name" : "Yany Rodriguez",
+      "userId" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "jvLhNBwPPgNEGHGRTVO9KruCAqt2" : {
+      "name" : "Mario Celis",
+      "userId" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "kH57tMtdBGcgkBe0lmVAZNBuCgt1" : {
+      "name" : "Maxi Gallardo",
+      "userId" : "kH57tMtdBGcgkBe0lmVAZNBuCgt1"
+    },
+    "kNoHvV0wVSevbrW3cFc8aYrorDL2" : {
+      "name" : "Mario Celis",
+      "userId" : "kNoHvV0wVSevbrW3cFc8aYrorDL2"
+    },
+    "klaOaEGWFIczVHCgMjlZ55TRaiY2" : {
+      "name" : "Gustavo Maigua",
+      "userId" : "klaOaEGWFIczVHCgMjlZ55TRaiY2"
+    },
+    "ku8eb9KBVSP9FODESqwJioiIRP12" : {
+      "name" : "Alex Villecco",
+      "userId" : "ku8eb9KBVSP9FODESqwJioiIRP12"
+    },
+    "kyqq2qqPTZRy8jdQBh50wj6Xm4F2" : {
+      "name" : "Romina Farias",
+      "userId" : "kyqq2qqPTZRy8jdQBh50wj6Xm4F2"
+    },
+    "m0pNK4LyjfVuerF1sztouWCWfdu2" : {
+      "name" : "Ricardo Evaristo González Checa",
+      "userId" : "m0pNK4LyjfVuerF1sztouWCWfdu2"
+    },
+    "m9HeK5yl6Vhau1ScEKrDpaE4zfo1" : {
+      "name" : "Sofi Ruiz",
+      "userId" : "m9HeK5yl6Vhau1ScEKrDpaE4zfo1"
+    },
+    "mBxXLDI4L5Reu4Gjq1StNNTjQBm1" : {
+      "name" : "Manu Haro",
+      "userId" : "mBxXLDI4L5Reu4Gjq1StNNTjQBm1"
+    },
+    "mEOokKHBlRQZlv1fFKL046jLEJj1" : {
+      "name" : "Axel GonzaLez",
+      "userId" : "mEOokKHBlRQZlv1fFKL046jLEJj1"
+    },
+    "mUnU7O5yQwdCyQy5kT5J7SAjRz32" : {
+      "name" : "Marcos Antonio Vera",
+      "userId" : "mUnU7O5yQwdCyQy5kT5J7SAjRz32"
+    },
+    "mXy4jk9AhQXVDSVfgdrtO2OV7mg2" : {
+      "name" : "Gonzalez Guillermo",
+      "userId" : "mXy4jk9AhQXVDSVfgdrtO2OV7mg2"
+    },
+    "mYOrBSTc9lS65QJsyRQbKlN1NCv2" : {
+      "name" : "Facu Quiroga",
+      "userId" : "mYOrBSTc9lS65QJsyRQbKlN1NCv2"
+    },
+    "mrw6YcocMEaZhh5WZnxSOnkYSC23" : {
+      "name" : "Gilda Jerez",
+      "userId" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "nM6rhQjuigNER3RT1dPOP8YkpKx2" : {
+      "name" : "Francisco Fernandez",
+      "userId" : "nM6rhQjuigNER3RT1dPOP8YkpKx2"
+    },
+    "nUc619SDNKe1EDNFUPPjSm09tns1" : {
+      "name" : "Pamme Aguirre",
+      "userId" : "nUc619SDNKe1EDNFUPPjSm09tns1"
+    },
+    "nbeKzGLsHtau4UAPn4iidJO5fb12" : {
+      "name" : "Juampi Fernandez",
+      "userId" : "nbeKzGLsHtau4UAPn4iidJO5fb12"
+    },
+    "o9qOu0q6M8YMjq3ysNvpJxrxV6l1" : {
+      "name" : "Cami Bernales",
+      "userId" : "o9qOu0q6M8YMjq3ysNvpJxrxV6l1"
+    },
+    "oR3GhDaa2veUO5lQM1EKdzPRg9w2" : {
+      "name" : "Maria Quessa",
+      "userId" : "oR3GhDaa2veUO5lQM1EKdzPRg9w2"
+    },
+    "oYx8kbwNPFh12zvkVwrpXxlhvV82" : {
+      "name" : "Carla Vellicce",
+      "userId" : "oYx8kbwNPFh12zvkVwrpXxlhvV82"
+    },
+    "osNH8dz0P2bQvhBF5lXtsdVTw722" : {
+      "name" : "Javier Sandoval",
+      "userId" : "osNH8dz0P2bQvhBF5lXtsdVTw722"
+    },
+    "oyBA66S7VFNqxE14g6t6PeqbLPo1" : {
+      "name" : "Joaquin Sarmiento",
+      "userId" : "oyBA66S7VFNqxE14g6t6PeqbLPo1"
+    },
+    "pMxYSP9lGnQZtMgRdZUQpn3XIMg1" : {
+      "name" : "José AB",
+      "userId" : "pMxYSP9lGnQZtMgRdZUQpn3XIMg1"
+    },
+    "qcDxK0qeFFWurrErKiKVGqFSz002" : {
+      "name" : "Cynthia Maizares",
+      "userId" : "qcDxK0qeFFWurrErKiKVGqFSz002"
+    },
+    "qxKnXc4AXDRr95ESAskmPcXBtFR2" : {
+      "name" : "Leandro Paz",
+      "userId" : "qxKnXc4AXDRr95ESAskmPcXBtFR2"
+    },
+    "rXj1fggfa5dznZYvM3GM7zVmPU13" : {
+      "name" : "Leonardo Pereyra",
+      "userId" : "rXj1fggfa5dznZYvM3GM7zVmPU13"
+    },
+    "rwocYUUgHpXrr1bYkmHaNJf96eH3" : {
+      "name" : "Bruno Fernandez",
+      "userId" : "rwocYUUgHpXrr1bYkmHaNJf96eH3"
+    },
+    "tMrGRIODNBR21PwBvNAGHNAM17F2" : {
+      "name" : "Ivan Lobo",
+      "userId" : "tMrGRIODNBR21PwBvNAGHNAM17F2"
+    },
+    "tjyQbL8MOIYpygxykz1PCIBj6Gp2" : {
+      "name" : "Mileva Strehar",
+      "userId" : "tjyQbL8MOIYpygxykz1PCIBj6Gp2"
+    },
+    "uV7oiaUdjeXvL9voiy8FEuwWmyG2" : {
+      "name" : "Gonzalo Gonzalez",
+      "userId" : "uV7oiaUdjeXvL9voiy8FEuwWmyG2"
+    },
+    "vJPfgh5OGNWZ500gmWYQOzZC44r2" : {
+      "name" : "Roo D'Andrea",
+      "userId" : "vJPfgh5OGNWZ500gmWYQOzZC44r2"
+    },
+    "vMFNCNY3bEXSm5oORQN014DDIJV2" : {
+      "name" : "Pato Santos",
+      "userId" : "vMFNCNY3bEXSm5oORQN014DDIJV2"
+    },
+    "wAV5ghrLh1ZDsVplgxFKC2tCnKx2" : {
+      "name" : "Noelia Gonzalez",
+      "userId" : "wAV5ghrLh1ZDsVplgxFKC2tCnKx2"
+    },
+    "wEb7aGGT7Ld0tN5H8dMJciUttYC3" : {
+      "name" : "Emiliano Salim",
+      "userId" : "wEb7aGGT7Ld0tN5H8dMJciUttYC3"
+    },
+    "wJB6FtfR4kYf6fpP63pgSdR7CKw2" : {
+      "name" : "Oscar Campo",
+      "userId" : "wJB6FtfR4kYf6fpP63pgSdR7CKw2"
+    },
+    "wOOkYxxuUGhnLbyTQ9kXRlPUotC3" : {
+      "name" : "Leandro Rojano",
+      "userId" : "wOOkYxxuUGhnLbyTQ9kXRlPUotC3"
+    },
+    "wrezaW6mGMX71Q5qZiTWKqJIh2I3" : {
+      "name" : "Jere Correa Aguilera",
+      "userId" : "wrezaW6mGMX71Q5qZiTWKqJIh2I3"
+    },
+    "xU873vcR1fVnjsAXAOHZNEXeY3C2" : {
+      "name" : "Matías Ortega",
+      "userId" : "xU873vcR1fVnjsAXAOHZNEXeY3C2"
+    },
+    "yAJOboO9e7ghzlNYZKhruudq8iw2" : {
+      "name" : "Brenn Burgos",
+      "userId" : "yAJOboO9e7ghzlNYZKhruudq8iw2"
+    },
+    "yTJE0DdCIIfsqaw72rUPf5bRCtU2" : {
+      "name" : "Ezequiel Alustiza",
+      "userId" : "yTJE0DdCIIfsqaw72rUPf5bRCtU2"
+    },
+    "yq3Slg92WLhLqQ4zw675IXhubl43" : {
+      "name" : "Luis Ignacio Seidan",
+      "userId" : "yq3Slg92WLhLqQ4zw675IXhubl43"
+    },
+    "zHg8JIYMYYONNIEaa5sW8IyvEs63" : {
+      "name" : "Elias Rodriguez",
+      "userId" : "zHg8JIYMYYONNIEaa5sW8IyvEs63"
+    },
+    "zOHmNEM8oRaHWZBuh2eWQEFqCpW2" : {
+      "name" : "Facundo Figueroa",
+      "userId" : "zOHmNEM8oRaHWZBuh2eWQEFqCpW2"
+    },
+    "zemcVioZO1WKWwHRZacj9nplCCd2" : {
+      "name" : "Esteban Mendoza",
+      "userId" : "zemcVioZO1WKWwHRZacj9nplCCd2"
+    }
+  },
+  "questions" : {
+    "-LgcCKjdAVL4C9YS5glJ" : {
+      "body" : "Quisiera saber si solo aplica para esta tipo de empresas? Muchas gracias",
+      "talk" : "-LgJrOJ_JyR4ohgWTfP-",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgcCZCIBQKjR90eRX2o" : {
+      "body" : "Empresa sustentable es lo mismo que empresa sostenible?\n",
+      "talk" : "-LgJrOJ_JyR4ohgWTfP-",
+      "user" : "0R2186YyVIMHiM0jxbseA1IGeTR2"
+    },
+    "-LgdQLWfoHsaFuZ8CbmP" : {
+      "body" : "Nuestro mate ayuda a las personas q quiere merendar para no dormirse y alimentarse, a diferencia del café",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-Lgddwrud5JRQCr31rr1" : {
+      "body" : "Cuando comenzó a utilizar el BM Canvas? Sabía de su existencia al comenzar a emprender? ",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "Ib5Ruo3ZiXWEKtD22rI8OUN67kR2"
+    },
+    "-LgdedjIKbOM84hDonwr" : {
+      "body" : "A consumidores que quieren ayudar socialmente a grupos vulnerables. \"Nuestras piezas de cerámica ayudan a las personas que quieren ayudar socialmente para reducir pobreza y mejorar la calidad de vida de mujeres  a diferencia  de cerámica importada de China  ",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "BgzWMBVB5eOzENrIJrNarIya5Gq2"
+    },
+    "-LgdflWYNc6wMem_Dh8x" : {
+      "body" : "Como sabemos cuando encontramos el encaje perfecto entre el problema del cliente y la solucion que brindamos con nuestro producto o servicio?",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "ata4qtaFOXhAbETcPBZpBhxe56d2"
+    },
+    "-LgdfqvLbQ1JdiLzHzrs" : {
+      "body" : "Qué consejo nos da si nuestro proyecto de emprendimiento falla o no da frutos?\n",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "OknbTaJSWoQX6Rb3SBaAPnaoQ643"
+    },
+    "-LgdhBtObWGlxTyLVBfd" : {
+      "body" : "Hombre entre 30 y 40 años que estan buscando estilo  \"Nuestros zapatos ayudan a los hombres que quieren mejorar su imagen para buscar un estilo y aumentar su seguridad y autoestima, a diferencia de la produccion en masa hacemos zapatos con diseños unicos y personalizados\"",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "ata4qtaFOXhAbETcPBZpBhxe56d2"
+    },
+    "-LgdhqZaD-nDfEtuhPZX" : {
+      "body" : "Nuestra App ayudan a las personas a encontrar cursos gratuitos a los que quieren una formación y a la vez evitar pagar y tener una mejor capacitacion (A diferencia de enterarse con carteles o folletos) ",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "SYQmVIeYQohVqvOm3Xl9iPebOYk2"
+    },
+    "-LgdhvUeRJgJ-bH2AWqt" : {
+      "body" : "Nuestras bombillas con boquilla intercambiables ayudan a las personas que quieren tomar mate a evitar que compartan boquillas con otras personas y así conservar la sanidad al momento de compartir con amigos (a diferencia de las bombillas convencionales)",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "Ib5Ruo3ZiXWEKtD22rI8OUN67kR2"
+    },
+    "-LgdiF7FpJsdgeO8cTYU" : {
+      "body" : "Hola, nuestra propuesta es usar una aplicación que este ligada a varias sangucherias de la provincia, fácilitando su número de teléfono para poder realizar un pedido, desde la que se encuentre más cercana al usuario. ",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "mEOokKHBlRQZlv1fFKL046jLEJj1"
+    },
+    "-LgdiX4EwkRlO-3_-6Dx" : {
+      "body" : "Cómo puedo utilizar un canvas en ciencias? ",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "9wwDu7FdE1fnrHW3zox1UPHqYfF2"
+    },
+    "-LgdiZa1CZoKHrwQgZU3" : {
+      "body" : "Una página web para poder tener clases online y participar en tiempo real, aparte de eso que tengo una base de datos con ejercicios de diferentes materias que se valla actualizando constantemente, esto para las personas que tienen reducidos los recursos para llegar a la Universidad",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "OknbTaJSWoQX6Rb3SBaAPnaoQ643"
+    },
+    "-LgdiaR_6UpMltoA7_ZY" : {
+      "body" : "Nuestro sistema robotico en linea ayudan a los egricultores que quieren reducir el trabajo de eliminar las malesas de los cultivos para evitar utilizar quimicos y granos transgenicos y provee un ahorro ente la presion fiscal y es una alternativa al glifosato\n",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "Aeuelr1TEaNGX4WVe9j0jsH5Izx2"
+    },
+    "-LgdifyTnqte5XhQusz9" : {
+      "body" : "Usted fue emprendedora alguna vez?que tipo de emprendimiento?",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "bOStL7fJQTPghr7qJXt5I6Er1cp1"
+    },
+    "-LgdixoBqbLx3Wt-Ru07" : {
+      "body" : "Nuestro mate ayuda a las personas que estudian que quieren una mayor concentración en sus estudios para reducir el cansancio y mal humor  e incrementar el estado de ánimo a diferencia del café",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "HdhffPM1aggFOGy5xZrk9mPh3io1"
+    },
+    "-LgdjJPnFeKkSGqG0aEl" : {
+      "body" : "Nuestro café ayudan a los estudiantes que quieren estar mas atentos a la hora de estudiar para poder aprobar el exámen y recibirse mas rápido para reducir el cansancio y el sueño y aumentar la concentración a diferencia del mate.",
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "VTQU8d2EMHbfMD2cEYBuHow54sw2"
+    },
+    "-LgdrNFAUZde3syMKCez" : {
+      "body" : "Ud cree que la tecnología puede resolver los grandes problemas de la humanidad (cómo la sobrepoblacion, distribucion de riquezas, contaminación ambiental, guerras, etc?) o es justamente la tecnología la que agrava estos problemas? ",
+      "talk" : "-LgNBI4QWl6wCkijhWFp",
+      "user" : "Ib5Ruo3ZiXWEKtD22rI8OUN67kR2"
+    },
+    "-LgidiFItN5RScnQTG-H" : {
+      "body" : "que es aws?",
+      "talk" : "-LgJMT6WinBSASh8jh8C",
+      "user" : "9hOrmpZTqGPXiNyVYy0Zp86QKb83"
+    },
+    "-LgnRiTQ3RihMTURCuv7" : {
+      "body" : "que precio tiene?",
+      "talk" : "-LgNmxkmfDPlsEuSWD8O",
+      "user" : "L6jF6bhTEuShqyVgjm4eB8zLVPJ3"
+    },
+    "-Lgq417U8yDD1gXpKxKA" : {
+      "body" : "Dónde está mí Fernet 🎼🎤👍🎵",
+      "talk" : "-LgNmxkmfDPlsEuSWD8O",
+      "user" : "6btbrUGjBfPFsMghWbgzmTK2wuG3"
+    },
+    "-LuNNbUhY9-bGxqXtTwB" : {
+      "body" : "es verdad que AWS es genial?",
+      "talk" : "-LgJMT6WinBSASh8jh8C",
+      "user" : "9hOrmpZTqGPXiNyVYy0Zp86QKb83"
+    }
+  },
+  "sites" : {
+    "site01" : {
+      "color" : "deepskyblue",
+      "id" : "site01",
+      "name" : "Aula Magna",
+      "photo" : "pb-aulamagna"
+    },
+    "site02" : {
+      "color" : "salmon",
+      "id" : "site02",
+      "name" : "SUM 1",
+      "photo" : "1p-sum1"
+    },
+    "site03" : {
+      "color" : "orange",
+      "id" : "site03",
+      "name" : "Hall Central de acceso",
+      "photo" : "pb-hall"
+    },
+    "site04" : {
+      "color" : "chartreuse",
+      "id" : "site04",
+      "name" : "Explanada de la Facultad",
+      "photo" : "explanada"
+    },
+    "site05" : {
+      "color" : "cadetblue",
+      "id" : "site05",
+      "name" : "Sala de consejo directivo",
+      "photo" : "1p-salaconsejo"
+    },
+    "site06" : {
+      "color" : "fuchsia",
+      "id" : "site06",
+      "name" : "SUM 2",
+      "photo" : "2p-sum2"
+    },
+    "site07" : {
+      "color" : "darkgoldenrod",
+      "id" : "site07",
+      "name" : "Espacio Tafi",
+      "photo" : "espacio-tafi"
+    },
+    "site08" : {
+      "color" : "forestgreen",
+      "id" : "site08",
+      "name" : "Lab. de Técnicas Digitales de Ing. Eléctrica",
+      "photo" : "sub-lab"
+    },
+    "site09" : {
+      "color" : "deeppink",
+      "id" : "site09",
+      "name" : "Sala Pictorica | Pasillo Decanato",
+      "photo" : "pb-sala-pictorica"
+    },
+    "site10" : {
+      "color" : "deepskyblue",
+      "id" : "site10",
+      "name" : "SUM 3",
+      "photo" : "2p-sum3"
+    },
+    "site11" : {
+      "color" : "deepskyblue",
+      "id" : "site11",
+      "name" : "Laboratorio 151",
+      "photo" : "lab_151"
+    },
+    "site12" : {
+      "color" : "deepskyblue",
+      "id" : "site12",
+      "name" : "Cancha de Basquet y Voley",
+      "photo" : "no-map"
+    },
+    "site13" : {
+      "color" : "deepskyblue",
+      "id" : "site13",
+      "name" : "Cancha de Futbol",
+      "photo" : "no-map"
+    },
+    "site14" : {
+      "color" : "yellow",
+      "id" : "site14",
+      "name" : "Bar de la UTN"
+    }
+  },
+  "speakers" : {
+    "speaker01" : {
+      "id" : "speaker01",
+      "name" : "Ph. D. Travis Fields",
+      "photo" : "travis-fields"
+    },
+    "speaker02" : {
+      "id" : "speaker02",
+      "name" : "Alvar Torres",
+      "photo" : "alvar-torres"
+    },
+    "speaker03" : {
+      "id" : "speaker03",
+      "name" : "Ph.D. Shiva Ayyadurai",
+      "photo" : "shiva-ayyadura"
+    },
+    "speaker04" : {
+      "id" : "speaker04",
+      "name" : "Banda Sinfónica de la Provincia",
+      "photo" : "banda-sinfónica"
+    },
+    "speaker05" : {
+      "id" : "speaker05",
+      "name" : "Ing. Walter Fabian Soria",
+      "photo" : "fabian-soria"
+    },
+    "speaker06" : {
+      "id" : "speaker06",
+      "name" : "Ing. Juan José Cabrera",
+      "photo" : "juan-cabrera"
+    },
+    "speaker07" : {
+      "id" : "speaker07",
+      "name" : "Lic Romina Rubio y Lic Mónica Gauraz Ibañez"
+    },
+    "speaker08" : {
+      "id" : "speaker08",
+      "name" : "Dr. Gerardo Botasso",
+      "photo" : "gerardo-botaso"
+    },
+    "speaker09" : {
+      "id" : "speaker09",
+      "name" : "Ing. Liliana Bidaurre"
+    },
+    "speaker10" : {
+      "id" : "speaker10",
+      "name" : "Valeria Viva",
+      "photo" : "valeria-viva"
+    },
+    "speaker11" : {
+      "id" : "speaker11",
+      "name" : "Ph.D. Kyle MC Donald",
+      "photo" : "kyle-mcdonald"
+    },
+    "speaker12" : {
+      "id" : "speaker12",
+      "name" : "Lic. Liliana González",
+      "photo" : "liliana-gonzalez"
+    },
+    "speaker13" : {
+      "id" : "speaker13",
+      "name" : "Ing. Federico Fros Campelo",
+      "photo" : "federico-froscampelo"
+    },
+    "speaker14" : {
+      "id" : "speaker14",
+      "name" : "Lic. Raquel Zeitune y Lic. Claudia Medina Casas"
+    },
+    "speaker15" : {
+      "id" : "speaker15",
+      "name" : "Mariana Dorigatti, Sergio Rodriguez y Cristina Rojas"
+    },
+    "speaker16" : {
+      "id" : "speaker16",
+      "name" : "Joaquin Marcelo Lopez, Gonzálo Emmanuel Lezcano, Marcelo Roque Albornoz, Rodolfo Gerardo Ezquer y Luis De La Zerda"
+    },
+    "speaker17" : {
+      "id" : "speaker17",
+      "name" : "Nanni Romano, Leticia Ruíz, Juan Tosi, Patricia Albarracín"
+    },
+    "speaker18" : {
+      "id" : "speaker18",
+      "name" : "Cristina Rojas, Mario Paredi, Melissa Gramajo, Nahuel Villafañez "
+    },
+    "speaker19" : {
+      "id" : "speaker19",
+      "name" : "Ricardo Ferrari, Ana Dantur, Eliana Campero, Norma Medina, Rubén Costilla, Juan Pérez y Oscar Graieb"
+    },
+    "speaker20" : {
+      "id" : "speaker20",
+      "name" : "Gonzalo Lescano, Rodolfo Ezquer, Lucas Scida, Yenca Orué Migoya, Katy Alazo Cuartas y Nicolas Rojas"
+    },
+    "speaker21" : {
+      "id" : "speaker21",
+      "name" : "Juan Carlos Colombo, Fabio Poli, Ramiro Eduardo Jamroz y Alejandro Benjamín Leal"
+    },
+    "speaker22" : {
+      "id" : "speaker22",
+      "name" : "Ing. Ernesto Moyano"
+    },
+    "speaker23" : {
+      "id" : "speaker23",
+      "name" : "Ada Robinson, Samanta Rearte, María Lencina, Norma Barnes y Patricia Albarracín"
+    },
+    "speaker24" : {
+      "id" : "speaker24",
+      "name" : "Jorgelina López, Rodolfo Ezquer, Luis De La Zerda y Luis Scida"
+    },
+    "speaker25" : {
+      "id" : "speaker25",
+      "name" : "Rubén Ignacio Fernandez, Oscar Graieb, Valeria Graieb, Carlos Bautista, Claudia Cardenas Páez y Nahuel Díaz Puntano"
+    },
+    "speaker26" : {
+      "id" : "speaker26",
+      "name" : "Blanca Quiñonez y Rodrigo Campos Alvo"
+    },
+    "speaker27" : {
+      "id" : "speaker27",
+      "name" : "Jorge Villagra y Héctor Farías"
+    },
+    "speaker28" : {
+      "id" : "speaker28",
+      "name" : "Carlos Exequiel Garay, Matías Roodschild, Rodolfo Ezquer, Adrian Will y Jorge Gotay"
+    },
+    "speaker29" : {
+      "id" : "speaker29",
+      "name" : "Silvia del Valle Bravo"
+    },
+    "speaker30" : {
+      "id" : "speaker30",
+      "name" : "César Pollora, Stela Estigarribia; Mario Figueroa de la Cruz; Néstor Beltrán; Claudia Solórzano; Daniel Gómez; Vicente Chibilisco  "
+    },
+    "speaker31" : {
+      "id" : "speaker31",
+      "name" : "Gustavo Fridman"
+    },
+    "speaker32" : {
+      "id" : "speaker32",
+      "name" : "Ph.D. Luis Kun"
+    },
+    "speaker33" : {
+      "id" : "speaker33",
+      "name" : "Esteban Palazzo"
+    },
+    "speaker34" : {
+      "id" : "speaker34",
+      "name" : "Mg.Ing. Sandra Marín",
+      "photo" : "sandra-marin"
+    },
+    "speaker35" : {
+      "id" : "speaker35",
+      "name" : "Ing.Gabriel Orce",
+      "photo" : "gabriel-orce"
+    },
+    "speaker36" : {
+      "id" : "speaker36",
+      "name" : "Ing. David Jeifetz",
+      "photo" : "david-jeifetz"
+    },
+    "speaker37" : {
+      "id" : "speaker37",
+      "name" : "Ph.D. Gustavo Goroso",
+      "photo" : "gustavo-goroso"
+    },
+    "speaker38" : {
+      "id" : "speaker38",
+      "name" : "Sergio Sinay",
+      "photo" : "sergio-sinay"
+    },
+    "speaker39" : {
+      "id" : "speaker39",
+      "name" : "Ing.Oscar Nalin"
+    },
+    "speaker40" : {
+      "id" : "speaker40",
+      "name" : "Miguel Daniel",
+      "photo" : "miguel-daniel"
+    },
+    "speaker41" : {
+      "id" : "speaker41",
+      "name" : "Esteban Palazzo",
+      "photo" : "esteban-palazzo"
+    },
+    "speaker42" : {
+      "id" : "speaker42",
+      "name" : "Dra. Mariana Carolina Dorigatti; Daniel Pérez Rossi"
+    },
+    "speaker43" : {
+      "id" : "speaker43",
+      "name" : "Ing. Matías Santillán Ahumada, Noelia Moyano y Karina Nisoria"
+    },
+    "speaker44" : {
+      "id" : "speaker44",
+      "name" : "Ing. Rosana Hadad Salomón, Elsa Soledad Rasgido"
+    },
+    "speaker45" : {
+      "id" : "speaker45",
+      "name" : " Dr. Pedro Araujo, Dr. Diego Lizondo"
+    },
+    "speaker46" : {
+      "id" : "speaker46",
+      "name" : "Valeria Graieb"
+    },
+    "speaker47" : {
+      "id" : "speaker47",
+      "name" : "Juan Carlos Lujan",
+      "photo" : "juancarlos-lujan"
+    },
+    "speaker48" : {
+      "id" : "speaker48",
+      "name" : "Alberto Juárez y Elio Copas"
+    },
+    "speaker49" : {
+      "id" : "speaker49",
+      "name" : "Esp. Ing. Jorge Buabud , Gustavo Sosa , Francisco Alderete, Flavia Alejandra Medina"
+    },
+    "speaker50" : {
+      "id" : "speaker50",
+      "name" : "Ricardo Silva Teseira",
+      "photo" : "ricardo-silva"
+    },
+    "speaker51" : {
+      "id" : "speaker51",
+      "name" : "Esp. Ing. Jorge Buabud , Ing. Rubén Fernando Araujo , Lic. Mónica Romano"
+    },
+    "speaker52" : {
+      "id" : "speaker52",
+      "name" : "Ing. Jorge Buabud",
+      "photo" : "jorge-buabud"
+    },
+    "speaker53" : {
+      "id" : "speaker53",
+      "name" : "Augusto Briz e Ivanna Décima Fasola"
+    },
+    "speaker54" : {
+      "id" : "speaker54",
+      "name" : "Juan Ladetto y Lucas Gregori"
+    },
+    "speaker55" : {
+      "id" : "speaker55",
+      "name" : "Juan Carlos Colombo, Rubén Darío Egea, Carlos Ignacio Colombo y Martin Leal"
+    },
+    "speaker56" : {
+      "id" : "speaker56",
+      "name" : "Ph.D. Reza Derakshani",
+      "photo" : "reza-derakshani"
+    },
+    "speaker57" : {
+      "id" : "speaker57",
+      "name" : "Sergio Sinay",
+      "photo" : "sergio-sinay"
+    },
+    "speaker58" : {
+      "id" : "speaker58",
+      "name" : "Lic. Alejandro Delgado"
+    },
+    "speaker59" : {
+      "id" : "speaker59",
+      "name" : "Lic. Ariel Wolfman",
+      "photo" : "ariel-wolfman"
+    },
+    "speaker60" : {
+      "id" : "speaker60",
+      "name" : "Ing.Juan José Encina Cabrera",
+      "photo" : "juan-cabrera"
+    },
+    "speaker61" : {
+      "id" : "speaker61",
+      "name" : "Ing. Eduardo Sánchez Villagrán"
+    },
+    "speaker62" : {
+      "id" : "speaker62",
+      "name" : "Lic.Emiliano Kokic",
+      "photo" : "emiliano-kokic"
+    },
+    "speaker63" : {
+      "id" : "speaker63",
+      "name" : "Ing. Nestor García"
+    },
+    "speaker64" : {
+      "id" : "speaker64",
+      "name" : "Andres Rusconi"
+    },
+    "speaker65" : {
+      "id" : "speaker65",
+      "name" : "Mauricio García Villanueva"
+    },
+    "speaker66" : {
+      "id" : "speaker66",
+      "name" : "Gerardo Pérez y Alejandro Alicata"
+    },
+    "speaker67" : {
+      "id" : "speaker67",
+      "name" : "Gustavo Gabriel Maigua y Sebastian Zalucki",
+      "photo" : "gustavo-maigua"
+    },
+    "speaker68" : {
+      "id" : "speaker68",
+      "name" : "Arq. Hugo Amadeo Martina"
+    },
+    "speaker69" : {
+      "id" : "speaker69",
+      "name" : "Ing. Enrique Galíndez"
+    },
+    "speaker70" : {
+      "id" : "speaker70",
+      "name" : "Ing. Alejandro López"
+    },
+    "speaker71" : {
+      "id" : "speaker71",
+      "name" : "Ing. Roberto Barneda"
+    },
+    "speaker72" : {
+      "id" : "speaker72",
+      "name" : "Ing. Adriana Aguirre e Ing. Omar Abraham"
+    },
+    "speaker73" : {
+      "id" : "speaker73",
+      "name" : "Ing.Fernando Carmona"
+    },
+    "speaker74" : {
+      "id" : "speaker74",
+      "name" : "Nicolás Peretti",
+      "photo" : "nicolas-peretti"
+    },
+    "speaker76" : {
+      "id" : "speaker76",
+      "name" : "Ph.D. Mohsen Eshraghi",
+      "photo" : "mohsen-eshraghi"
+    },
+    "speaker77" : {
+      "id" : "speaker77",
+      "name" : "Ing.Salvador Grifasi"
+    },
+    "speaker78" : {
+      "id" : "speaker78",
+      "name" : "Ph.D. Gustavo Fraidenraich",
+      "photo" : "gustavo-fraidenraich"
+    },
+    "speaker79" : {
+      "id" : "speaker79",
+      "name" : "Cena Show",
+      "photo" : "cena-show"
+    },
+    "speaker80" : {
+      "id" : "speaker80",
+      "name" : "Dr.Marcelo Piovan"
+    },
+    "speaker81" : {
+      "id" : "speaker81",
+      "name" : "Francisco Mir Vera"
+    },
+    "speaker82" : {
+      "id" : "speaker82",
+      "name" : "La UTN Se para"
+    }
+  },
+  "talks" : {
+    "-LgJMT6WinBSASh8jh8C" : {
+      "day" : "monday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará el taller \"AWS Technical Essential\" el día lunes 3, martes 4, miércoles 5, jueves 6 y viernes 7, a hs.9 en el laboratorio  151. El mismo será dictado por Alvar Torres (Amazon Web Services).",
+      "site" : "01",
+      "speaker" : "speaker02",
+      "time" : "09:00",
+      "title" : "Taller: AWS Technical Essential"
+    },
+    "-LgJNkkorxLGhi56t2HD" : {
+      "day" : "monday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se desarrollará un Desayuno de trabajo con Docentes Investigadores de la UTN-FRT,el lunes 3 de junio a las 09 hs. en el SUM1, a cargo de Ph.D. Travis Fields",
+      "site" : "02",
+      "speaker" : "speaker01",
+      "time" : "09:00",
+      "title" : "Desayuno de trabajo con Docentes Investigadores de la UTN-FRT"
+    },
+    "-LgJPbXk_Y_TpI5ljz0x" : {
+      "day" : "monday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará  la conferencia \"Aspectos Técnicos Básicos de Amazon Web Services\"  en el Aula Magna. El mismo será dictado por Alvar Torres (Amazon Web Services).",
+      "site" : "01",
+      "speaker" : "speaker02",
+      "time" : "17:00",
+      "title" : "Aspectos Técnicos Básicos de Amazon Web Services"
+    },
+    "-LgJQEw9X-KAc-oc4M_9" : {
+      "day" : "monday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"El Joven que Inventó el E-mail. Innovación Todo el Tiempo, en Cualquier Lugar, Realizada por Cualquier Persona\" a las 20.30 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti. La misma estará a cargo del PhD Shiva Ayyadurai (EEUU) -  de MIT (Massachusets Institute of Technology).",
+      "site" : "01",
+      "speaker" : "speaker03",
+      "time" : "20:30",
+      "title" : "El Joven que Inventó el E-mail. Innovación Todo el Tiempo, en Cualquier Lugar, Realizada por Cualquier Persona"
+    },
+    "-LgJR6i2kx-vAzfWKRHB" : {
+      "day" : "monday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, el acto de apertura tendrá lugar el lunes 3 de junio a hs. 18 en la explanada de la Facultad, y contará con la presencia de las autoridades de la Universidad Tecnológica Nacional, Facultad Regional Tucumán, autoridades del Gobierno provincial, municipal, y otras universidades.",
+      "site" : "04",
+      "speaker" : "speaker05",
+      "time" : "18:00",
+      "title" : "Acto Académico de Apertura"
+    },
+    "-LgJRjWqDMZ-0MuOWGEx" : {
+      "day" : "monday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se desarrollará el Concierto Pop ,el lunes 3 de junio a hs. 18.30 en la explanada de la Facultad. Participará del mismo la Banda Sinfónica de la Provincia, dirigida por el Mtro. Álvaro García.",
+      "site" : "04",
+      "speaker" : "speaker04",
+      "time" : "18:30",
+      "title" : "Concierto Pop Banda Sinfónica de la Provincia"
+    },
+    "-LgJS2bDRgHvtw48VOi8" : {
+      "day" : "monday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, en la apertura se realizará un espectáculo de Fuegos Artificiales",
+      "site" : "04",
+      "time" : "19:30",
+      "title" : "Espectáculo de Fuegos Artificiales"
+    },
+    "-LgJZlrCYSKgid_CfFU5" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará en el SUM1. El mismo será dictado por Ph.D. Shiva Ayyadurai",
+      "site" : "02",
+      "speaker" : "speaker03",
+      "time" : "09:00",
+      "title" : "Desayuno de trabajo con Docentes Investigadores de la UTN-FRT"
+    },
+    "-LgJaYSM-rmH7wRWGFJc" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará en el Aula Magna. El mismo se dictado por las Lic. Romina Rubio y Lic. Mónica Guaraz Ibañez.- ",
+      "site" : "01",
+      "speaker" : "speaker07",
+      "time" : "10:00",
+      "title" : "Herramientas para Favorecer la Inserción Laboral"
+    },
+    "-LgJcUTv7f2-WU-INkwL" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará la conferencia \"Utilización de Residuos de Construcción y de Procesos Productivos en las Obras Civiles\". Estará a cargo del Dr. Gerardo Botasso de UTN- La Plata",
+      "site" : "02",
+      "speaker" : "speaker08",
+      "time" : "19:00",
+      "title" : "Utilización de Residuos de Construcción y de Procesos Productivos en las Obras Civiles"
+    },
+    "-LgJe9BYdEpbeOn0cqj3" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia Big Data Sommeliers \"Entendiendo Cómo Trabajar Grandes Datos el día martes 4 en el SUM 2 a las 19. La misma estará a cargo de la Ing. Liliana Bidaurre (Globant)",
+      "site" : "06",
+      "speaker" : "speaker09",
+      "time" : "19:00",
+      "title" : "Big Data Sommeliers \"Entendiendo Cómo Trabajar Grandes Datos\""
+    },
+    "-LgJiB6o-0JKbsBdYokM" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio de 10 a 14 hs. se realizará el Taller Bootcamp de tecnología Serverless - Arquitectura sin servidores en el Laboratorio 151. Dictada por ALVAR TORRES.-",
+      "site" : 11,
+      "speaker" : "speaker02",
+      "time" : "10:00",
+      "title" : "Taller Bootcamp de tecnología Serverless - Arquitectura sin Servidores"
+    },
+    "-LgJjyTe4AyBKXCtMtCB" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará la conferencia \"NASA: Entender y Salvar la Vida en la Tierra\", el día martes 4 de junio a hs 18 en el AULA MAGNA, a cargo del PhD Kyle Mc Donald.-",
+      "site" : "01",
+      "speaker" : "speaker11",
+      "time" : "18:00",
+      "title" : "NASA: Entender y Salvar la Vida en la Tierra"
+    },
+    "-LgJknFj1ip5OYhCdcx6" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: Genio e ingenio, se realizará la conferencia \"Volver a Mirarnos\", el día martes 4 de junio a hs 18 en el AULA MAGNA, a cargo de la escritora y psicopedagoga Lic. Liliana González (Córdoba)",
+      "site" : "01",
+      "speaker" : "speaker12",
+      "time" : "19:30",
+      "title" : "Volver a Mirarnos"
+    },
+    "-LgJmEMjxNIdoecnZPGU" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: Genio e ingenio, se realizará la conferencia \"Ingeniería e Ingenio ¿Cómo hacemos para innovar con sentido de negocio?\", el día martes 4 de junio a hs 20 en el SUM1, a cargo del investigador y escritor Ing. Federico Fros Campelo (Bs As)",
+      "site" : "02",
+      "speaker" : "speaker13",
+      "time" : "20:00",
+      "title" : "Ingeniería e Ingenio ¿Cómo hacemos para innovar con sentido de negocio?"
+    },
+    "-LgJo4271BxEBt5iDb4L" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: Genio e ingenio, se realizará la Apertura y Entrega de Premios del 3° Salón “Ing. Juan Carlos Recalcatti”, el día martes 4 de junio a hs 20, a cargo del siguiente jurado: Lic. Raquel Zeitune (Directora Artística de Artes Visuales del Ente Cultural de Tucumán), Pablo Iván Ríos (Artista), Lic. Claudia Medina Casas (Artista) y Lic. Alejandro Esser (Jefe de Patrimonio Artístico del Museo Provincial de Bellas Artes).  El mismo tendrá lugar en el hall de acceso. ",
+      "site" : "03",
+      "speaker" : "speaker14",
+      "time" : "21:00",
+      "title" : "\"Apertura y Entrega de Premios del 3º Salón \"Ing. Juan Carlos Recalcatti\""
+    },
+    "-LgJrOJ_JyR4ohgWTfP-" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará en el SUM1 el día martes a las 16:00 hs. la conferencia : \"Arquitecturas Empresariales Para Empresa Agroindustriales Sostenibles\" , a cargo de Ing. Mariana Dorigatti , Ing. Sergio Rodriguez e Ing. Cristina Rojas.-",
+      "site" : "02",
+      "speaker" : "speaker15",
+      "time" : "16:00",
+      "title" : "Arquitecturas Empresariales Para Empresa Agroindustriales Sostenibles"
+    },
+    "-LgJtm8qkjK8ZJA2MWxN" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 16 hs en el SUM3. se realizará la conferencia: \"Módulos RF y Arduino Para Dar Servicio Básico de Comunicaciones a Poblaciones Rurales de Montaña, Dispersas , y Aisladas\" a cargo de Joaquin Marcelo López, Gonzalo Emmanuel Lezcano, Marcelo Roque Albornoz, Rodolfo Gerardo Ezquer y Luis de la Zerda",
+      "site" : 10,
+      "speaker" : "speaker16",
+      "time" : "16:00",
+      "title" : "Módulos RF y Arduino Para Dar Servicio Básico de Comunicaciones a Poblaciones Rurales de Montaña, Dispersas , y Aisladas"
+    },
+    "-LgJw836hMOzcuGTQYYq" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 16 hs en el SUM2. se realizará la conferencia: \"Evaluación del Contenido de Sólidos en Vinaza a partir de la implementación de la ley de Biocombustible y su Aplicación en Compost\" a cargo de Nanni Romano, Leticia Ruiz, Juan Tosi  y Patricia Albarracín",
+      "site" : "06",
+      "speaker" : "speaker17",
+      "time" : "16:00",
+      "title" : "Evaluación del Contenido de Sólidos en Vinaza a partir de la implementación de la Ley de Biocombustible y su Aplicación en Compost"
+    },
+    "-LgK2NgRyhRQbjnwbidN" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 16:30 hs en el SUM1. se realizará la conferencia: \"Diseño de Juegos Serios en Entornos Virtuales\" a cargo de Cristina Rojas, Mario Paredi, Melissa Gramajo y Nahuel Villafañez",
+      "site" : "02",
+      "speaker" : "speaker18",
+      "time" : "16:30",
+      "title" : "Diseño de Juegos Serios en Entornos Virtuales"
+    },
+    "-LgK4LAV35kkgzTIHE-F" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 16:30 hs, en el SUM2. Se realizará la conferencia: \"Evaluación de impacto ambiental. Proyecto de elaboración de biodiésel, expeller de soja y glicerol en Tucumán\", a cargo de Ricardo Lescano, Ana Dantur, Eliana Campero, Norma Medina, Rubén Costilla, Juan Pérez y Oscar Graieb",
+      "site" : "06",
+      "speaker" : "speaker19",
+      "time" : "16:30",
+      "title" : "Evaluación de impacto ambiental. Proyecto de elaboración de biodiésel, expeller de soja y glicerol en Tucumán"
+    },
+    "-LgK75LCedaDBkYmOY89" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 16.30 hs. se realizará el SUM3 la conferencia: \"Validación de Modelos de Contenido Electrónico Total sobre Sudamérica Durante los Ciclos Solares 23 y 24 Usando Datos Medidos con GNSS\" a cargo de Gonzalo Lescano, Rodolfo Ezquer, Luis Scida, Yenca Orué Migoya, Katy Alazo Cuartas y Nicolas Rojas",
+      "site" : 10,
+      "speaker" : "speaker20",
+      "time" : "16:30",
+      "title" : "Validación de Modelos de Contenido Electrónico Total sobre Sudamérica Durante los Ciclos Solares 23 y 24 Usando Datos Medidos con GNSS"
+    },
+    "-LgKAt2ia2Zc6GyLeUlk" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 20 hs en el Lab. de Sistemas Digitales de Ing. Electrónica . Se realizará la conferencia: \"Análisis de medición no intrusiva de temperatura, ritmo cardíaco, oxígeno en sangre y glucosa en sangre por espectroscopia NIR\" a cargo de Juan Carlos Colombo, Fabio Poli, Ramiro Eduardo Jamroz, Alejandro Benjamin Leal",
+      "site" : "08",
+      "speaker" : "speaker21",
+      "time" : "20:00",
+      "title" : "Análisis de medición no intrusiva de temperatura, ritmo cardíaco, oxígeno en sangre y glucosa en sangre por espectroscopia NIR"
+    },
+    "-LgKBY1hDOpTjkZaF-g-" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 20 hs. se realizará la conferencia: \"Integración Continua - Un Mundo Conteinerizado\", a cargo del Ing. Ernesto Moyano",
+      "site" : "06",
+      "speaker" : "speaker22",
+      "time" : "20:00",
+      "title" : "Integración Continua - Un Mundo Conteinerizado"
+    },
+    "-LgKDAiBguMZTg8A2oCI" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 17 hs en el SUM1. Se realizará la conferencia: \"Reducción de las Carga Contaminante de la Vinaza por Producción de Proteína Unicelular\" a cargo de Ada Robinson, Samanta Rearte, María Lencina, Norma Barnes, Patricia Albarracín",
+      "site" : "02",
+      "speaker" : "speaker23",
+      "time" : "17:00",
+      "title" : "Reducción de las Carga Contaminante de la Vinaza por Producción de Proteína Unicelular"
+    },
+    "-LgKEUGfKZf8bUmUdzZV" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 17 hs en el SUM3. se realizará la conferencia: \"Predicción del Contenido Electronico Ionosferico Sobre MAUI (Hawaii)\" a cargo de Jorgelina López, Rodolfo Ezquer, Luis De La Zerda y Luis Scida",
+      "site" : 10,
+      "speaker" : "speaker24",
+      "time" : "17:00",
+      "title" : "Predicción del Contenido Electronico Ionosferico Sobre MAUI (Hawaii)"
+    },
+    "-LgKFeD7mlxO2ECZal51" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará en el SUM2 el día martes a las 17 hs. la conferencia : \"Nuevos Aportes al Mapa de Riesgo Sanitario de la Provincia de Tucumán\" , a cargo de Rubén Ignacio Fernandez, Oscar Graieb, Valeria Graieb, Carlos Bautista, Claudia Cardenas Paz, Nahuel Díaz Puntano",
+      "site" : "06",
+      "speaker" : "speaker25",
+      "time" : "17:00",
+      "title" : "Nuevos Aportes al Mapa de Riesgo Sanitario de la Provincia de Tucumán"
+    },
+    "-LgKGjID1pkheu5Ar8KD" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 17:30 hs en el SUM1. se realizará la conferencia: \"Aporte de las Humanidades a la Responsabilidad Social Universitaria\" a cargo de Blanca Quiñonez, Rodrigo Campos Alvio",
+      "site" : "02",
+      "speaker" : "speaker26",
+      "time" : "17:30",
+      "title" : "Aporte de las Humanidades a la Responsabilidad Social Universitaria"
+    },
+    "-LgKI4seXf32AikZuTqk" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 17:30 hs en el SUM3. Se realizará la conferencia: \"Estudio Hidráulico del Puente Carretero de la Ruta 38 1V Sobre el Río Chico, Provincia de Tucumán\" a cargo de Jorge Villagra, Héctor Farías.",
+      "site" : 10,
+      "speaker" : "speaker27",
+      "time" : "17:30",
+      "title" : "Estudio Hidráulico del Puente Carretero de la Ruta 38 1V Sobre el Río Chico, Provincia de Tucumán"
+    },
+    "-LgKJbeMgVs0oISTBFCd" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 17:30 hs en el SUM2. Se realizará la conferencia: \"Predicción de Medio Término de Parámetros Ionosféricos en Tucumán Usando Redes Neuronales\" a cargo de Carlos Exequiel Garay, Matías Roodschild, Rodolfo Ezquer, Adrian Will y Jorge Gotay",
+      "site" : "06",
+      "speaker" : "speaker28",
+      "time" : "17:30",
+      "title" : "Predicción de Medio Término de Parámetros Ionosféricos en Tucumán Usando Redes Neuronales"
+    },
+    "-LgKKlfhz-Cr4bLdd4-W" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 18 hs en el SUM1. Se realizará la conferencia: \"Desafíos de la Enseñanza por Competencias en Carreras de Ingeniería\" a cargo de Silvia del Valle Bravo",
+      "site" : "02",
+      "speaker" : "speaker29",
+      "time" : "18:00",
+      "title" : "Desafíos de la Enseñanza por Competencias en Carreras de Ingeniería"
+    },
+    "-LgKMF-Rt6uMcqOjYJQq" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El martes 04 de Junio a las 18 hs en el SUM3. Se realizará la conferencia: \"Estudio de Desarrollo de un Sistema de Iluminación con Luz Natural en Base a Fibras Ópticas - Fase II\" a cargo de César Pollora, Stela Estigarriba, Mario Figueroa de la Cruz, Néstor Beltrán, Claudia Solórzano, Daniel Gómez y Vicente Chibilisco",
+      "site" : 10,
+      "speaker" : "speaker30",
+      "time" : "18:00",
+      "title" : "Estudio de Desarrollo de un Sistema de Iluminación con Luz Natural en Base a Fibras Ópticas - Fase II"
+    },
+    "-LgKNvz61NPSogpX7pxx" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará en el SUM3 el día martes a las 20 hs. la conferencia : \"La Inteligencia Artificial y los Nuevos Algoritmos en Educación\" , a cargo de Gustavo Fridman (Microsoft)",
+      "site" : 10,
+      "speaker" : "speaker31",
+      "time" : "20:00",
+      "title" : "La Inteligencia Artificial y los Nuevos Algoritmos en Educación"
+    },
+    "-LgN7Skh_1VmY-EHv6t-" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará en el SUM1 un \"Desayuno de Trabajo con Docente Investigadores de la UTN-FRT\" , a cargo de Ph.D. Luis Kun",
+      "site" : "02",
+      "speaker" : "speaker32",
+      "time" : "09:00",
+      "title" : "Desayuno de Trabajo con Docente Investigadores de la UTN-FRT"
+    },
+    "-LgN7whxhKcCsmd8vI01" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará en el SUM1 una \"Merienda de Trabajo con Docente Investigadores de la UTN-FRT\" , a cargo de Esteban Palazzo",
+      "site" : "05",
+      "speaker" : "speaker33",
+      "time" : "17:00",
+      "title" : "Merienda de Trabajo con Docente Investigadores de la UTN-FRT"
+    },
+    "-LgN8hPr_VPlJQIKvt_m" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Emprender para Exportar \"- (ExportPreneur) a las 18 hs en el SUM1. La misma estará a cargo de la expositora: Lic. Sandra Marín Ruiz - University of Missouri Kansas City (USA) ",
+      "site" : "02",
+      "speaker" : "speaker34",
+      "time" : "18:00",
+      "title" : "Ingeniería & Emprendimiento, Ideas tipo exportación (ExportPreneur)"
+    },
+    "-LgN9CIWYZTLeESh38BZ" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"DevOps & Cloud\"  a las 18 hs en el SUM 3. La misma estará a cargo del expositor: Ing. Gabriel Orce",
+      "site" : 10,
+      "speaker" : "speaker35",
+      "time" : "18:00",
+      "title" : "DevOps & Cloud"
+    },
+    "-LgN9Sc7i5PEzDWkU7d6" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Hardening Windows 10\" a las 19 hs en el SUM2. La misma estará a cargo del expositor Ing. David Jeifetz ",
+      "site" : "06",
+      "speaker" : "speaker36",
+      "time" : "19:00",
+      "title" : "Hardening Windows 10"
+    },
+    "-LgNA8uLQlPakxfj08u8" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Medicina Preventiva del Futuro: Desafío de la Transformación Digital\" a las 19 hs en el SUM3. La misma estará a cargo del expositor: PhD Gustavo Goroso (Brasil)",
+      "site" : 10,
+      "speaker" : "speaker37",
+      "time" : "19:00",
+      "title" : "Medicina Preventiva del Futuro: Desafío de la Transformación Digital"
+    },
+    "-LgNAvtCXNBmyjrgeZQ9" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio. El miercoles 05 de Junio de 10 a 14 hs. se realizará el Taller Bootcamp de tecnología Big Data, en el Laboratorio 151. Dictada por ALVAR TORRES.-",
+      "site" : 11,
+      "speaker" : "speaker2",
+      "time" : "10:00",
+      "title" : "Taller Bootcamp de tecnología Big Data "
+    },
+    "-LgNBI4QWl6wCkijhWFp" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia ¿Cuánta Tecnología Necesitamos? a las 19 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti . La misma estará a cargo del Expositor: Sergio Sinay (Bs As) Escritor.",
+      "site" : "01",
+      "speaker" : "speaker38",
+      "time" : "19:00",
+      "title" : "¿Cuánta Tecnología Necesitamos?"
+    },
+    "-LgNCq3-fgUzHHvik5NC" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"McLaren: De lo Abstracto a lo Concreto\" a las 20 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti. La misma estará a cargo del Expositor: Ing. Esteban Palazzo (Inglaterra)-Principal Designer en Mclaren Automotive. ",
+      "site" : "01",
+      "speaker" : "speaker41",
+      "time" : "20:30",
+      "title" : "McLaren: De lo Abstracto a lo Concreto"
+    },
+    "-LgNDZ9pmglnMcORcr_q" : {
+      "day" : "wednesday",
+      "description" : "16hs. Conferencia:  Experiencia de Vigilancia Tecnológica en la UTN-FRT Expositores: Dra. Mariana Carolina Dorigatti; Daniel Pérez Rossi Lugar: SUM 1 ",
+      "site" : "02",
+      "speaker" : "speaker42",
+      "time" : "16:00",
+      "title" : " Experiencia de Vigilancia Tecnológica en la UTN-FRT"
+    },
+    "-LgNDlsSIUsAFgqk-GLf" : {
+      "day" : "wednesday",
+      "description" : "16.30hs. Conferencia:  Proceso de Vigilancia e Inteligencia Expositores: Ing. Matías Santillán Ahumada, Noelia Moyano y Karina Nisoria Lugar: SUM 1 (En el cierre de las conferencias de las 16:30hs - 17:00hs - 17:30hs del SUM1. Se realizará la invitación a suscribirse a los boletines informativos, a cargo de Maria Celeste Quiroga Hamoud)",
+      "site" : "02",
+      "speaker" : "speaker43",
+      "time" : "16:30",
+      "title" : "Proceso de Vigilancia e Inteligencia"
+    },
+    "-LgNDwlXPUbhr57D4IYF" : {
+      "day" : "wednesday",
+      "description" : "17 hs Conferencia: Gestor de patentes para Vigilancia Tecnológica Expositores: Ing. Rosana Hadad Salomón, Elsa Soledad Rasgido Lugar: SUM 1 (En el cierre de las conferencias de las 16:30hs - 17:00hs - 17:30hs del SUM1. Se realizará la invitación a suscribirse a los boletines informativos, a cargo de Maria Celeste Quiroga Hamoud)",
+      "site" : "02",
+      "speaker" : "speaker44",
+      "time" : "17:00",
+      "title" : "Gestor de patentes para Vigilancia Tecnológica"
+    },
+    "-LgNEJjunN8ymyt7zc0k" : {
+      "day" : "wednesday",
+      "description" : "17.30hs. Conferencia: El Uso de los Sistemas Multiagentes en la Gestión y Optimización de la Energía. Un Caso Práctico. Expositor: Dr. Pedro Araujo, Dr. Diego Lizondo Lugar: SUM 1 .(En el cierre de las conferencias de las 16:30hs - 17:00hs - 17:30hs del SUM1. Se realizará la invitación a suscribirse a los boletines informativos, a cargo de Maria Celeste Quiroga Hamoud)",
+      "site" : "02",
+      "speaker" : "speaker45",
+      "time" : "17:30",
+      "title" : "El Uso de los Sistemas Multiagentes en la Gestión y Optimización de la Energía. Un Caso Práctico."
+    },
+    "-LgNEimVZGGA_vFFdqEj" : {
+      "day" : "wednesday",
+      "description" : "15.30 hs. Conferencia:  Simulador Clínico Bebé. Expositor: Esp. Ing. Jorge Buabud , Gustavo Sosa , Francisco Alderete, Flavia Alejandra Medina   Lugar: SUM  2 ",
+      "site" : "06",
+      "speaker" : "speaker49",
+      "time" : "15:30",
+      "title" : "Simulador Clínico Bebé"
+    },
+    "-LgNEw7G7OBm7nL0pgLF" : {
+      "day" : "wednesday",
+      "description" : "16 hs. Conferencia: Robótica Competitiva. Expositor: Francisco Mir Vera  Lugar: SUM 2",
+      "site" : "06",
+      "speaker" : "speaker81",
+      "time" : "16:00",
+      "title" : "Robótica Competitiva"
+    },
+    "-LgNFAclkv3OWqhqcfLh" : {
+      "day" : "wednesday",
+      "description" : "16.30 hs. Conferencia:  Experiencias de Automatización de Accesos con IoT, Utilizando Plataformas Libres. Expositor: Ricardo Silva Teseira Lugar: SUM 2 ",
+      "site" : "06",
+      "speaker" : "speaker50",
+      "time" : "16:30",
+      "title" : "Experiencias de Automatización de Accesos con IoT, Utilizando Plataformas Libres"
+    },
+    "-LgNFMJOOI9z1XM-qsS-" : {
+      "day" : "wednesday",
+      "description" : "17 hs. Conferencia:  Estrategias Para la Enseñanza de la Programación Expositor: Esp. Ing. Jorge Buabud , Ing. Rubén Fernando Araujo , Lic. Mónica Romano Lugar: SUM 2",
+      "site" : "06",
+      "speaker" : "speaker51",
+      "time" : "17:00",
+      "title" : "Estrategias Para la Enseñanza de la Programación"
+    },
+    "-LgNFcoLZJcU4o6fcr1Q" : {
+      "day" : "wednesday",
+      "description" : "17.30 hs. Conferencia: Los Robots en el Aula Expositor: Ing. Jorge Buabud Lugar: SUM 2",
+      "site" : "06",
+      "speaker" : "speaker52",
+      "time" : "17:30",
+      "title" : "Los Robots en el Aula"
+    },
+    "-LgNFquTjltmgsmRqsli" : {
+      "day" : "wednesday",
+      "description" : "16 hs. Conferencia: Percepción Ambiental y las Posibilidades de Desarrollar Conductas para la Selección de la Basura en San Miguel de Tucumán  Expositor: Lic. Valeria Graieb Lugar: SUM 3",
+      "site" : 10,
+      "speaker" : "speaker46",
+      "time" : "16:00",
+      "title" : "Percepción Ambiental y las Posibilidades de Desarrollar Conductas para la Selección de la Basura en San Miguel de Tucumán "
+    },
+    "-LgNG0aDjHjNF2aUulzx" : {
+      "day" : "wednesday",
+      "description" : "16.30 hs. Conferencia: Determinación de Contaminantes Electrónicos y Humos de Soldadura con Estaño. Expositor: Lic. Juan Carlos Luján   Lugar: SUM 3",
+      "site" : 10,
+      "speaker" : "speaker47",
+      "time" : "16:30",
+      "title" : "Determinación de Contaminantes Electrónicos y Humos de Soldadura con Estaño"
+    },
+    "-LgNGiaMVxtC-2b6T_oI" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"La Importancia de Adoptar Devops como Cultura\" a las 20 hs en el SUM 2. La misma estará a cargo del Expositor: Ing. Juan Ladetto - Lucas Gregori. ",
+      "site" : "06",
+      "speaker" : "speaker54",
+      "time" : "20:00",
+      "title" : "La Importancia de Adoptar Devops como Cultura"
+    },
+    "-LgNHBnUHpfpMWBJiHWa" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia Optimización de Elementos Combustibles Nucleares a las 20 hs en el SUM1. La misma estará a cargo del Expositor: Ing. Oscar Nalin (Instituto Balseiro - Bariloche) ",
+      "site" : "02",
+      "speaker" : "speaker39",
+      "time" : "20:00",
+      "title" : "Optimización de Elementos Combustibles Nucleares "
+    },
+    "-LgNHa3aBHUuCH5lyifj" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la Conferencia: \"¿Cómo Sacar el Máximo Provecho de tu Inversión Digital?\" a las 18 hs en el SUM 2. La misma estará a cargo de los Expositores: Lic.Augusto Briz, Lic. Ivanna Décima Fasola (Estudio Kroma)",
+      "site" : "06",
+      "speaker" : "speaker53",
+      "time" : "18:00",
+      "title" : "¿Cómo Sacar el Máximo Provecho de tu Inversión Digital?"
+    },
+    "-LgNIcqzSrmrIkp02y4p" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la Conferencia: Business Analyst \"Conversaciones de Software. Encontrando el Valor de las Palabras\", el día miércoles 5 de junio a las 17 hs. en el SUM3. La misma será dictada por los expositor: Alberto Juárez, Ing. Elio Copas.",
+      "site" : 10,
+      "speaker" : "speaker48",
+      "time" : "17:00",
+      "title" : "Business Analyst \"Conversaciones de Software. Encontrando el Valor de las Palabras\""
+    },
+    "-LgNK6K7cE-piLqWTov4" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará el Taller: \"El Poder del Diálogo \" (SOLO PARA DOCENTES) a las 10 hs en el SUM 1. ",
+      "site" : "02",
+      "speaker" : "speaker57",
+      "time" : "10:00",
+      "title" : "Taller: \"El Poder del Diálogo \""
+    },
+    "-LgNKbU1j5xFe3Czgcwe" : {
+      "day" : "thursday",
+      "description" : "El jueves 06 de Junio de 10 a 14 hs. se desarrollará el taller Bootcamp de tecnología - Seguridad en el laboratorio 151",
+      "site" : 11,
+      "speaker" : "speaker2",
+      "time" : "10:00",
+      "title" : "Taller Bootcamp de tecnología - Seguridad"
+    },
+    "-LgNLMEk_5FZh4mXUqK2" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Despegue de Drones: Beneficios, Desafíos y Casos de Uso Para Aviones no Tripulados\" a las 18 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti. La misma estará a cargo del Expositor: PhD Fields Travis (University of Missouri-Kansas City EEUU) ",
+      "site" : "01",
+      "speaker" : "speaker1",
+      "time" : "18:00",
+      "title" : "\"Despegue de Drones: Beneficios, Desafíos y Casos de Uso Para Aviones no Tripulados\" "
+    },
+    "-LgNM806O-JGEbOT5OxD" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia ¿Qué es el IRAM? – Procesos de certificación de EPP (elementos de protección personal) – Legislación vigente – Riesgos vs. EPP a las 16 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti. La misma estará a cargo del Expositor: Lic. Alejandro Delgado.",
+      "site" : "01",
+      "speaker" : "speaker58",
+      "time" : "16:00",
+      "title" : "¿Qué es el IRAM? – Procesos de certificación de EPP (elementos de protección personal) – Legislación vigente – Riesgos vs. EPP"
+    },
+    "-LgNMg4an_n5BugElgOF" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la \"Presentación del Libro Colección Daniel\" (Colección Privada de Obras de Arte) a las 20 hs en el SUM 3. La misma estará a cargo del Expositor: Ing. Miguel Daniel. ",
+      "site" : 10,
+      "speaker" : "speaker40",
+      "time" : "20:30",
+      "title" : "\"Presentación del Libro Colección Daniel\" (Colección Privada de Obras de Arte)"
+    },
+    "-LgNNUMVtgPzbYqr1jQq" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Fundamentos Prácticos de Seguridad Informática\" a las 10 hs en el SUM 3. La misma estará a cargo del Expositor: Andrés Rusconi ",
+      "site" : 10,
+      "speaker" : "speaker64",
+      "time" : "10:00",
+      "title" : "\"Fundamentos Prácticos de Seguridad Informática\" "
+    },
+    "-LgNNwq2U6RUpFqCcQMj" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Ingeniero de Triple Impacto\"  a las 16 hs en el SUM 1. La misma estará a cargo del Expositor: Mauricio García Villanueva.",
+      "site" : "02",
+      "speaker" : "speaker65",
+      "time" : "16:00",
+      "title" : "\"Ingeniero de Triple Impacto\" "
+    },
+    "-LgNOJptnQeGyYOPmFkv" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia UTN Solidaria Una Visión Desde Adentro a las 18 hs en el SUM 2. La misma estará a cargo de los Expositores: Gerardo Pérez, Alejandro Alicata ",
+      "site" : "06",
+      "speaker" : "speaker66",
+      "time" : "18:00",
+      "title" : "UTN Solidaria Una Visión Desde Adentro"
+    },
+    "-LgNPFvsya1cG_B0RXj6" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Logística\" a las 18hs en el SUM 1. La misma estará a cargo del Expositor: Ing. Eduardo Sánchez Villagrán (Bs As)",
+      "site" : "02",
+      "speaker" : "speaker61",
+      "time" : "18:00",
+      "title" : " \"Logística\""
+    },
+    "-LgNPTSQeI97ZZzl3Qxd" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia Indentidad biométrica: Historia, Estado del Arte y Futuro a las 19 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti. La misma estará a cargo del Expositor: PhD. Reza Derakshani - Inventor del Reconocimiento Facial (Universidad de Kansas - EE.UU) ",
+      "site" : "01",
+      "speaker" : "speaker56",
+      "time" : "19:30",
+      "title" : "Indentidad biométrica: Historia, Estado del Arte y Futuro"
+    },
+    "-LgNPqagEwzJMrViYPob" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Procesando Datos con Pandas\" a las 20 hs en el SUM 2. La misma estará a cargo del Expositor: Lic. Emiliano Kokic (Córdoba)",
+      "site" : "06",
+      "speaker" : "speaker62",
+      "time" : "20:00",
+      "title" : "\"Procesando Datos con Pandas\""
+    },
+    "-LgNQNu9xsALGjBwJm-_" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Data Sciencie for Bussiness\" a las 19hs en el SUM 2. La misma estará a cargo del Expositor: Lic. Ariel Wolfman (Córdoba)",
+      "site" : "06",
+      "speaker" : "speaker59",
+      "time" : "19:00",
+      "title" : "\"Data Sciencie for Bussiness\""
+    },
+    "-LgNQn6ewv3UldwtZWi9" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Las Centrales Hidroeléctricas en Sudamérica y el Cambio Climático Global\" a las 20 hs en el SUM 3. La misma estará a cargo del Expositor: Ing. Juan José Encina Cabrera (Paraguay) ",
+      "site" : 10,
+      "speaker" : "speaker60",
+      "time" : "19:00",
+      "title" : "\"Las Centrales Hidroeléctricas en Sudamérica y el Cambio Climático Global\" "
+    },
+    "-LgNRDGywYFlOm36qe-f" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Nuevas Herramientas Digitales Para Educación en UTN\" a las 18 hs en el SUM 3. La misma estará a cargo de los expositores: MSc. Ing. Gustavo Gabriel Maigua - Ing. Sebastián Zalucki  ",
+      "site" : 10,
+      "speaker" : "speaker67",
+      "time" : "20:30",
+      "title" : "\"Nuevas Herramientas Digitales Para Educación en UTN\" "
+    },
+    "-LgNRVxRrfG4nnN0HdF5" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Políticas Públicas, Desarrollo Local, y ¿Ahora Qué?\" a las 19 hs en . La misma estará a cargo del Expositor: Arq. Hugo Amadeo Martina (Resistencia - Chaco)",
+      "site" : "02",
+      "speaker" : "speaker68",
+      "time" : "19:00",
+      "title" : " \"Políticas Públicas, Desarrollo Local, y ¿Ahora Qué?\""
+    },
+    "-LgNRouankBY1F9pScOv" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Ley Micaela\" -  (Charla Sobre Violencia de Género) a las 20 hs en el SUM 1. La misma estará a cargo del Expositor: Ing. Néstor García (Decano de la UTN Concepción del Uruguay) ",
+      "site" : "02",
+      "speaker" : "speaker63",
+      "time" : "20:00",
+      "title" : "\"Ley Micaela\" "
+    },
+    "-LgNTU1lXjyHqsKfAatx" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se desarrollarán diversas actividades deportivas organizadas por la Secretaría de Asuntos Estudiantiles. El miércoles 5 a las 20 y 21 hs en la cancha de básquet se desarrollará un cuadrangular de básquet entre estudiantes tecnológicos. ",
+      "site" : 12,
+      "time" : "20:00",
+      "title" : "Cuadrangular de Básquet (estudiantes)"
+    },
+    "-LgNTrIBAG8QLS4E5CVO" : {
+      "day" : "wednesday",
+      "description" : "El miércoles 5 a las 14.30 hs en el pasillo del SUM 1 se desarrollará un Gran Prix de Ajedrez.",
+      "site" : "02",
+      "time" : "14:30",
+      "title" : "Gran Prix de Ajedrez"
+    },
+    "-LgNUCQPViQ4_MkP1oA8" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se desarrollarán diversas actividades deportivas organizadas por la Secretaría de Asuntos Estudiantiles. El jueves 6 a las 19.30 hs. en la cancha de voley se desarrollará un partido amistoso de Voley masculino entre estudiantes tecnológicos.",
+      "site" : 12,
+      "time" : "19:30",
+      "title" : "Partido Amistoso de Voley Masculino"
+    },
+    "-LgNUYOGS-Dbt8KdUu7C" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se desarrollarán diversas actividades deportivas organizadas por la Secretaría de Asuntos Estudiantiles. El jueves 6 a las 19.30 hs. en la cancha de fútbol se desarrollará un partido amistoso de fútbol femenino entre estudiantes tecnológicos.",
+      "site" : 13,
+      "time" : "19:30",
+      "title" : "Partido amistoso de Fútbol Femenino"
+    },
+    "-LgNV2Rko9iKHUWyqod8" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Modelación Matemática de Estructuras Esbeltas y Componentes Mecánicos: Historial en UTN-FRBB, Nexos con el Doctorado en Ingeniería\" a las 19 hs en el SUM1. La misma estará a cargo del expositor: Dr. Marcelo Piovan (UTN Bahía Blanca)",
+      "site" : "02",
+      "speaker" : "speaker80",
+      "time" : "19:00",
+      "title" : "\"Modelación Matemática de Estructuras Esbeltas y Componentes Mecánicos: Historial en UTN-FRBB, Nexos con el Doctorado en Ingeniería\""
+    },
+    "-LgNWjVQa3BzZQfSL7zI" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Energía Fotovoltaica Distribuida – Caso de Éxito\" a las 20 hs en el SUM 3. La misma estará a cargo del Expositor Ing. Salvador Grifasi (COPIT)",
+      "site" : 10,
+      "speaker" : "speaker77",
+      "time" : "20:00",
+      "title" : "\"Energía Fotovoltaica Distribuida – Caso de Éxito\" "
+    },
+    "-LgNX1vUn0L2nufpxJhr" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Fabricación Aditiva: Avances, Desafíos y Oportunidades\" a las 19 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti. La misma estará a cargo del Expositor: Ph.D. MohsenEshraghi, - California StateUniversity, Los Angeles",
+      "site" : "01",
+      "speaker" : "speaker76",
+      "time" : "19:00",
+      "title" : "\"Fabricación Aditiva: Avances, Desafíos y Oportunidades\" "
+    },
+    "-LgNXcKhYXH8QrnSvirG" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Evolución de la Ciberseguridad y Ciberdefensa, Amenazas y Riesgos del Siglo XXI - ¿Qué Debemos Proteger y Por Qué? a las 18:30 hs en el SUM 3. La misma estará a cargo del Expositor: Dr. Luis Kun (EE.UU.)",
+      "site" : 10,
+      "speaker" : "speaker32",
+      "time" : "18:30",
+      "title" : "\"Evolución de la Ciberseguridad y Ciberdefensa, Amenazas y Riesgos del Siglo XXI - ¿Qué Debemos Proteger y Por Qué?\""
+    },
+    "-LgNY25phOI0RGi7uUJ8" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Concepto Ingenieriles para Ingenieros\" a las 18 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti. La misma estará a cargo del Expositor: Ing. Fernando Carmona (Bs. As.)",
+      "site" : "01",
+      "speaker" : "speaker73",
+      "time" : "18:00",
+      "title" : "\"Concepto Ingenieriles para Ingenieros\""
+    },
+    "-LgNYMaX-Rmgl5HCjBsc" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Introducción a Computer Visión\" a las 18 hs en el SUM 1. La misma estará a cargo del Expositor: Nicolás Peretti (Córdoba)",
+      "site" : "02",
+      "speaker" : "speaker74",
+      "time" : "18:00",
+      "title" : "\"Introducción a Computer Visión\""
+    },
+    "-LgNYek33rA0F_n3Sk87" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"MIMO (Entrada Múltiple / Salida Múltiple) Masivo Para la Tecnología 5G\" a las 17 hs en el SUM 3. La misma estará a cargo del Expositor: PhD Gustavo Fraidenraich (Brasil) ",
+      "site" : 10,
+      "speaker" : "speaker78",
+      "time" : "17:00",
+      "title" : " \"MIMO (Entrada Múltiple / Salida Múltiple) Masivo Para la Tecnología 5G\""
+    },
+    "-LgNZ5CCj-ZIao-RopD7" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Tecnología Aplicadas a la Seguridad Pública\" a las 17 hs en el SUM 1. La misma estará a cargo de los expositores: Ing. Adriana Aguirre – Ing. Omar Abraham (COPIT) ",
+      "site" : "02",
+      "speaker" : "speaker72",
+      "time" : "17:00",
+      "title" : " \"Tecnología Aplicadas a la Seguridad Pública\""
+    },
+    "-LgN_1a1Mejjeb5IMUpH" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Cómo Materializar un Proyecto\" a las 17 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti. La misma estará a cargo del Expositor: Ing. Roberto Barneda- (Bs. As.) ",
+      "site" : "01",
+      "speaker" : "speaker71",
+      "time" : "17:00",
+      "title" : "\"Cómo Materializar un Proyecto\""
+    },
+    "-LgN_GQlbI26WW7wAwaf" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la conferencia \"Una mirada al mundo de los juegos AAA\" a las 15:30 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti. La misma estará a cargo del Expositor: Ing. Alejandro López (Globant)",
+      "site" : "01",
+      "speaker" : "speaker70",
+      "time" : "15:30",
+      "title" : "\"Una mirada al mundo de los juegos AAA\""
+    },
+    "-LgN_aO1tBaRJoC2Aa1g" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la  Ingeniería 2019 se desarrollará la Mesa Panel: \"Masividad y Calidad Académica. Un Desafío a Resolver por las UUNN\" a las 10 hs en el SUM 1. La misma estará a cargo del Moderador: Ing. Enrique Galíndez (Secretario de Ciencia y Tecnología UTN - FRT). Invitados: Decanos de la UTN y de Facultades de Ingenierías del NOA. ",
+      "site" : "02",
+      "speaker" : "speaker69",
+      "time" : "10:00",
+      "title" : "\"Masividad y Calidad Académica. Un Desafío a Resolver por las UUNN\""
+    },
+    "-LgNa-i3DmETTdDumcnu" : {
+      "day" : "friday",
+      "description" : "El viernes 7 de junio de 10 a 14 hs. se realizará el taller Bootcamp de tecnología - Bases de Datos en el laboratorio 151",
+      "site" : 11,
+      "speaker" : "speaker2",
+      "time" : "10:00",
+      "title" : "Taller Bootcamp de tecnología - Bases de Datos"
+    },
+    "-LgNmxkmfDPlsEuSWD8O" : {
+      "day" : "friday",
+      "description" : "Cierre de la Semana de la Ingeniería 2019 con una Cena Show con artistas invitados en salón Espacio Tafí",
+      "site" : "07",
+      "speaker" : "speaker79",
+      "time" : "22:00",
+      "title" : "Cena Show"
+    },
+    "-LgNwWHtQDplCuBDCSIW" : {
+      "day" : "tuesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará la conferencia \"Tecnología e ingenio para un mundo más igualitario\", el día martes 4 de junio a hs 19, a cargo de la Ing. Valeria Viva.",
+      "site" : "01",
+      "speaker" : "speaker10",
+      "time" : "19:00",
+      "title" : "\"Tecnología e ingenio para un mundo más igualitario\""
+    },
+    "-LgOUQFP7yHkmjfbjmFq" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la Ingeniería 2019 se desarrollará un \"Desayuno de trabajo con Docentes Investigadores de la UTN-FRT\",  se realizará el día jueves 6 de Junio a las 9hs en el SUM1, a cargo de Ph.D.  Reza Derakshani",
+      "site" : "02",
+      "speaker" : "speaker56",
+      "time" : "08:30",
+      "title" : "Desayuno de trabajo con Docentes Investigadores de la UTN-FRT"
+    },
+    "-LgOVlpKc0DJRp1_cc1_" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la Ingeniería 2019 se desarrollará un \"Desayuno de trabajo con Docentes Investigadores de la UTN-FRT\",  se realizará el día viernes 7 de Junio a las 9hs en el SUM1, a cargo de Ph.D. Reza Derakshani",
+      "site" : "02",
+      "speaker" : "speaker11",
+      "time" : "08:30",
+      "title" : "Desayuno de trabajo con Docentes Investigadores de la UTN-FRT"
+    },
+    "-LgPRVFpHZcq86JoYFLX" : {
+      "day" : "wednesday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará la conferencia sobre \"Introducción al desarrollo de dispositivos de medición de multivariables ambientales\", el dia 5 de junio a las 19;30hs a cargo de  Juan Carlos Colombo, Rubén Darío Egea, Carlos Ignacio Colombo y Martin Leal",
+      "site" : "08",
+      "speaker" : "speaker55",
+      "time" : "19:30",
+      "title" : "Introducción al desarrollo de dispositivos de medición de multivariables ambientales"
+    },
+    "-LgckwbSWh6-zD_qImbD" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la Ingeniería Internacional y Nacional 2019, Leonardo Da Vinci: genio e ingenio, se realizará la conferencia \\\"NASA: Entender y Salvar la Vida en la Tierra\\\", el día martes 4 de junio a hs 18 en el AULA MAGNA, a cargo del PhD Kyle Mc Donald.-",
+      "site" : "01",
+      "speaker" : "speaker11",
+      "time" : "21:00",
+      "title" : "NASA: Entender y Salvar la Vida en la Tierra"
+    },
+    "-Lgd7KffrWq7KR69XEi0" : {
+      "day" : "friday",
+      "description" : "La Mg. Ing. Sandra Marín nos contará todas las posibilidades que tiene un estudiante para estudiar en la Universidad de Missouri - EEUU",
+      "site" : "06",
+      "speaker" : "speaker34",
+      "time" : "15:00",
+      "title" : "Oportunidades para estudiar en la escuela de ingeniería. Universidad de Missouri - Kansas City, EEUU."
+    },
+    "-Lgd_BqSDrrjKeqwRurg" : {
+      "day" : "thursday",
+      "description" : "En el marco de la Semana de la Ingeniería UTN 2019, se desarrollará el día jueves 06 de junio, afuera del Bar de la UTN la \"ECOCANJE#LaUTNSepara\"desde las 16 hasta 19hs ,trae papel y cartón . Plástico y PET. Vidrio y metal. Por participar podrás lavarte un obsequio.-",
+      "site" : 14,
+      "speaker" : "speaker81",
+      "time" : "16:00",
+      "title" : "EcoCanje #LaUTNSepara"
+    },
+    "-LgeSk4ypLAEAJpGmses" : {
+      "day" : "friday",
+      "description" : "En el marco de la Semana de la Ingeniería 2019 se desarrollará la conferencia \"McLaren: De lo Abstracto a lo Concreto\" a las 10 hs en el Aula Magna del centro cultural Ing. Juan Carlos Recalcatti. La misma estará a cargo del Expositor: Ing. Esteban Palazzo (Inglaterra)-Principal Designer en Mclaren Automotive.",
+      "site" : "01",
+      "speaker" : "speaker41",
+      "time" : "10:00",
+      "title" : "McLaren: De lo Abstracto a lo Concreto"
+    },
+    "-LgmIgLPWxR-aUj9qa9G" : {
+      "day" : "friday",
+      "description" : "Hoy viernes desde las 15 hs Kyle Mc Donald de la NASA estará con el simulador en el Hall de Acceso. *Si estudias en la UTN vení, viajá a la luna y caminá por ella en una simulación 360 grados de 5 minutos como nunca antes lo viviste* Vale la pena. Es gratis. Es en la UTN.",
+      "site" : "03",
+      "speaker" : "speaker11",
+      "time" : "15:00",
+      "title" : "Simulador caminata lunar"
+    },
+    "-Lu5J4sqFJMuv3FlWUN_" : {
+      "day" : "monday",
+      "description" : "mi charla",
+      "site" : "site10",
+      "time" : "13:00",
+      "title" : "mi charla"
+    },
+    "-Lu5Jcf3SeZdUqDuwCLN" : {
+      "day" : "monday",
+      "description" : "mi charla 2",
+      "site" : "12",
+      "time" : "13:00",
+      "title" : "mi charla 2"
+    },
+    "-Lu5L-2T_tijj44JVhCe" : {
+      "day" : "monday",
+      "description" : "comilona loca",
+      "site" : "14",
+      "time" : "13:00",
+      "title" : "comilona loca"
+    }
+  },
+  "userTalks" : {
+    "-LgTaH5-P0IN3yXKzPRU" : {
+      "talk" : "-LgJPbXk_Y_TpI5ljz0x",
+      "user" : "EckVW6ZjehVs9StVSe50xcU6hVF3"
+    },
+    "-LgTaZLhq2MM9n_DUOaP" : {
+      "talk" : "-LgJiB6o-0JKbsBdYokM",
+      "user" : "EckVW6ZjehVs9StVSe50xcU6hVF3"
+    },
+    "-LgTaphKEcQFAd475gwb" : {
+      "talk" : "-LgKBY1hDOpTjkZaF-g-",
+      "user" : "EckVW6ZjehVs9StVSe50xcU6hVF3"
+    },
+    "-LgTbKq381R9z0j8wYgj" : {
+      "talk" : "-LgN9CIWYZTLeESh38BZ",
+      "user" : "EckVW6ZjehVs9StVSe50xcU6hVF3"
+    },
+    "-LgTbUWr-lPRsI97nGXB" : {
+      "talk" : "-LgNGiaMVxtC-2b6T_oI",
+      "user" : "EckVW6ZjehVs9StVSe50xcU6hVF3"
+    },
+    "-LgTbactg5Z5uE4xPBzY" : {
+      "talk" : "-LgNKbU1j5xFe3Czgcwe",
+      "user" : "EckVW6ZjehVs9StVSe50xcU6hVF3"
+    },
+    "-LgTbsqMnqC0yqMQXpBl" : {
+      "talk" : "-LgNKbU1j5xFe3Czgcwe",
+      "user" : "TM1N7NxwswZ8262yUP3h8OhMD4f2"
+    },
+    "-LgTbvfD0QHJpk7uMbeI" : {
+      "talk" : "-LgN7Skh_1VmY-EHv6t-",
+      "user" : "TM1N7NxwswZ8262yUP3h8OhMD4f2"
+    },
+    "-LgTbysSEWVEmneycTzX" : {
+      "talk" : "-LgNXcKhYXH8QrnSvirG",
+      "user" : "EckVW6ZjehVs9StVSe50xcU6hVF3"
+    },
+    "-LgTdsRPB-ZX9tBmVQMt" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgTeXQ0GDH3wlgq2sYE" : {
+      "talk" : "-LgJe9BYdEpbeOn0cqj3",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgTeuaP7VTBcMLx_CZv" : {
+      "talk" : "-LgJQEw9X-KAc-oc4M_9",
+      "user" : "BgzWMBVB5eOzENrIJrNarIya5Gq2"
+    },
+    "-LgTeyO7llAPIvb5sXu_" : {
+      "talk" : "-LgJmEMjxNIdoecnZPGU",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgTf0TTWVLS_ZLllaOo" : {
+      "talk" : "-LgJaYSM-rmH7wRWGFJc",
+      "user" : "BgzWMBVB5eOzENrIJrNarIya5Gq2"
+    },
+    "-LgTfAVTRO5iQ7la6rZm" : {
+      "talk" : "-LgNwWHtQDplCuBDCSIW",
+      "user" : "BgzWMBVB5eOzENrIJrNarIya5Gq2"
+    },
+    "-LgTfwvizWpx2V2ofXxB" : {
+      "talk" : "-LgNA8uLQlPakxfj08u8",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgTg4zA2p_gtuY0lx5-" : {
+      "talk" : "-LgNBI4QWl6wCkijhWFp",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgTgrlkDJZ067Aqr8iv" : {
+      "talk" : "-LgJPbXk_Y_TpI5ljz0x",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-LgTgua4e1sU-7sTRao_" : {
+      "talk" : "-LgNPqagEwzJMrViYPob",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgTh6g-1lTVPgWe4vuZ" : {
+      "talk" : "-LgJPbXk_Y_TpI5ljz0x",
+      "user" : "JMiieXqnbqVZZj1TtqemR4kaGNS2"
+    },
+    "-LgTj7xUibQ4lkOnwqg7" : {
+      "talk" : "-LgJaYSM-rmH7wRWGFJc",
+      "user" : "qcDxK0qeFFWurrErKiKVGqFSz002"
+    },
+    "-LgTo7Ue4c2Qg_hI8ikw" : {
+      "talk" : "-LgNmxkmfDPlsEuSWD8O",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgTtSrO7v8-fFfi2VvA" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgTtbhucw5K-tKoIYnX" : {
+      "talk" : "-LgNBI4QWl6wCkijhWFp",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgTvVQq253Nfdj8VC5g" : {
+      "talk" : "-LgJPbXk_Y_TpI5ljz0x",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgTySsOw3OWTpZZKcc1" : {
+      "talk" : "-LgJPbXk_Y_TpI5ljz0x",
+      "user" : "5gkReGj5w2Q1J0D88ntrk7uySjn1"
+    },
+    "-LgU0EP_XwoB5LgPU5SI" : {
+      "talk" : "-LgJPbXk_Y_TpI5ljz0x",
+      "user" : "QxcaEbbg4kMF6Ap4vU9eUwwqh6u1"
+    },
+    "-LgU32crJCB1c2zycqr8" : {
+      "talk" : "-LgJQEw9X-KAc-oc4M_9",
+      "user" : "USxuPLQzG9RgPGfTfNu0JcF2jk02"
+    },
+    "-LgU39IpqxYGMqCl1hbE" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "USxuPLQzG9RgPGfTfNu0JcF2jk02"
+    },
+    "-LgU9bToEMtN-EUI8lid" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "yq3Slg92WLhLqQ4zw675IXhubl43"
+    },
+    "-LgUDxDUtO191EgaM4Nj" : {
+      "talk" : "-LgNFAclkv3OWqhqcfLh",
+      "user" : "GCnUEhG5OJNNxG6Z781on53TTRz1"
+    },
+    "-LgUE47EtQxnUsByTtLi" : {
+      "talk" : "-LgJrOJ_JyR4ohgWTfP-",
+      "user" : "BeYUUMDDobY0P2t41gxs1U4zaRl1"
+    },
+    "-LgUEUk5WIImJtxprqmP" : {
+      "talk" : "-LgNYek33rA0F_n3Sk87",
+      "user" : "GCnUEhG5OJNNxG6Z781on53TTRz1"
+    },
+    "-LgUEdCiRWkWzLYOx7eo" : {
+      "talk" : "-LgNWjVQa3BzZQfSL7zI",
+      "user" : "GCnUEhG5OJNNxG6Z781on53TTRz1"
+    },
+    "-LgUF2ls0LF3nDPk4v7W" : {
+      "talk" : "-LgNAvtCXNBmyjrgeZQ9",
+      "user" : "BeYUUMDDobY0P2t41gxs1U4zaRl1"
+    },
+    "-LgUF64_3kG_BEabLQHr" : {
+      "talk" : "-LgNDZ9pmglnMcORcr_q",
+      "user" : "BeYUUMDDobY0P2t41gxs1U4zaRl1"
+    },
+    "-LgUFJuUlFKjutQPX4MC" : {
+      "talk" : "-LgNDlsSIUsAFgqk-GLf",
+      "user" : "BeYUUMDDobY0P2t41gxs1U4zaRl1"
+    },
+    "-LgUFPHufUVyYxhjzSN4" : {
+      "talk" : "-LgNDwlXPUbhr57D4IYF",
+      "user" : "BeYUUMDDobY0P2t41gxs1U4zaRl1"
+    },
+    "-LgUFUhD4KvrYYDPZXIN" : {
+      "talk" : "-LgNRouankBY1F9pScOv",
+      "user" : "ZmMMQYkDDOhky2BCMbiJZvKAeFH2"
+    },
+    "-LgUFYMb6A6VLrwprWOV" : {
+      "talk" : "-LgNFcoLZJcU4o6fcr1Q",
+      "user" : "BeYUUMDDobY0P2t41gxs1U4zaRl1"
+    },
+    "-LgUFbIfaPpsV68b5CJx" : {
+      "talk" : "-LgNYek33rA0F_n3Sk87",
+      "user" : "ZmMMQYkDDOhky2BCMbiJZvKAeFH2"
+    },
+    "-LgUFfENbrq0k7ekkhUy" : {
+      "talk" : "-LgN_1a1Mejjeb5IMUpH",
+      "user" : "ZmMMQYkDDOhky2BCMbiJZvKAeFH2"
+    },
+    "-LgUFvLDcn6uoXM5kzTa" : {
+      "talk" : "-LgNQNu9xsALGjBwJm-_",
+      "user" : "BeYUUMDDobY0P2t41gxs1U4zaRl1"
+    },
+    "-LgUG-J_8AVbCC6U09Mf" : {
+      "talk" : "-LgNPqagEwzJMrViYPob",
+      "user" : "BeYUUMDDobY0P2t41gxs1U4zaRl1"
+    },
+    "-LgUGbSers0NEw5w3SC_" : {
+      "talk" : "-LgJaYSM-rmH7wRWGFJc",
+      "user" : "Fu8LszwWmmbfUFpbHWisDvrJqOQ2"
+    },
+    "-LgUHLPDonwn3A24nNVC" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "Fu8LszwWmmbfUFpbHWisDvrJqOQ2"
+    },
+    "-LgUHowa3jx-7UQ8SRyb" : {
+      "talk" : "-LgJknFj1ip5OYhCdcx6",
+      "user" : "Fu8LszwWmmbfUFpbHWisDvrJqOQ2"
+    },
+    "-LgUIMo9a2qEA6wMeDMn" : {
+      "talk" : "-LgNIcqzSrmrIkp02y4p",
+      "user" : "Fu8LszwWmmbfUFpbHWisDvrJqOQ2"
+    },
+    "-LgUIgt7dHXXRQtXq14v" : {
+      "talk" : "-LgNBI4QWl6wCkijhWFp",
+      "user" : "Fu8LszwWmmbfUFpbHWisDvrJqOQ2"
+    },
+    "-LgUIkSnNO5zQdx0bBe2" : {
+      "talk" : "-LgNHa3aBHUuCH5lyifj",
+      "user" : "Fu8LszwWmmbfUFpbHWisDvrJqOQ2"
+    },
+    "-LgUIw6Rkgnw7gK1zp3Q" : {
+      "talk" : "-LgN9Sc7i5PEzDWkU7d6",
+      "user" : "Fu8LszwWmmbfUFpbHWisDvrJqOQ2"
+    },
+    "-LgUJ_ke7EW73GWQv3O9" : {
+      "talk" : "-LgNNwq2U6RUpFqCcQMj",
+      "user" : "Fu8LszwWmmbfUFpbHWisDvrJqOQ2"
+    },
+    "-LgULolCcDhQxEpiCfAI" : {
+      "talk" : "-LgJQEw9X-KAc-oc4M_9",
+      "user" : "ZmMMQYkDDOhky2BCMbiJZvKAeFH2"
+    },
+    "-LgUNcrPfKZr2toK2-ew" : {
+      "talk" : "-LgJaYSM-rmH7wRWGFJc",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUNxcN5DeMkO3Po2cu" : {
+      "talk" : "-LgJiB6o-0JKbsBdYokM",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUOC73a3mPwPf6wlZJ" : {
+      "talk" : "-LgK2NgRyhRQbjnwbidN",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUPGzZxaY6m3Cdh04C" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUPPdjuy_lG22xX5Tu" : {
+      "talk" : "-LgJe9BYdEpbeOn0cqj3",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUPUhBuF3kQh9sqKmh" : {
+      "talk" : "-LgJmEMjxNIdoecnZPGU",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUSXbjrbil6gauJTtg" : {
+      "talk" : "-LgKNvz61NPSogpX7pxx",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUSZz26jwE6vcIPQyx" : {
+      "talk" : "-LgNAvtCXNBmyjrgeZQ9",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUT4rWeJ2GTV3-Iuw4" : {
+      "talk" : "-LgN9CIWYZTLeESh38BZ",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUT9BRwgYC0gwFFgnM" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUTFMF8CNPzfpGbLy0" : {
+      "talk" : "-LgNGiaMVxtC-2b6T_oI",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUTQA0nZoTeM9z944L" : {
+      "talk" : "-LgNKbU1j5xFe3Czgcwe",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUTijTE1l-luitTHTK" : {
+      "talk" : "-LgNQNu9xsALGjBwJm-_",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUTrIH_ROOM7HlTNCw" : {
+      "talk" : "-LgNa-i3DmETTdDumcnu",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUTwyDnIjCnzvomB3i" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUU8zN98YRqucbxJNC" : {
+      "talk" : "-LgNXcKhYXH8QrnSvirG",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUUCSFnLUrDpe272VB" : {
+      "talk" : "-LgNX1vUn0L2nufpxJhr",
+      "user" : "Bx34r2g058NJt04IjlQncSEZOfA3"
+    },
+    "-LgUX_2-qbcRDNienENy" : {
+      "talk" : "-LgNFcoLZJcU4o6fcr1Q",
+      "user" : "IrFVqJ2qxGXYqdlDcT15Dz8wDiW2"
+    },
+    "-LgUXd52Nof375WmIb_q" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "MULo5OumMhTXZRMJGtNRmmdQhJi1"
+    },
+    "-LgUXgfSzIjoTcOOYEfv" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "IrFVqJ2qxGXYqdlDcT15Dz8wDiW2"
+    },
+    "-LgUXiZbBlYSBSwyUy2t" : {
+      "talk" : "-LgJQEw9X-KAc-oc4M_9",
+      "user" : "wJB6FtfR4kYf6fpP63pgSdR7CKw2"
+    },
+    "-LgUYDcw_h8KSX3o3DUV" : {
+      "talk" : "-LgJMT6WinBSASh8jh8C",
+      "user" : "E8AuOoJzRCXa1Qh7LX0s1rWH16H3"
+    },
+    "-LgUYEIGRMTmF2wEU20r" : {
+      "talk" : "-LgKAt2ia2Zc6GyLeUlk",
+      "user" : "MULo5OumMhTXZRMJGtNRmmdQhJi1"
+    },
+    "-LgUZS6JV79IGSkJLTLo" : {
+      "talk" : "-LgNWjVQa3BzZQfSL7zI",
+      "user" : "MULo5OumMhTXZRMJGtNRmmdQhJi1"
+    },
+    "-LgUh6ZXfxF9b3ZwdWDL" : {
+      "talk" : "-LgJQEw9X-KAc-oc4M_9",
+      "user" : "FMS3LkPArEPf72KYwtzGOVoVcVb2"
+    },
+    "-LgV-659g6RlYmG5p7fn" : {
+      "talk" : "-LgJtm8qkjK8ZJA2MWxN",
+      "user" : "1yMt0yyNBGcgAoXRurlVlMAj3Sh1"
+    },
+    "-LgV1e33FKOF_DOu88kQ" : {
+      "talk" : "-LgJQEw9X-KAc-oc4M_9",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgVJAnAX9oYyv03wfSC" : {
+      "talk" : "-LgNX1vUn0L2nufpxJhr",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgVL0UNIBpjSQ6uAbVJ" : {
+      "talk" : "-LgK2NgRyhRQbjnwbidN",
+      "user" : "4T1utTm91Cdm80vpSUdsBICSmw32"
+    },
+    "-LgVNRQtu79fD-MVpXHZ" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "Rtfg9LPZ51Q4sWPxKJ7tlXKPXan2"
+    },
+    "-LgVN_gMYT7L2UUhPFpp" : {
+      "talk" : "-LgKNvz61NPSogpX7pxx",
+      "user" : "Rtfg9LPZ51Q4sWPxKJ7tlXKPXan2"
+    },
+    "-LgVQLTnYt0gFqM09gE2" : {
+      "talk" : "-LgJtm8qkjK8ZJA2MWxN",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVQSO62u0YfVaktUh3" : {
+      "talk" : "-LgK2NgRyhRQbjnwbidN",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVQevKsxdCbs3i9TAW" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVQpVZm0ntiMA034Km" : {
+      "talk" : "-LgKNvz61NPSogpX7pxx",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVREuhOlDT0Z36v_Sl" : {
+      "talk" : "-LgNEw7G7OBm7nL0pgLF",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVRa6Nc2DshvYtBpNL" : {
+      "talk" : "-LgNFAclkv3OWqhqcfLh",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVSlx45OfPTkdQMoUi" : {
+      "talk" : "-LgNFMJOOI9z1XM-qsS-",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVSrmd8erk03NfB9Dx" : {
+      "talk" : "-LgNFcoLZJcU4o6fcr1Q",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVSxVCW2YdpTTWUXNa" : {
+      "talk" : "-LgN9CIWYZTLeESh38BZ",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVT7jxHMj1OJU4AqvH" : {
+      "talk" : "-LgPRVFpHZcq86JoYFLX",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVTDp2GdTz3EBEBevT" : {
+      "talk" : "-LgNNUMVtgPzbYqr1jQq",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVTTUrL29-zD7ESwtJ" : {
+      "talk" : "-LgNPqagEwzJMrViYPob",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVTZ9e_yJYToBu5wD2" : {
+      "talk" : "-LgNLMEk_5FZh4mXUqK2",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVTg7xxpZE30jteHhS" : {
+      "talk" : "-LgNQNu9xsALGjBwJm-_",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVTk-PiEvwqyf8uJLC" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVTr6t5W6tLGH8jRJY" : {
+      "talk" : "-LgNYek33rA0F_n3Sk87",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVTtnSjLUIyKkrwCVI" : {
+      "talk" : "-LgNYMaX-Rmgl5HCjBsc",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVU0iWfai0mSI8HqTQ" : {
+      "talk" : "-LgNXcKhYXH8QrnSvirG",
+      "user" : "NelDwhZpygQEjbyB6aaPvV9vyxf1"
+    },
+    "-LgVVoFlFGopU0_qykha" : {
+      "talk" : "-LgKNvz61NPSogpX7pxx",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgVWCqY7vF0oDrak-I-" : {
+      "talk" : "-LgNIcqzSrmrIkp02y4p",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgVWPYK3UiA0b3eavVz" : {
+      "talk" : "-LgNA8uLQlPakxfj08u8",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgVWw5K-rNHaHCWn3C4" : {
+      "talk" : "-LgKI4seXf32AikZuTqk",
+      "user" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "-LgVX5XvPPUkrCYtQ5SI" : {
+      "talk" : "-LgNBI4QWl6wCkijhWFp",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgVXNr37Vyp7-jGUN0d" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "-LgVXXevYkPlgayNvfSM" : {
+      "talk" : "-LgNM806O-JGEbOT5OxD",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgVXety92gnUF9JASE6" : {
+      "talk" : "-LgNLMEk_5FZh4mXUqK2",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgVXfxDStnqZlY0GUt_" : {
+      "talk" : "-LgJcUTv7f2-WU-INkwL",
+      "user" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "-LgVXsmpCVOcmadxMOze" : {
+      "talk" : "-LgNYek33rA0F_n3Sk87",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgVXvyd7AOoI_3kQUiu" : {
+      "talk" : "-LgKNvz61NPSogpX7pxx",
+      "user" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "-LgVXywXjSNUuGCTOmNV" : {
+      "talk" : "-LgJaYSM-rmH7wRWGFJc",
+      "user" : "1yMt0yyNBGcgAoXRurlVlMAj3Sh1"
+    },
+    "-LgVY1upNmsQSBYCGP8S" : {
+      "talk" : "-LgNZ5CCj-ZIao-RopD7",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgVY6bDg7Y8mepjqo5f" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "-LgVYMdvAc2UReHMKUPL" : {
+      "talk" : "-LgNM806O-JGEbOT5OxD",
+      "user" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "-LgVYTV_IsoyMVsdD53s" : {
+      "talk" : "-LgNRDGywYFlOm36qe-f",
+      "user" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "-LgVYYYi9U1Vxe_zcngP" : {
+      "talk" : "-LgNQn6ewv3UldwtZWi9",
+      "user" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "-LgVYkKo7WU4-C8049_D" : {
+      "talk" : "-LgNRVxRrfG4nnN0HdF5",
+      "user" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "-LgVYrc2Tw-jAeMQq1wS" : {
+      "talk" : "-LgN_1a1Mejjeb5IMUpH",
+      "user" : "MFCn6CoB70Uko3Ye4EG7ENqNsJ53"
+    },
+    "-LgVZiBmKBgMkAi6rDbm" : {
+      "talk" : "-LgKNvz61NPSogpX7pxx",
+      "user" : "nM6rhQjuigNER3RT1dPOP8YkpKx2"
+    },
+    "-LgVZtwrG3vW593qT0-e" : {
+      "talk" : "-LgKAt2ia2Zc6GyLeUlk",
+      "user" : "nM6rhQjuigNER3RT1dPOP8YkpKx2"
+    },
+    "-LgV_HOPrdXWCciX3LP3" : {
+      "talk" : "-LgNA8uLQlPakxfj08u8",
+      "user" : "nM6rhQjuigNER3RT1dPOP8YkpKx2"
+    },
+    "-LgV_XORekJ57v5pj0Vm" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "nM6rhQjuigNER3RT1dPOP8YkpKx2"
+    },
+    "-LgV_h0_7jzwSn2h2hBa" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "nM6rhQjuigNER3RT1dPOP8YkpKx2"
+    },
+    "-LgV_lNVfXJ7zjt6G16t" : {
+      "talk" : "-LgNQn6ewv3UldwtZWi9",
+      "user" : "nM6rhQjuigNER3RT1dPOP8YkpKx2"
+    },
+    "-LgV_okcj-Uvb-3a-iFP" : {
+      "talk" : "-LgNPTSQeI97ZZzl3Qxd",
+      "user" : "nM6rhQjuigNER3RT1dPOP8YkpKx2"
+    },
+    "-LgV_pKR5uwEGRDX4IVt" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "pMxYSP9lGnQZtMgRdZUQpn3XIMg1"
+    },
+    "-LgV_qsZ2fc7nE0M0BiX" : {
+      "talk" : "-LgNLMEk_5FZh4mXUqK2",
+      "user" : "nM6rhQjuigNER3RT1dPOP8YkpKx2"
+    },
+    "-LgX0DKAf-KAAh0lPbn2" : {
+      "talk" : "-LgJaYSM-rmH7wRWGFJc",
+      "user" : "qxKnXc4AXDRr95ESAskmPcXBtFR2"
+    },
+    "-LgX6IF0hB0NOhmPWW3i" : {
+      "talk" : "-LgJQEw9X-KAc-oc4M_9",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-LgX6SWDLUOlZhym0694" : {
+      "talk" : "-LgJtm8qkjK8ZJA2MWxN",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-LgX6ffmPN0Cx7F62GIa" : {
+      "talk" : "-LgKJbeMgVs0oISTBFCd",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-LgX6rG3aOanFJnLlGWo" : {
+      "talk" : "-LgKNvz61NPSogpX7pxx",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-LgXE2hPnDAEiJfnabpv" : {
+      "talk" : "-LgJiB6o-0JKbsBdYokM",
+      "user" : "m0pNK4LyjfVuerF1sztouWCWfdu2"
+    },
+    "-LgXbE1LxIXqTRRlTyNm" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "aJ03pWH00qZLYQQx0TRsag0DMv72"
+    },
+    "-LgXbyob2y_IjVHrvR7M" : {
+      "talk" : "-LgJcUTv7f2-WU-INkwL",
+      "user" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "-LgXc3-VElE04pv_3qpy" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "-LgXc5TA1PgjbZAWhYoy" : {
+      "talk" : "-LgKI4seXf32AikZuTqk",
+      "user" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "-LgXc9DBzi398XaqEWCB" : {
+      "talk" : "-LgK2NgRyhRQbjnwbidN",
+      "user" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "-LgXcCsgpoc-hqlo0-mW" : {
+      "talk" : "-LgNDZ9pmglnMcORcr_q",
+      "user" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "-LgXcGS9jrIlqkmoxgTI" : {
+      "talk" : "-LgNFquTjltmgsmRqsli",
+      "user" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "-LgXciE8aCmsHI51ZOuq" : {
+      "talk" : "-LgNM806O-JGEbOT5OxD",
+      "user" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "-LgXckN0Cfwq7EOiSM20" : {
+      "talk" : "-LgNNwq2U6RUpFqCcQMj",
+      "user" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "-LgXcnhr-nDa2fC4vpfO" : {
+      "talk" : "-LgNPFvsya1cG_B0RXj6",
+      "user" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "-LgXcqSr1p5_wqlG77YM" : {
+      "talk" : "-LgNQn6ewv3UldwtZWi9",
+      "user" : "VwsMGU8JehOLV1MnVMaejgQwxe03"
+    },
+    "-LgXxNvdcQRSEe1io5mq" : {
+      "talk" : "-LgJcUTv7f2-WU-INkwL",
+      "user" : "4mbjRTDMYfeorFSE7TIvAlZPQhK2"
+    },
+    "-LgXz3-33FKPjgdV8qG-" : {
+      "talk" : "-LgJiB6o-0JKbsBdYokM",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LgXz7N_ilruAjEsfaT_" : {
+      "talk" : "-LgJrOJ_JyR4ohgWTfP-",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LgXzLfmmh9gyUJRHXp6" : {
+      "talk" : "-LgK2NgRyhRQbjnwbidN",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LgXzvslGsL2FwIZAlyf" : {
+      "talk" : "-LgKNvz61NPSogpX7pxx",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LgYZE2GsTkWNePBH7m1" : {
+      "talk" : "-LgNwWHtQDplCuBDCSIW",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-LgYeJact2e-oYhq_4c_" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "JcIyo4ZYoAS9dJfXnJL725GhDP52"
+    },
+    "-LgYlM8QiSbFJBZqjXpj" : {
+      "talk" : "-LgNEimVZGGA_vFFdqEj",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgYlbHmMuR3fY5BYs7H" : {
+      "talk" : "-LgNFAclkv3OWqhqcfLh",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgYlgy379IVIHaRw0Nv" : {
+      "talk" : "-LgNDlsSIUsAFgqk-GLf",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-LgYnBMnGiSBaSOkbnTr" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "nUc619SDNKe1EDNFUPPjSm09tns1"
+    },
+    "-LgYnyG6zSymbe44vu5y" : {
+      "talk" : "-LgNmxkmfDPlsEuSWD8O",
+      "user" : "9hOrmpZTqGPXiNyVYy0Zp86QKb83"
+    },
+    "-LgYos3Dxn4al09oVUzC" : {
+      "talk" : "-LgNDZ9pmglnMcORcr_q",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LgYowY5hhBtcpnhFjns" : {
+      "talk" : "-LgNDlsSIUsAFgqk-GLf",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LgYp8PLrbN7SnNMfWVP" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "CpFk9VUe0TdXPduXnWd3aKwH1772"
+    },
+    "-LgYpEL_nF--Eel3ZXNE" : {
+      "talk" : "-LgNA8uLQlPakxfj08u8",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LgYpFfih6diIygoC0Ma" : {
+      "talk" : "-LgNPFvsya1cG_B0RXj6",
+      "user" : "CpFk9VUe0TdXPduXnWd3aKwH1772"
+    },
+    "-LgYpLqjowvHqg7JsucA" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "CpFk9VUe0TdXPduXnWd3aKwH1772"
+    },
+    "-LgYp_u-Kd-4CE_ilF89" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LgYppkLng3FNHK6oCLb" : {
+      "talk" : "-LgNKbU1j5xFe3Czgcwe",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LgYpzu5O3HVf9mUr3OE" : {
+      "talk" : "-LgNPTSQeI97ZZzl3Qxd",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LgZ1WHXXlhZ7IwrEms3" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "UIN6auQbJncnfofVSbaYYGcyJXn1"
+    },
+    "-LgZ1hRpPvmN14-KucJ7" : {
+      "talk" : "-LgKGjID1pkheu5Ar8KD",
+      "user" : "UIN6auQbJncnfofVSbaYYGcyJXn1"
+    },
+    "-LgZ22_l5DklfpiK1DIq" : {
+      "talk" : "-LgKBY1hDOpTjkZaF-g-",
+      "user" : "UIN6auQbJncnfofVSbaYYGcyJXn1"
+    },
+    "-LgZCw73mgFAnGFAW5aj" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgZLJRJa_txJPTnUtcp" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-LgZN-6kM2_Xn5GsXH_2" : {
+      "talk" : "-LgKBY1hDOpTjkZaF-g-",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgZSX64HHzQHmm_xQgf" : {
+      "talk" : "-LgJe9BYdEpbeOn0cqj3",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-LgZYbtRounzYSAHtGnY" : {
+      "talk" : "-LgJe9BYdEpbeOn0cqj3",
+      "user" : "5gkReGj5w2Q1J0D88ntrk7uySjn1"
+    },
+    "-LgZlfKM7aiZ8C70quKV" : {
+      "talk" : "-LgKBY1hDOpTjkZaF-g-",
+      "user" : "5gkReGj5w2Q1J0D88ntrk7uySjn1"
+    },
+    "-Lg_9PfrD-QeMNTWRW4z" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "nUc619SDNKe1EDNFUPPjSm09tns1"
+    },
+    "-Lg_9Z2qMzZzyT0I6jdd" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "nUc619SDNKe1EDNFUPPjSm09tns1"
+    },
+    "-Lg_9wP53D1hZOVZwuvN" : {
+      "talk" : "-LgNLMEk_5FZh4mXUqK2",
+      "user" : "nUc619SDNKe1EDNFUPPjSm09tns1"
+    },
+    "-Lg_A3EZL45iygOJdMp7" : {
+      "talk" : "-LgNPTSQeI97ZZzl3Qxd",
+      "user" : "nUc619SDNKe1EDNFUPPjSm09tns1"
+    },
+    "-Lg_Z5NYuG1gHj1td00Q" : {
+      "talk" : "-LgNDwlXPUbhr57D4IYF",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-Lg_ZDg8qHIZ9ApBsjlf" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-Lg_ZeauYFhUj0cpbrpD" : {
+      "talk" : "-LgNNwq2U6RUpFqCcQMj",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-Lg__4U3dPXcj-lc6tte" : {
+      "talk" : "-LgNX1vUn0L2nufpxJhr",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-Lg__Coo_wJOVaVEmeWV" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "jkn6OAOJpoarhjhP41x224WAjJh2"
+    },
+    "-Lg_jUl03VKLgtOhB8RM" : {
+      "talk" : "-LgNXcKhYXH8QrnSvirG",
+      "user" : "rXj1fggfa5dznZYvM3GM7zVmPU13"
+    },
+    "-Lg_yCxYMpD53NEbNIse" : {
+      "talk" : "-LgNKbU1j5xFe3Czgcwe",
+      "user" : "4yfQyJ73RsRO338jHpMFgkOvCFF2"
+    },
+    "-Lg_ySQGSVgt0MoVm-25" : {
+      "talk" : "-LgNEimVZGGA_vFFdqEj",
+      "user" : "4yfQyJ73RsRO338jHpMFgkOvCFF2"
+    },
+    "-Lg_yc9QFPQDKLlx-p4y" : {
+      "talk" : "-LgNG0aDjHjNF2aUulzx",
+      "user" : "4yfQyJ73RsRO338jHpMFgkOvCFF2"
+    },
+    "-Lg_yjiqhIv4DcudWny3" : {
+      "talk" : "-LgNIcqzSrmrIkp02y4p",
+      "user" : "4yfQyJ73RsRO338jHpMFgkOvCFF2"
+    },
+    "-Lg_yrBySGM0u2p7YXfw" : {
+      "talk" : "-LgNHBnUHpfpMWBJiHWa",
+      "user" : "4yfQyJ73RsRO338jHpMFgkOvCFF2"
+    },
+    "-LgbthZQE_v9ywPqWi1g" : {
+      "talk" : "-LgN7whxhKcCsmd8vI01",
+      "user" : "klaOaEGWFIczVHCgMjlZ55TRaiY2"
+    },
+    "-Lgc3FPbhEZMVHsnXan1" : {
+      "talk" : "-LgNQn6ewv3UldwtZWi9",
+      "user" : "ZmMMQYkDDOhky2BCMbiJZvKAeFH2"
+    },
+    "-Lgc5cBix-d-cr528iTQ" : {
+      "talk" : "-LgNDZ9pmglnMcORcr_q",
+      "user" : "Iqz9f9o0GKZhuviC4l3XIVHiUFn1"
+    },
+    "-Lgc5qlFTmz-uBlBfmkA" : {
+      "talk" : "-LgNFAclkv3OWqhqcfLh",
+      "user" : "Iqz9f9o0GKZhuviC4l3XIVHiUFn1"
+    },
+    "-Lgc6J2XIdwv-zBsrDry" : {
+      "talk" : "-LgNGiaMVxtC-2b6T_oI",
+      "user" : "m9HeK5yl6Vhau1ScEKrDpaE4zfo1"
+    },
+    "-Lgc6MA01qslBL3-goJq" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "Iqz9f9o0GKZhuviC4l3XIVHiUFn1"
+    },
+    "-Lgc6P3_08yhXpv3o7M5" : {
+      "talk" : "-LgNKbU1j5xFe3Czgcwe",
+      "user" : "m9HeK5yl6Vhau1ScEKrDpaE4zfo1"
+    },
+    "-Lgc6QifhNXSdecOJsJS" : {
+      "talk" : "-LgN9Sc7i5PEzDWkU7d6",
+      "user" : "Iqz9f9o0GKZhuviC4l3XIVHiUFn1"
+    },
+    "-Lgc6UQc_OoNNZdkOFIa" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "Iqz9f9o0GKZhuviC4l3XIVHiUFn1"
+    },
+    "-Lgc6iIMaaLBN5tPY9mz" : {
+      "talk" : "-LgNa-i3DmETTdDumcnu",
+      "user" : "m9HeK5yl6Vhau1ScEKrDpaE4zfo1"
+    },
+    "-Lgc8-GcOnt6cCrJSiX1" : {
+      "talk" : "-LgNLMEk_5FZh4mXUqK2",
+      "user" : "MyiZIjqijgTx1sUCnWzDndRaeZx1"
+    },
+    "-Lgc8CbmLIwQsUG-fE-V" : {
+      "talk" : "-LgNPTSQeI97ZZzl3Qxd",
+      "user" : "MyiZIjqijgTx1sUCnWzDndRaeZx1"
+    },
+    "-Lgc8VJR6vDpMgF9vg7k" : {
+      "talk" : "-LgNDZ9pmglnMcORcr_q",
+      "user" : "0R2186YyVIMHiM0jxbseA1IGeTR2"
+    },
+    "-LgcCDcgqLHNsUWOFgoC" : {
+      "talk" : "-LgJrOJ_JyR4ohgWTfP-",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgcCP5IIBKWV-Zq3HKi" : {
+      "talk" : "-LgJrOJ_JyR4ohgWTfP-",
+      "user" : "0R2186YyVIMHiM0jxbseA1IGeTR2"
+    },
+    "-LgcNu0td2qLjSWjLQF6" : {
+      "talk" : "-LgNG0aDjHjNF2aUulzx",
+      "user" : "ZmMMQYkDDOhky2BCMbiJZvKAeFH2"
+    },
+    "-LgckmTkKt6kSrg6ZneY" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "jFJEPGIyrFds6THjWtKbaQvvctE3"
+    },
+    "-LgcmzhP-70bjlwZw3zo" : {
+      "talk" : "-LgckwbSWh6-zD_qImbD",
+      "user" : "9hOrmpZTqGPXiNyVYy0Zp86QKb83"
+    },
+    "-Lgcu2pq4Fyvrz9BxuiG" : {
+      "talk" : "-LgNIcqzSrmrIkp02y4p",
+      "user" : "BgzWMBVB5eOzENrIJrNarIya5Gq2"
+    },
+    "-LgcvM05BW-Cn1NgafMC" : {
+      "talk" : "-LgckwbSWh6-zD_qImbD",
+      "user" : "XEWJvuscypaDwZCtUZucsmEDxFK2"
+    },
+    "-LgcvclWQXdcK-q5WtlG" : {
+      "talk" : "-LgNEimVZGGA_vFFdqEj",
+      "user" : "5gkReGj5w2Q1J0D88ntrk7uySjn1"
+    },
+    "-LgcwBNs7oWjj93EfZB1" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "XEWJvuscypaDwZCtUZucsmEDxFK2"
+    },
+    "-LgcwKkwxoCbIFd5uWok" : {
+      "talk" : "-LgNLMEk_5FZh4mXUqK2",
+      "user" : "XEWJvuscypaDwZCtUZucsmEDxFK2"
+    },
+    "-LgcwOaoCcJaWvGMn7vQ" : {
+      "talk" : "-LgNPFvsya1cG_B0RXj6",
+      "user" : "XEWJvuscypaDwZCtUZucsmEDxFK2"
+    },
+    "-Lgd5fujtBVCrJAhFDY8" : {
+      "talk" : "-LgNFquTjltmgsmRqsli",
+      "user" : "klaOaEGWFIczVHCgMjlZ55TRaiY2"
+    },
+    "-Lgd8EPJH7ULA9V9k-tZ" : {
+      "talk" : "-LgNK6K7cE-piLqWTov4",
+      "user" : "2rjFO48L3lY97viyybHh51ldxPF2"
+    },
+    "-Lgd8KVgcD8tSzJ86bx3" : {
+      "talk" : "-LgNNwq2U6RUpFqCcQMj",
+      "user" : "2rjFO48L3lY97viyybHh51ldxPF2"
+    },
+    "-Lgd8NPboX9pUvMQT9Iw" : {
+      "talk" : "-LgNOJptnQeGyYOPmFkv",
+      "user" : "2rjFO48L3lY97viyybHh51ldxPF2"
+    },
+    "-Lgd8mHSxf4JsiyKhc_b" : {
+      "talk" : "-LgN9Sc7i5PEzDWkU7d6",
+      "user" : "5gkReGj5w2Q1J0D88ntrk7uySjn1"
+    },
+    "-Lgd8rE8h_cihjVODYMw" : {
+      "talk" : "-Lgd7KffrWq7KR69XEi0",
+      "user" : "2rjFO48L3lY97viyybHh51ldxPF2"
+    },
+    "-Lgd8upnpqmI5wl3V6-l" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "2rjFO48L3lY97viyybHh51ldxPF2"
+    },
+    "-Lgd8xqTJK4Psy-5ETaw" : {
+      "talk" : "-LgNEJjunN8ymyt7zc0k",
+      "user" : "5gkReGj5w2Q1J0D88ntrk7uySjn1"
+    },
+    "-Lgd8ynDkdjUOB_cgsya" : {
+      "talk" : "-LgN_1a1Mejjeb5IMUpH",
+      "user" : "2rjFO48L3lY97viyybHh51ldxPF2"
+    },
+    "-Lgd91I2rX7KBeEXDJIL" : {
+      "talk" : "-LgNY25phOI0RGi7uUJ8",
+      "user" : "2rjFO48L3lY97viyybHh51ldxPF2"
+    },
+    "-Lgd99Eif7kxf945kDOL" : {
+      "talk" : "-LgNIcqzSrmrIkp02y4p",
+      "user" : "5gkReGj5w2Q1J0D88ntrk7uySjn1"
+    },
+    "-LgdEVUv1YCkxTS-RE8p" : {
+      "talk" : "-LgckwbSWh6-zD_qImbD",
+      "user" : "CLTKt6EPe5PYAiqlYnkIbtMDQDy1"
+    },
+    "-LgdFn7gzereol2lkUA4" : {
+      "talk" : "-LgNRVxRrfG4nnN0HdF5",
+      "user" : "4mbjRTDMYfeorFSE7TIvAlZPQhK2"
+    },
+    "-LgdFsHML90f6-n-JGBQ" : {
+      "talk" : "-Lgd7KffrWq7KR69XEi0",
+      "user" : "4mbjRTDMYfeorFSE7TIvAlZPQhK2"
+    },
+    "-LgdG4posA3tPS546myJ" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "4mbjRTDMYfeorFSE7TIvAlZPQhK2"
+    },
+    "-LgdJ0Kn2zZKUi_CFoHW" : {
+      "talk" : "-LgckwbSWh6-zD_qImbD",
+      "user" : "ZmMMQYkDDOhky2BCMbiJZvKAeFH2"
+    },
+    "-LgdMFE8dQbq-sNoNOrY" : {
+      "talk" : "-LgN9CIWYZTLeESh38BZ",
+      "user" : "CpFk9VUe0TdXPduXnWd3aKwH1772"
+    },
+    "-LgdPFqxEzbHNL4-WprY" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "VFTY6In53Vf5ORqCCLsdBaV0fnx1"
+    },
+    "-LgdQB3F2DT3tPdLhKqf" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "30VLz9Nv78M3u8U60ZmvQmNgPDH3"
+    },
+    "-LgdQ_fFnWP56j-a8GM9" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "LVVLF4b9jZcpRXUmbFv78MhVAiF3"
+    },
+    "-LgdULPT5yhK-ZZfSN_b" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgdUSSgXrUeD4ZxQ1dx" : {
+      "talk" : "-LgNGiaMVxtC-2b6T_oI",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgdVJOC6BPcm3zrg_p2" : {
+      "talk" : "-LgJRjWqDMZ-0MuOWGEx",
+      "user" : "0R2186YyVIMHiM0jxbseA1IGeTR2"
+    },
+    "-LgdVNFAZ5THuJ4ZAkKp" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "OknbTaJSWoQX6Rb3SBaAPnaoQ643"
+    },
+    "-LgdVOCrV6Afm01iUqB_" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "9wwDu7FdE1fnrHW3zox1UPHqYfF2"
+    },
+    "-LgdVbb-WpmhGeBoo2nG" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "mEOokKHBlRQZlv1fFKL046jLEJj1"
+    },
+    "-LgdVbzhNO5cWX9IcPW2" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "TCUKDmaKxCSMikim6yMvYCofqe72"
+    },
+    "-LgdVhkR10daIDxZH0tQ" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "EMb3euate3RW5Kbpz2Rnag98AG12"
+    },
+    "-LgdVnsDFJYlC9Ko3rqg" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "Ib5Ruo3ZiXWEKtD22rI8OUN67kR2"
+    },
+    "-LgdVpodXGpc8HXTmken" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "emygxT076ncCwYy6u3w7yYgUVsy1"
+    },
+    "-LgdVwjtkxVsCWYYErv3" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "a5FTzF8DI1M2oA455fGRcNx8qSm2"
+    },
+    "-LgdWx92ddQyXhfxYX_r" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "Aeuelr1TEaNGX4WVe9j0jsH5Izx2"
+    },
+    "-LgdZpXLnISbIsqjR4VE" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "SYQmVIeYQohVqvOm3Xl9iPebOYk2"
+    },
+    "-LgdZqbAPs6xtq_2mupu" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "BgzWMBVB5eOzENrIJrNarIya5Gq2"
+    },
+    "-LgdbSQBbFfO1DKlS8K4" : {
+      "talk" : "-LgNBI4QWl6wCkijhWFp",
+      "user" : "6crTa2834UXQ5oxjFeheUhNbOH43"
+    },
+    "-LgdblXN53R0NWHu_Bfn" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "6crTa2834UXQ5oxjFeheUhNbOH43"
+    },
+    "-LgddbM7c36SapLGUy29" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "8dySakEi2Sg8wOll6HCPrhmTxzE2"
+    },
+    "-Lgdewdtxm7vAP6wpqrh" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "ata4qtaFOXhAbETcPBZpBhxe56d2"
+    },
+    "-LgdfMbLCiWFA0q-_vYS" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "kH57tMtdBGcgkBe0lmVAZNBuCgt1"
+    },
+    "-LgdfTimdXoCgN_120DM" : {
+      "talk" : "-LgNXcKhYXH8QrnSvirG",
+      "user" : "gqdrWI1i38ZUrygdceS2ghqzb4E2"
+    },
+    "-LgdfcMRceybGvQRiH6e" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "2HCR9wroAtMOsxVzQFd9IcsqrtJ2"
+    },
+    "-LgdflSUdEyjjoFGWKyw" : {
+      "talk" : "-LgNNUMVtgPzbYqr1jQq",
+      "user" : "gqdrWI1i38ZUrygdceS2ghqzb4E2"
+    },
+    "-Lgdi4wnyOaJut-0oUuB" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "bOStL7fJQTPghr7qJXt5I6Er1cp1"
+    },
+    "-LgdiAGh-Ltom4m6KZLN" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "EV21NjxQBEQAbPB7ueIaX4DgsKf1"
+    },
+    "-LgdiHM9TwsJzQianYjD" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "3Z889afHFkNYGhpdS0bfarvmreL2"
+    },
+    "-LgdiMe8xNVuFAmabQ-f" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "HdhffPM1aggFOGy5xZrk9mPh3io1"
+    },
+    "-LgdiYJHTXXWCK5VWCwX" : {
+      "talk" : "-LgN8hPr_VPlJQIKvt_m",
+      "user" : "VTQU8d2EMHbfMD2cEYBuHow54sw2"
+    },
+    "-LgdkakP8SHyDpNOxRIF" : {
+      "talk" : "-Lgd7KffrWq7KR69XEi0",
+      "user" : "OknbTaJSWoQX6Rb3SBaAPnaoQ643"
+    },
+    "-Lgdl1Yi_MTlXxnAZPgf" : {
+      "talk" : "-LgNUYOGS-Dbt8KdUu7C",
+      "user" : "zOHmNEM8oRaHWZBuh2eWQEFqCpW2"
+    },
+    "-Lgdn08jdSetSXt8jOxP" : {
+      "talk" : "-LgNBI4QWl6wCkijhWFp",
+      "user" : "Ib5Ruo3ZiXWEKtD22rI8OUN67kR2"
+    },
+    "-Lgdq4LOZ-6plB0EBb5B" : {
+      "talk" : "-LgN_1a1Mejjeb5IMUpH",
+      "user" : "OknbTaJSWoQX6Rb3SBaAPnaoQ643"
+    },
+    "-LgdqALW9WAKK2WYNPMf" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "OknbTaJSWoQX6Rb3SBaAPnaoQ643"
+    },
+    "-LgdqJzwbnR0G5dXqTqz" : {
+      "talk" : "-LgNY25phOI0RGi7uUJ8",
+      "user" : "OknbTaJSWoQX6Rb3SBaAPnaoQ643"
+    },
+    "-Lgdqi098AI7-b_IYmMW" : {
+      "talk" : "-LgNBI4QWl6wCkijhWFp",
+      "user" : "5R79YVWWwkMAwxUlSgCf0NnmYxt1"
+    },
+    "-Lgdurgf2V35vymEbFKa" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "0R2186YyVIMHiM0jxbseA1IGeTR2"
+    },
+    "-LgdvUNZbRurHR5Dmn1D" : {
+      "talk" : "-LgNGiaMVxtC-2b6T_oI",
+      "user" : "5gkReGj5w2Q1J0D88ntrk7uySjn1"
+    },
+    "-LgdwxRqXXhLggSXXJsQ" : {
+      "talk" : "-LgNNUMVtgPzbYqr1jQq",
+      "user" : "yAJOboO9e7ghzlNYZKhruudq8iw2"
+    },
+    "-Lgdx5bU8kq-BlgqyEaf" : {
+      "talk" : "-LgNQNu9xsALGjBwJm-_",
+      "user" : "yAJOboO9e7ghzlNYZKhruudq8iw2"
+    },
+    "-Lgdx8Q76pnHrwRA8IHp" : {
+      "talk" : "-LgNRVxRrfG4nnN0HdF5",
+      "user" : "yAJOboO9e7ghzlNYZKhruudq8iw2"
+    },
+    "-Lgdxbg1pBSM1eXP2fZe" : {
+      "talk" : "-LgNCq3-fgUzHHvik5NC",
+      "user" : "Ib5Ruo3ZiXWEKtD22rI8OUN67kR2"
+    },
+    "-Lge8ylTgXemBTFJ4Msz" : {
+      "talk" : "-Lgd_BqSDrrjKeqwRurg",
+      "user" : "UlgwhEanAneGjBBwmp9niTskfDt1"
+    },
+    "-Lge93uGN85VZdRlQzny" : {
+      "talk" : "-LgNRouankBY1F9pScOv",
+      "user" : "UlgwhEanAneGjBBwmp9niTskfDt1"
+    },
+    "-Lge96-Xa3Tu-yym-l2N" : {
+      "talk" : "-Lgd7KffrWq7KR69XEi0",
+      "user" : "XEWJvuscypaDwZCtUZucsmEDxFK2"
+    },
+    "-Lge99LqUlTTcNRBJ7XE" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "XEWJvuscypaDwZCtUZucsmEDxFK2"
+    },
+    "-Lge9A0x5-PQJeBtTBim" : {
+      "talk" : "-Lgd7KffrWq7KR69XEi0",
+      "user" : "UlgwhEanAneGjBBwmp9niTskfDt1"
+    },
+    "-Lge9FNJBf1K9SDRUrrT" : {
+      "talk" : "-LgNBI4QWl6wCkijhWFp",
+      "user" : "wrezaW6mGMX71Q5qZiTWKqJIh2I3"
+    },
+    "-Lge9zCWQs24buhLPu8Z" : {
+      "talk" : "-LgNPFvsya1cG_B0RXj6",
+      "user" : "mUnU7O5yQwdCyQy5kT5J7SAjRz32"
+    },
+    "-LgeF_E8kxcSt-DOSRJD" : {
+      "talk" : "-Lgd7KffrWq7KR69XEi0",
+      "user" : "Iqz9f9o0GKZhuviC4l3XIVHiUFn1"
+    },
+    "-LgeFd-TxMSfVxqmPaV7" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "Iqz9f9o0GKZhuviC4l3XIVHiUFn1"
+    },
+    "-LgeFiYQh0ETPya2OxqP" : {
+      "talk" : "-LgNYek33rA0F_n3Sk87",
+      "user" : "Iqz9f9o0GKZhuviC4l3XIVHiUFn1"
+    },
+    "-LgeO_pMyFdeaSIC4QQL" : {
+      "talk" : "-Lgd7KffrWq7KR69XEi0",
+      "user" : "MyiZIjqijgTx1sUCnWzDndRaeZx1"
+    },
+    "-LgeacFjZ3vH57eqwquR" : {
+      "talk" : "-LgNLMEk_5FZh4mXUqK2",
+      "user" : "emygxT076ncCwYy6u3w7yYgUVsy1"
+    },
+    "-LgeajGuLVjztl2oOji_" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "emygxT076ncCwYy6u3w7yYgUVsy1"
+    },
+    "-LgeiRMzuch0uLPC91wK" : {
+      "talk" : "-Lgd7KffrWq7KR69XEi0",
+      "user" : "oyBA66S7VFNqxE14g6t6PeqbLPo1"
+    },
+    "-LgeippZuHddYwph4j6X" : {
+      "talk" : "-LgckwbSWh6-zD_qImbD",
+      "user" : "oyBA66S7VFNqxE14g6t6PeqbLPo1"
+    },
+    "-LgerjBkZUc5qft40JaK" : {
+      "talk" : "-LgNQn6ewv3UldwtZWi9",
+      "user" : "IWXTiOJRlzUadtzvog9To5UNsYB2"
+    },
+    "-LgerxvBQ4VRD2tsgzTZ" : {
+      "talk" : "-LgNRDGywYFlOm36qe-f",
+      "user" : "IWXTiOJRlzUadtzvog9To5UNsYB2"
+    },
+    "-Lges4522EPtUCJ5wXoU" : {
+      "talk" : "-LgckwbSWh6-zD_qImbD",
+      "user" : "IWXTiOJRlzUadtzvog9To5UNsYB2"
+    },
+    "-LgfgaNvKw_WF28utqxM" : {
+      "talk" : "-LgNK6K7cE-piLqWTov4",
+      "user" : "6crTa2834UXQ5oxjFeheUhNbOH43"
+    },
+    "-LgfnNYKFG_0jhuwG9mg" : {
+      "talk" : "-Lgd7KffrWq7KR69XEi0",
+      "user" : "6crTa2834UXQ5oxjFeheUhNbOH43"
+    },
+    "-LgfndBU_i6C5ujnO9MN" : {
+      "talk" : "-LgN_aO1tBaRJoC2Aa1g",
+      "user" : "6crTa2834UXQ5oxjFeheUhNbOH43"
+    },
+    "-LgfnkaigKL9tgBK_eQx" : {
+      "talk" : "-LgeSk4ypLAEAJpGmses",
+      "user" : "6crTa2834UXQ5oxjFeheUhNbOH43"
+    },
+    "-LggYl20uDZ0LsWMHGYN" : {
+      "talk" : "-LgJMT6WinBSASh8jh8C",
+      "user" : "KWZ41Y5KarhPfxdt0q7zh9mZX4S2"
+    },
+    "-LggYqtd_s6ZEMMzuz7A" : {
+      "talk" : "-LgJaYSM-rmH7wRWGFJc",
+      "user" : "KWZ41Y5KarhPfxdt0q7zh9mZX4S2"
+    },
+    "-LggYu_s0Bll3VEvpDhH" : {
+      "talk" : "-LgK2NgRyhRQbjnwbidN",
+      "user" : "KWZ41Y5KarhPfxdt0q7zh9mZX4S2"
+    },
+    "-LggZ00aGy7kJjUDilZg" : {
+      "talk" : "-LgJjyTe4AyBKXCtMtCB",
+      "user" : "KWZ41Y5KarhPfxdt0q7zh9mZX4S2"
+    },
+    "-LggZ8KM_IenRaoqaDdN" : {
+      "talk" : "-LgKNvz61NPSogpX7pxx",
+      "user" : "KWZ41Y5KarhPfxdt0q7zh9mZX4S2"
+    },
+    "-LggZMKg7ZXxscZQUtmu" : {
+      "talk" : "-LgN9Sc7i5PEzDWkU7d6",
+      "user" : "KWZ41Y5KarhPfxdt0q7zh9mZX4S2"
+    },
+    "-LggZUV2sSwT4kpkQ0Gh" : {
+      "talk" : "-LgNNwq2U6RUpFqCcQMj",
+      "user" : "KWZ41Y5KarhPfxdt0q7zh9mZX4S2"
+    },
+    "-LggZcOZV_tnaoPkYE2q" : {
+      "talk" : "-LgeSk4ypLAEAJpGmses",
+      "user" : "KWZ41Y5KarhPfxdt0q7zh9mZX4S2"
+    },
+    "-LggdV6-QdVu_BB5diSp" : {
+      "talk" : "-LgNNwq2U6RUpFqCcQMj",
+      "user" : "bT2enE9ZHUP1f59gzKTOoiJykfB3"
+    },
+    "-LggeLtdxR0YGu07gQXP" : {
+      "talk" : "-LgNK6K7cE-piLqWTov4",
+      "user" : "BgzWMBVB5eOzENrIJrNarIya5Gq2"
+    },
+    "-Lggsw0LWRlmzeW0CRos" : {
+      "talk" : "-LgNYek33rA0F_n3Sk87",
+      "user" : "cTHmVifYgzLsPhf3lgLN7ar9k3q2"
+    },
+    "-LggvJhItDUP7L9I7at5" : {
+      "talk" : "-LgeSk4ypLAEAJpGmses",
+      "user" : "T5pPrvGaDCfEHfASBF4i0tr9DpJ3"
+    },
+    "-LggvhyHHxn21ZLpBtId" : {
+      "talk" : "-LgNRVxRrfG4nnN0HdF5",
+      "user" : "T5pPrvGaDCfEHfASBF4i0tr9DpJ3"
+    },
+    "-LggvqMibrigw6VG4aLe" : {
+      "talk" : "-LgckwbSWh6-zD_qImbD",
+      "user" : "T5pPrvGaDCfEHfASBF4i0tr9DpJ3"
+    },
+    "-Lgh0JMRW9RNHMClfKTQ" : {
+      "talk" : "-LgNKbU1j5xFe3Czgcwe",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgh0z7hqPIr62xkSGzO" : {
+      "talk" : "-LgNLMEk_5FZh4mXUqK2",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgh1HmX6Zr6x-z5PdLE" : {
+      "talk" : "-LgNPTSQeI97ZZzl3Qxd",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgh23F0s2GaXqRgaWyp" : {
+      "talk" : "-LgNa-i3DmETTdDumcnu",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgh2NucQGF7WBFuCKOZ" : {
+      "talk" : "-LgNYMaX-Rmgl5HCjBsc",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgh2R9dlUkJ-xeDbUaL" : {
+      "talk" : "-LgNX1vUn0L2nufpxJhr",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgh2TK2iO1G0GdSXlYl" : {
+      "talk" : "-LgNWjVQa3BzZQfSL7zI",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgh33-EzUm-Vap0dlG4" : {
+      "talk" : "-LgNPqagEwzJMrViYPob",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgh7qFwiaXGfaFW_k8C" : {
+      "talk" : "-LgNPFvsya1cG_B0RXj6",
+      "user" : "wJB6FtfR4kYf6fpP63pgSdR7CKw2"
+    },
+    "-LghDr5FIRGioqkJGydL" : {
+      "talk" : "-LgeSk4ypLAEAJpGmses",
+      "user" : "9NSPM1DbC9SQ1QWzP65kRGj3iME2"
+    },
+    "-LghEaajG_eeApPxoU5m" : {
+      "talk" : "-LgNLMEk_5FZh4mXUqK2",
+      "user" : "9NSPM1DbC9SQ1QWzP65kRGj3iME2"
+    },
+    "-LghEh_IIRTzpYHcnj3H" : {
+      "talk" : "-LgN_1a1Mejjeb5IMUpH",
+      "user" : "9NSPM1DbC9SQ1QWzP65kRGj3iME2"
+    },
+    "-LghEn1DOfqAjj6l61JN" : {
+      "talk" : "-LgNY25phOI0RGi7uUJ8",
+      "user" : "9NSPM1DbC9SQ1QWzP65kRGj3iME2"
+    },
+    "-LghK56V5kRj779XFnsT" : {
+      "talk" : "-LgNQn6ewv3UldwtZWi9",
+      "user" : "M8fYGnStvgOarjJYw84SspedmHo1"
+    },
+    "-LghKQMSLm5JwLSFux0S" : {
+      "talk" : "-LgNPqagEwzJMrViYPob",
+      "user" : "M8fYGnStvgOarjJYw84SspedmHo1"
+    },
+    "-LghPcMhSks8iblGDjOC" : {
+      "talk" : "-LgNRDGywYFlOm36qe-f",
+      "user" : "klaOaEGWFIczVHCgMjlZ55TRaiY2"
+    },
+    "-LghPj_Hx-faFf6mNgME" : {
+      "talk" : "-LgckwbSWh6-zD_qImbD",
+      "user" : "M8fYGnStvgOarjJYw84SspedmHo1"
+    },
+    "-LgiHWRxuRFbro9yqSp9" : {
+      "talk" : "-LgeSk4ypLAEAJpGmses",
+      "user" : "7YHmGqz3OfbN728aQmZpL6noM9h2"
+    },
+    "-LgiYkdNWouUf0i0-ztY" : {
+      "talk" : "-LgNNwq2U6RUpFqCcQMj",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-LgiYnsAy3sW9XjCLHBQ" : {
+      "talk" : "-LgNLMEk_5FZh4mXUqK2",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-LgiaIpJohXN0mdOe59v" : {
+      "talk" : "-LgNPFvsya1cG_B0RXj6",
+      "user" : "2rjFO48L3lY97viyybHh51ldxPF2"
+    },
+    "-LgidetdEtc4Oac24tuj" : {
+      "talk" : "-LgJMT6WinBSASh8jh8C",
+      "user" : "9hOrmpZTqGPXiNyVYy0Zp86QKb83"
+    },
+    "-LgieSA3GtbHTci6TJIV" : {
+      "talk" : "-LgNQNu9xsALGjBwJm-_",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgieXNw_caFWr1CJsko" : {
+      "talk" : "-LgNPTSQeI97ZZzl3Qxd",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgiealP2IZvbjXcCBqz" : {
+      "talk" : "-LgckwbSWh6-zD_qImbD",
+      "user" : "mrw6YcocMEaZhh5WZnxSOnkYSC23"
+    },
+    "-LgiuvX3BYXnah3SMpT6" : {
+      "talk" : "-LgckwbSWh6-zD_qImbD",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-LgivB_spUqO2yzAvH7Z" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-LgivHIIwTMXcZhhnemd" : {
+      "talk" : "-LgN_1a1Mejjeb5IMUpH",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgj125HZVhLEFmTF2rQ" : {
+      "talk" : "-LgOUQFP7yHkmjfbjmFq",
+      "user" : "klaOaEGWFIczVHCgMjlZ55TRaiY2"
+    },
+    "-Lgj1hMBTrNDrkp8Ssb7" : {
+      "talk" : "-LgNPTSQeI97ZZzl3Qxd",
+      "user" : "mYOrBSTc9lS65QJsyRQbKlN1NCv2"
+    },
+    "-Lgj4mkEWFp38ziPtl88" : {
+      "talk" : "-LgJMT6WinBSASh8jh8C",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgj4obld_v2zUJCkORX" : {
+      "talk" : "-LgJPbXk_Y_TpI5ljz0x",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgj4ss2GKGtj7iBLvgT" : {
+      "talk" : "-LgJQEw9X-KAc-oc4M_9",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgj4vCOZZ6_gC3-CvmR" : {
+      "talk" : "-LgJiB6o-0JKbsBdYokM",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgj57RIEWodTxQdbbHy" : {
+      "talk" : "-LgJtm8qkjK8ZJA2MWxN",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgj5_zwXrz9sF5yAoYB" : {
+      "talk" : "-LgKAt2ia2Zc6GyLeUlk",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgj5c0BN-iI4k44SC_P" : {
+      "talk" : "-LgNAvtCXNBmyjrgeZQ9",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgj6F6USs_H91vz5xOP" : {
+      "talk" : "-LgPRVFpHZcq86JoYFLX",
+      "user" : "HFuor6LBcwXsWPUtfQJSDgs4bhM2"
+    },
+    "-Lgk32Kh9I8nYx9pDz1H" : {
+      "talk" : "-LgeSk4ypLAEAJpGmses",
+      "user" : "tMrGRIODNBR21PwBvNAGHNAM17F2"
+    },
+    "-LglQ4hSAY2xWMDKdRb3" : {
+      "talk" : "-LgJNkkorxLGhi56t2HD",
+      "user" : "jvLhNBwPPgNEGHGRTVO9KruCAqt2"
+    },
+    "-Lglln4j1-vdno2lHecl" : {
+      "talk" : "-LgNYek33rA0F_n3Sk87",
+      "user" : "SFnjGevUSFNWWYemOwwwYtWhnth1"
+    },
+    "-LglxQbX0brROkJTzDk1" : {
+      "talk" : "-LgNa-i3DmETTdDumcnu",
+      "user" : "BnQ9ycANUNTYjvO7vud9kUvBo9u1"
+    },
+    "-LglxUvMW5y2PMbBvyIi" : {
+      "talk" : "-Lgd7KffrWq7KR69XEi0",
+      "user" : "BnQ9ycANUNTYjvO7vud9kUvBo9u1"
+    },
+    "-LglxXz68S0cDCQ6BnHR" : {
+      "talk" : "-LgN_1a1Mejjeb5IMUpH",
+      "user" : "BnQ9ycANUNTYjvO7vud9kUvBo9u1"
+    },
+    "-LglxZvfpBeIOnbxgCnR" : {
+      "talk" : "-LgNY25phOI0RGi7uUJ8",
+      "user" : "BnQ9ycANUNTYjvO7vud9kUvBo9u1"
+    },
+    "-LgmejoIgP9AcywqMDyK" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "mEOokKHBlRQZlv1fFKL046jLEJj1"
+    },
+    "-Lgmqm871roM3pQGI8p2" : {
+      "talk" : "-LgN7Skh_1VmY-EHv6t-",
+      "user" : "9hOrmpZTqGPXiNyVYy0Zp86QKb83"
+    },
+    "-LgnRfIMI4R2YwkDCg6k" : {
+      "talk" : "-LgNmxkmfDPlsEuSWD8O",
+      "user" : "L6jF6bhTEuShqyVgjm4eB8zLVPJ3"
+    },
+    "-LgnRqfT8lSWASR1YEIx" : {
+      "talk" : "-LgNY25phOI0RGi7uUJ8",
+      "user" : "L6jF6bhTEuShqyVgjm4eB8zLVPJ3"
+    },
+    "-LgnRuqZPQn-x-Gx_1WE" : {
+      "talk" : "-LgN_1a1Mejjeb5IMUpH",
+      "user" : "L6jF6bhTEuShqyVgjm4eB8zLVPJ3"
+    },
+    "-Lgo4XyLeV2fTcD3aD8E" : {
+      "talk" : "-LgNX1vUn0L2nufpxJhr",
+      "user" : "P8j81SrhuGgZFz0QpMzeMxxKmh02"
+    },
+    "-Lgq3sFlnxS3T_h4ZhC_" : {
+      "talk" : "-LgNmxkmfDPlsEuSWD8O",
+      "user" : "6btbrUGjBfPFsMghWbgzmTK2wuG3"
+    },
+    "-LgszE1bRwghiZ5VRN_h" : {
+      "talk" : "-LgJNkkorxLGhi56t2HD",
+      "user" : "9hOrmpZTqGPXiNyVYy0Zp86QKb83"
+    },
+    "-M2jfyM3SRxTSwaS98y-" : {
+      "talk" : "-LgmIgLPWxR-aUj9qa9G",
+      "user" : "Z3QA791sPSMje7AfPPKNU7LXE4d2"
+    },
+    "-M2jjPUASbYAcEM2Vpws" : {
+      "talk" : "-LgN_GQlbI26WW7wAwaf",
+      "user" : "Z3QA791sPSMje7AfPPKNU7LXE4d2"
+    },
+    "-M9nByuf1O0phrKitqUG" : {
+      "talk" : "-LgJRjWqDMZ-0MuOWGEx",
+      "user" : "AVnY2TfueROvUVIGu8sjtaCqxwL2"
+    },
+    "-M9nC6--mmooXEXVAMpI" : {
+      "talk" : "-LgNEimVZGGA_vFFdqEj",
+      "user" : "AVnY2TfueROvUVIGu8sjtaCqxwL2"
+    },
+    "-M9nC9smSBQI2mUIEh2F" : {
+      "talk" : "-LgNDZ9pmglnMcORcr_q",
+      "user" : "AVnY2TfueROvUVIGu8sjtaCqxwL2"
+    },
+    "-M9nCDDRfdALOz03zkKJ" : {
+      "talk" : "-LgNK6K7cE-piLqWTov4",
+      "user" : "AVnY2TfueROvUVIGu8sjtaCqxwL2"
+    }
+  },
+  "users" : {
+    "email" : "admin@gmail.com",
+    "password" : "adminsemana"
+  }
+}

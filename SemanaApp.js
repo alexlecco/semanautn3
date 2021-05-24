@@ -20,15 +20,16 @@ const SemanaApp = _ => {
   const speakersRef = firebaseApp.database().ref().child('speakers');
 
   useEffect(() => {
-    function listenForTalks() {      
-      talksRef.on('value', snap => {
-        let talksMon = [];
-        let talksTue = [];
-        let talksWed = [];
-        let talksThu = [];
-        let talksFri = [];
-        let talks = [];
+    function listenForDatabase() {      
+      let talksMon = [];
+      let talksTue = [];
+      let talksWed = [];
+      let talksThu = [];
+      let talksFri = [];
+      let talks = [];
+      let speakers = [];
 
+      talksRef.on('value', snap => {
         snap.forEach(child => {
           talks.push({
             day: child.val().day,
@@ -104,22 +105,9 @@ const SemanaApp = _ => {
               break;
             }
         });
-
-        setState({
-          ...state,
-          talksMon,
-          talksTue,
-          talksWed,
-          talksThu,
-          talksFri,
-          talks,
-        })
       });
-    }
 
-    function listenForSpeakers() {
       speakersRef.on('value', snap => {
-        let speakers = [];
         snap.forEach(child => {
           speakers.push({
             name: child.val().name,
@@ -130,16 +118,21 @@ const SemanaApp = _ => {
             _key: child.key,
           })
         });
-
-        setState({
-          ...state,
-          speakers,
-        })
       });
+
+      setState({
+        ...state,
+        talksMon,
+        talksTue,
+        talksWed,
+        talksThu,
+        talksFri,
+        talks,
+        speakers,
+      })
     }
 
-    listenForTalks();
-    // listenForSpeakers();
+    listenForDatabase();
   }, [])
 
   return(
