@@ -237,36 +237,36 @@ const TalkInfo = _ => {
             </View>
           }
         </View>
-
-        <View style={styles.dark}>
-          <Button transparent full primary onPress={() => {}} >
-            <Text style={{color: '#ffaf19'}}>
-              Compartir
-            </Text>
-          </Button>
-          <Button transparent full primary onPress={() => {}} >
-            <Text style={{color: '#ffaf19'}}>
-              Ver las preguntas de la charla
-            </Text>
-          </Button>
-        </View>
       </Content>
-
-      {
-        buttonText === 'Ya no me interesa' ? (
-          <Button
-            full
-            style={styles.buttonColor}
-            onPress={() => {}}
-          >
-            <Text> Hacer una pregunta </Text>
-          </Button>
-          ) : (
-            null
-          )
-      }
       
       <View style={styles.buttonsSeparator}></View>
+      <View style={styles.dark}>
+        <Button transparent full primary onPress={() => {}} style={{ marginBottom: 20 }}>
+          <Text style={{color: '#ffaf19'}}>
+            Compartir
+          </Text>
+        </Button>
+        <Button transparent full primary onPress={() => {}} style={{ marginBottom: 20 }}>
+          <Text style={{color: '#ffaf19'}}>
+            Ver las preguntas de la charla
+          </Text>
+        </Button>
+      </View>
+      <View>
+        {
+          buttonText === 'Ya no me interesa' ? (
+            <Button
+              full
+              style={styles.buttonColor}
+              onPress={() => {}}
+            >
+              <Text style={styles.buttonColor}> Hacer una pregunta </Text>
+            </Button>
+            ) : (
+              null
+            )
+        }
+      </View>
       <Button
         full
         style={buttonText === 'Me interesa' ? styles.buttonColor : styles.buttonColor2}
@@ -366,6 +366,7 @@ const styles = StyleSheet.create({
   },
   buttonColor: {
     backgroundColor: '#000',
+    paddingBottom: 10,
   },
   buttonColor2: {
     backgroundColor: '#000',
