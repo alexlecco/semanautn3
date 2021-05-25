@@ -14,7 +14,7 @@ import {
 } from 'native-base';
 import {
   useFonts,
-  Roboto_500Medium
+  Roboto_500Medium,
 } from '@expo-google-fonts/roboto';
 
 // helpers

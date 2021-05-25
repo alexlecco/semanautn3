@@ -1,6 +1,9 @@
 import React, { useState, createContext } from 'react';
 
 const initialState = {
+  logged: false,
+  loggedUser: {},
+  userTalks: [],
   talk: {},
   talkInfoVisible: false,
   talks: [],

@@ -1,5 +1,6 @@
 import firebase from "firebase/app";
 import "firebase/database";
+import "firebase/auth";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBkFWsGygllForJ1r4u9x3IcosoqBVCxq0",
@@ -9,7 +10,12 @@ const firebaseConfig = {
   storageBucket: "semana-utn-c9f91.appspot.com",
   messagingSenderId: "385895562914"
 };
-firebase.initializeApp(firebaseConfig);
+
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+}else {
+  firebase.app(); // if already initialized, use that one
+}
 
 const firebaseApp = firebase;
 
