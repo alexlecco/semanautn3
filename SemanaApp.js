@@ -33,6 +33,10 @@ const SemanaApp = _ => {
   const speakersRef = firebaseApp.database().ref().child('speakers');
   const userTalksRef = firebaseApp.database().ref().child('userTalks');
 
+  useEffect(() => {
+    console.log("state.talk:::::::::", state.talk)
+  }, [state])
+
   const getLoginScreen = () => texts.loginScreenUrl
 
   const calculateImgSize = _ => {
@@ -72,16 +76,28 @@ const SemanaApp = _ => {
 
       talksRef.on('value', snap => {
         snap.forEach(child => {
-          talks.push({
-            day: child.val().day,
-            id: child.val().id,
-            time: child.val().time,
-            title: child.val().title,
-            description: child.val().description,
-            site: child.val().site,
-            speaker: child.val().speaker,
-            _key: child.key,
-          });
+          if (child.val()) {
+            talks.push({
+              day: child.val().day,
+              id: child.val().id,
+              time: child.val().time,
+              title: child.val().title,
+              description: child.val().description,
+              site: child.val().site,
+              speaker: child.val().speaker,
+              _key: child.key,
+            });
+          } else {
+            talks.push({
+              day: child.val().day,
+              id: child.val().id,
+              time: child.val().time,
+              title: child.val().title,
+              description: child.val().description,
+              site: child.val().site,
+              _key: child.key,
+            });
+          }
 
           switch(child.val().day){
             case 'monday':
@@ -150,14 +166,24 @@ const SemanaApp = _ => {
 
       speakersRef.on('value', snap => {
         snap.forEach(child => {
-          speakers.push({
-            name: child.val().name,
-            bio: child.val().bio,
-            photo: child.val().photo,
-            degree: child.val().degree,
-            id: child.val().id,
-            _key: child.key,
-          })
+          if (child.val().photo) {
+            speakers.push({
+              name: child.val().name,
+              bio: child.val().bio,
+              photo: child.val().photo,
+              degree: child.val().degree,
+              id: child.val().id,
+              _key: child.key,
+            })
+          } else {
+            speakers.push({
+              name: child.val().name,
+              bio: child.val().bio,
+              degree: child.val().degree,
+              id: child.val().id,
+              _key: child.key,
+            })
+          }
         });
       });
 
@@ -174,7 +200,7 @@ const SemanaApp = _ => {
   
         let talksSorted = [];
         talks.forEach(talk => {
-          for(var i = userTalksSorted.length; i > 0; i--) {
+          for(let i = userTalksSorted.length; i > 0; i--) {
             if(talk._key == getObjectOfArray(userTalksSorted, i - 1).talk) {
               talksSorted.push({
                 _key: talk._key,

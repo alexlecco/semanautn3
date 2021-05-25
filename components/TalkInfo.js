@@ -1,5 +1,5 @@
 // libraries
-import React, { useState, useContext } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { StyleSheet, View, Image, } from 'react-native';
 import {
   Container,
@@ -19,15 +19,20 @@ import {
 
 // helpers
 import { AppContext } from '../context/provider';
+import firebaseApp from '../firebase/firebase';
 
 const TalkInfo = _ => {
   let [ fontsLoaded ] = useFonts({ Roboto_500Medium });
   const [ state, setState ] = useContext(AppContext)
-  const { talk, speakers } = state;
-  const [ buttonText, setButtonText ] = useState('me interesa');
+  const { talk, speakers, loggedUser, userTalks } = state;
+  const [ buttonText, setButtonText ] = useState('');
 
   const getSpeakerPhoto = photo => {
-    return `https://firebasestorage.googleapis.com/v0/b/semana-utn-c9f91.appspot.com/o/speakers%2F${photo}.png?alt=media`
+    if (photo) {
+      return `https://firebasestorage.googleapis.com/v0/b/semana-utn-c9f91.appspot.com/o/speakers%2F${photo}.png?alt=media`
+    } else {
+      return 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/1200px-Imagen_no_disponible.svg.png'
+    }
   }
 
   const getSpeaker = (speakers, speakerId) => (
@@ -59,12 +64,120 @@ const TalkInfo = _ => {
       break;
   }
 
+  const askButtonText = (loggedUser, talk) => {
+    let text = 'Me interesa';
+
+    firebaseApp.database().ref().child('userTalks')
+      .orderByChild('user')
+      .equalTo(loggedUser.uid)
+      .on('child_added', snap => {
+        const userTalk = snap.val();
+        if(userTalk.talk === talk._key) {
+          text = 'Ya no me interesa';
+        }
+      });
+
+    text === 'Ya no me interesa' ?
+      setButtonText('Ya no me interesa') :
+      setButtonText('Me interesa')
+  }
+  
+  useEffect(() => {
+    askButtonText(loggedUser, talk);
+  }, [])
+
   const showOrHideTalkInfo = () => {
     setState({
       ...state,
       talk: {},
       talkInfoVisible: false,
     })
+  }
+
+  const getObjectOfArray = (array, index) => {
+    return array[index] = array[index] || {};
+  }
+
+  const addOrRemoveUserTalk = () => {
+    let text = 'Me interesa';
+
+    if(buttonText === 'Ya no me interesa') {
+      firebaseApp.database().ref().child('userTalks')
+        .orderByChild('user')
+        .equalTo(loggedUser.uid)
+        .once('value', snap => {
+          let userTalks = [];
+          snap.forEach(child => {
+            userTalks.push({
+              user: child.val().user,
+              talk: child.val().talk,
+              _key: child.key,
+            })
+          });
+
+          let userTalk = ''
+          for(let i = userTalks.length; i >= 0 ; i-- ) {
+            if (getObjectOfArray(userTalks, i).talk === talk._key) {
+              userTalk = userTalks[i];
+            }
+          }
+
+          let keyToRemove = ''
+          if(userTalk.talk === talk._key) {
+            text = 'Me interesa';
+            keyToRemove = ''
+            snap.forEach((child) => {
+              if(child.child('talk').val() === userTalk.talk) {
+                keyToRemove = child.key
+              }
+            });
+          }
+
+          snap.ref.child(keyToRemove).remove();
+        })
+    } else {
+      text = 'Ya no me interesa';
+
+      firebaseApp.database().ref().child('userTalks').push({
+        user: loggedUser.uid,
+        talk: talk._key,
+      }).key;
+
+      let userTalksSorted = userTalks;
+      userTalksSorted.push({
+        user: loggedUser.uid,
+        talk: talk._key,
+      });
+
+      let talksSorted = [];
+      userTalksSorted.forEach((talk) => {
+        for(let i = userTalksSorted.length; i > 0; i--) {
+          if(talk._key === getObjectOfArray(userTalksSorted, i - 1).talk) {
+            talksSorted.push({
+              _key: talk._key,
+            })
+          }
+        }
+      });
+
+      userTalksSorted = [];
+      talksSorted.forEach((talk) => {
+        userTalksSorted.push({
+          user: loggedUser.uid,
+          talk: talk._key,
+        });
+      });
+
+      setState({
+        ...state,
+        userTalks: userTalksSorted,
+      });
+    }
+
+    text === 'Me interesa' ?
+      setButtonText('Me interesa')
+    :
+      setButtonText('Ya no me interesa')
   }
 
   if (!fontsLoaded) {
@@ -91,35 +204,38 @@ const TalkInfo = _ => {
           <View style={styles.TalkBodyContainer}>
             <Text style={styles.TalkBody}>{ talk.description }</Text>
           </View>
-          <View style={styles.speakerContainer}>
-            <View style={styles.TalkSpeakerContainer}>
-              <Text style={styles.TalkSpeaker}>
-              {
-                talk.speaker ?
-                  `${speaker.name}` : ""
-              }
-              </Text>
-            </View>
-            <View>
-              {
-                speaker.photo ?
-                  <Image
-                    source={{uri: getSpeakerPhoto(speaker.photo)}}
-                    style={{height: 200, width: null, flex: 1}}
-                    style={styles.infoImage} />
-                :
-                  null
-              }
-            </View>
-            <View style={styles.TalkSpeakerBioContainer}>
-              <Text style={styles.TalkSpeakerBio}>
+          {
+            !!talk.speaker &&
+              <View style={styles.speakerContainer}>
+                <View style={styles.TalkSpeakerContainer}>
+                  <Text style={styles.TalkSpeaker}>
+                  {
+                    (talk.speaker && talk.speaker.name !== undefined) ?
+                      speaker.name : ""
+                  }
+                  </Text>
+                </View>
                 {
-                  speaker.bio ?
-                    speaker.bio : ""
+                  speaker.photo ?
+                    <View>
+                      <Image
+                        source={{uri: getSpeakerPhoto(speaker.photo)}}
+                        style={{height: 200, width: null, flex: 1}}
+                        style={styles.infoImage}
+                      />
+                    </View>
+                  : <Text>""</Text>
                 }
-              </Text>
+              <View style={styles.TalkSpeakerBioContainer}>
+                <Text style={styles.TalkSpeakerBio}>
+                  {
+                    speaker.bio ?
+                      speaker.bio : ""
+                  }
+                </Text>
+              </View>
             </View>
-          </View>
+          }
         </View>
 
         <View style={styles.dark}>
@@ -137,22 +253,27 @@ const TalkInfo = _ => {
       </Content>
 
       {
-        buttonText == 'Ya no me interesa' ?
-        (
-        <Button full style={styles.buttonColor}
-                onPress={() => {}} >
-          <Text>
-            Hacer una pregunta
-          </Text>
-        </Button>
-        ) : <View />
+        buttonText === 'Ya no me interesa' ? (
+          <Button
+            full
+            style={styles.buttonColor}
+            onPress={() => {}}
+          >
+            <Text> Hacer una pregunta </Text>
+          </Button>
+          ) : (
+            null
+          )
       }
       
       <View style={styles.buttonsSeparator}></View>
-      <Button full style={buttonText == 'Me interesa' ? styles.buttonColor : styles.buttonColor2}
-              onPress={() => {}} >
-        <Text style={buttonText == 'Ya no me interesa' ? styles.buttonText : false }>
-          { `${buttonText}` }
+      <Button
+        full
+        style={buttonText === 'Me interesa' ? styles.buttonColor : styles.buttonColor2}
+        onPress={addOrRemoveUserTalk}
+      >
+        <Text style={buttonText === 'Ya no me interesa' ? styles.buttonText : false }>
+          {buttonText}
         </Text>
       </Button>
     </Container>
@@ -244,7 +365,7 @@ const styles = StyleSheet.create({
     color: '#ffaf19',
   },
   buttonColor: {
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
   },
   buttonColor2: {
     backgroundColor: '#000',
