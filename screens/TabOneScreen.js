@@ -23,7 +23,7 @@ const TabOneScreen = _ => {
   const [ state ] = useContext(AppContext)
   const { talksMon, talksTue, talksWed, talksThu, talksFri } = state;
 
-  const renderTalkCard = (talk) => <TalkCard talk={talk} />
+  const renderTalkCard = talk => <TalkCard talk={talk.item} />
 
   function getTalksArray(day) {
     if (day === 'lun') return talksMon
@@ -37,7 +37,7 @@ const TabOneScreen = _ => {
     props.tabStyle = Object.create(props.tabStyle);
     return <DefaultTabBar {...props} />;
   };
-
+  
   return (
     <View style={styles.container}>
       <Container>
@@ -46,11 +46,13 @@ const TabOneScreen = _ => {
             {
               days.map(day => (
                 <Tab heading={<TabHeading><Text>{day}</Text></TabHeading>} key={day}>
-                  <FlatList
-                    data={getTalksArray(day)}
-                    renderItem={renderTalkCard}
-                    keyExtractor={talk => talk._key}
-                  />
+                  <View style={styles.empty}>
+                    <FlatList
+                      data={getTalksArray(day)}
+                      renderItem={renderTalkCard}
+                      keyExtractor={talk => talk._key}
+                    />
+                  </View>
                 </Tab>
               ))
             }
@@ -75,6 +77,12 @@ const styles = StyleSheet.create({
     marginVertical: 30,
     height: 1,
     width: '80%',
+  },
+  empty: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#000',
   },
 });
 

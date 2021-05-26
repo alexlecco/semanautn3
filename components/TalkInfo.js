@@ -35,9 +35,11 @@ const TalkInfo = _ => {
     }
   }
 
-  const getSpeaker = (speakers, speakerId) => (
-    speakers.filter(sp => sp.id === speakerId)[0]
-  )
+  const getSpeaker = (speakers, speakerId) => {
+    return(
+      speakers.filter(sp => sp._key === speakerId)[0]
+    )
+  }
   
   const speaker = getSpeaker(speakers, talk.speaker)
 
@@ -216,7 +218,7 @@ const TalkInfo = _ => {
                   </Text>
                 </View>
                 {
-                  speaker.photo ?
+                  !!speaker.photo &&
                     <View>
                       <Image
                         source={{uri: getSpeakerPhoto(speaker.photo)}}
@@ -224,7 +226,6 @@ const TalkInfo = _ => {
                         style={styles.infoImage}
                       />
                     </View>
-                  : <Text>""</Text>
                 }
               <View style={styles.TalkSpeakerBioContainer}>
                 <Text style={styles.TalkSpeakerBio}>

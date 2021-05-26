@@ -24,19 +24,20 @@ const App = _ => {
 
   if (!fontsLoaded) {
     return null
+  } else {
+    return (
+      !isLoadingComplete ?
+        null
+      :
+        <SafeAreaProvider>
+          <ContextProvider>
+            <SemanaApp />
+          </ContextProvider>
+          <StatusBar />
+        </SafeAreaProvider>
+    )
   }
 
-  return (
-    !isLoadingComplete ?
-      null
-    :
-      <SafeAreaProvider>
-        <ContextProvider>
-          <SemanaApp />
-        </ContextProvider>
-        <StatusBar />
-      </SafeAreaProvider>
-  )
 }
 
 export default App;

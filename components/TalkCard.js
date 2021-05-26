@@ -11,7 +11,7 @@ const TalkCard = ({ talk }) => {
   const showOrHideTalkInfo = (talk) => {
     setState({
       ...state,
-      talk: talk.item,
+      talk: talk,
       talkInfoVisible: true,
     })
   }
@@ -23,13 +23,13 @@ const TalkCard = ({ talk }) => {
       <View style={styles.TalkCardContainer}>
         <View styke={styles.TalCardColumn}>
           <View style={styles.TalkTimeContainer}>
-            <Text style={styles.TalkText}>{talk.item.time}</Text>
+            <Text style={styles.TalkText}>{talk.time}</Text>
           </View>
         </View>
 
         <View style={styles.TalCardColumn}>
           <View style={styles.TalkTitleContainer}>
-            <Text style={styles.TalkText}>{talk.item.title}</Text>
+            <Text style={styles.TalkText}>{talk.title}</Text>
           </View>
         </View>
       </View>

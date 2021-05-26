@@ -1,17 +1,145 @@
 // libraries
-import * as React from 'react';
-import { StyleSheet } from 'react-native';
+import React, {useState, useEffect, useContext} from 'react';
+import { FlatList, SafeAreaView, StyleSheet, TouchableOpacity } from 'react-native';
+import { Container, Tab, Tabs, TabHeading, DefaultTabBar } from 'native-base';
+
+// components
+import TalkCard from '../components/TalkCard';
+const Item = ({ item, onPress, backgroundColor, textColor }) => (
+  <TouchableOpacity onPress={onPress} style={[styles.item, backgroundColor]}>
+    <Text style={[styles.title, textColor]}>{item.title}</Text>
+  </TouchableOpacity>
+);
 
 // helpers
-import texts from '../constants/texts'
 import { Text, View } from '../components/Themed';
+import { AppContext } from '../context/provider';
+
+// constants
+const days = ['lun', 'mar', 'mie', 'jue', 'vie'];
 
 //Mis charlas
-const TabTwoScreen = _ => (
-  <View style={styles.container}>
-    <Text style={styles.title}>{texts.screens.title2}</Text>
-  </View>
-);
+const TabTwoScreen = _ => {
+  const [ state ] = useContext(AppContext);
+  const { talks, userTalks } = state;
+  const [ userTalksMon, setUserTalksMon ] = useState([]);
+  const [ userTalksTue, setUserTalksTue ] = useState([]);
+  const [ userTalksWed, setUserTalksWed ] = useState([]);
+  const [ userTalksThu, setUserTalksThu ] = useState([]);
+  const [ userTalksFri, setUserTalksFri ] = useState([]);
+
+  console.log("state.userTalks:::::::::", state.userTalks)
+
+  useEffect(() => {
+    const readUserTalksByDay = () => {
+      let arrayUserTalksMon = [];
+      let arrayUserTalksTue = [];
+      let arrayUserTalksWed = [];
+      let arrayUserTalksThu = [];
+      let arrayUserTalksFri = [];
+  
+      for (let i = 0; i < talks.length ; i++) {
+        for (let j = 0; j < userTalks.length; j++) {
+          if(talks[i]._key == userTalks[j].talk) {
+            switch(talks[i].day) {
+              case 'monday':
+                arrayUserTalksMon.push(talks[i]);
+                break;
+              case 'tuesday':
+                arrayUserTalksTue.push(talks[i]);
+                break;
+              case 'wednesday':
+                arrayUserTalksWed.push(talks[i]);
+                break;
+              case 'thursday':
+                arrayUserTalksThu.push(talks[i]);
+                break;
+              case 'friday':
+                arrayUserTalksFri.push(talks[i]);
+                break;
+            }
+          }
+        }
+      }
+      setUserTalksMon(arrayUserTalksMon);
+      setUserTalksTue(arrayUserTalksTue);
+      setUserTalksWed(arrayUserTalksWed);
+      setUserTalksThu(arrayUserTalksThu);
+      setUserTalksFri(arrayUserTalksFri);
+    }
+
+    readUserTalksByDay();
+  }, [userTalks]);
+
+  function getTalksArray(day) {
+    if (day === 'lun') return userTalksMon
+    if (day === 'mar') return userTalksTue
+    if (day === 'mie') return userTalksWed
+    if (day === 'jue') return userTalksThu
+    if (day === 'vie') return userTalksFri
+  }
+
+  const renderTabBar = (props) => {
+    props.tabStyle = Object.create(props.tabStyle);
+    return <DefaultTabBar {...props} />;
+  };
+
+  const getDayName = day => {
+    if (day === 'lun') return 'monday'
+    if (day === 'mar') return 'tuesday'
+    if (day === 'mie') return 'wednesday'
+    if (day === 'jue') return 'thursday'
+    if (day === 'vie') return 'friday'
+  }
+
+  const renderTimeYesOrNo = (userTalk, talks, day) => {
+    let myTalk = talks.find(talk => talk._key === userTalk.item.talk);
+
+    if(myTalk.day === getDayName(day)) {
+      return(
+        <TalkCard talk={myTalk} />
+      )
+    } else {
+      return(
+        <View />
+      )
+    }
+  }
+
+  const message = `Aún no tenés charlas o eventos
+  agregados este día`;
+
+  return(
+    <View style={styles.container}>
+      <Container>
+        <SafeAreaView style={styles.container}>
+          <Tabs renderTabBar={renderTabBar}>
+            {
+              days.map(day => (
+                <Tab heading={<TabHeading><Text>{day}</Text></TabHeading>} key={day}>
+                  {
+                    getTalksArray(day).length !== 0 ?
+                      <View style={styles.empty}>
+                        <FlatList
+                          data={userTalks}
+                          renderItem={userTalk => renderTimeYesOrNo(userTalk, talks, day) }
+                          keyExtractor={userTalk => userTalk.talk}
+                        />
+                      </View>
+                    :
+                      <View style={styles.empty}>
+                        <Text style={styles.emptyText}>{message}</Text>
+                      </View>
+                  }
+                </Tab>
+              ))
+            }
+          </Tabs>
+        </SafeAreaView>
+      </Container>
+    </View>
+  );
+} 
 
 const styles = StyleSheet.create({
   container: {
@@ -27,6 +155,16 @@ const styles = StyleSheet.create({
     marginVertical: 30,
     height: 1,
     width: '80%',
+  },
+  empty: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#000',
+  },
+  emptyText: {
+    textAlign: 'center',
+    color: '#fff',
   },
 });
 

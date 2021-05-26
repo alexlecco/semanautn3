@@ -27,15 +27,11 @@ const SemanaApp = _ => {
   const [state, setState] = useContext(AppContext);
   const [imgHeight, setImgHeight] = useState(0)
   const [imgWidth, setImgWidth] = useState(0)
-  const { talkInfoVisible, logged } = state;
+  const { talkInfoVisible, logged, loggedUser } = state;
   const colorScheme = useColorScheme();
   const talksRef = firebaseApp.database().ref().child('talks').orderByChild('time');
   const speakersRef = firebaseApp.database().ref().child('speakers');
   const userTalksRef = firebaseApp.database().ref().child('userTalks');
-
-  useEffect(() => {
-    console.log("state.talk:::::::::", state.talk)
-  }, [state])
 
   const getLoginScreen = () => texts.loginScreenUrl
 
@@ -72,161 +68,157 @@ const SemanaApp = _ => {
     let speakers = [];
     let userTalks = [];
     let userTalksSorted = [];
+
     function listenForDatabase() {
-
-      talksRef.on('value', snap => {
-        snap.forEach(child => {
-          if (child.val()) {
-            talks.push({
-              day: child.val().day,
-              id: child.val().id,
-              time: child.val().time,
-              title: child.val().title,
-              description: child.val().description,
-              site: child.val().site,
-              speaker: child.val().speaker,
-              _key: child.key,
-            });
-          } else {
-            talks.push({
-              day: child.val().day,
-              id: child.val().id,
-              time: child.val().time,
-              title: child.val().title,
-              description: child.val().description,
-              site: child.val().site,
-              _key: child.key,
-            });
-          }
-
-          switch(child.val().day){
-            case 'monday':
-              talksMon.push({
-                day: child.val().day,
-                id: child.val().id,
-                time: child.val().time,
-                title: child.val().title,
-                description: child.val().description,
-                site: child.val().site,
-                speaker: child.val().speaker,
-                _key: child.key,
-              });
-              break;
-            case 'tuesday':
-              talksTue.push({
-                day: child.val().day,
-                id: child.val().id,
-                time: child.val().time,
-                title: child.val().title,
-                description: child.val().description,
-                site: child.val().site,
-                speaker: child.val().speaker,
-                _key: child.key,
-              });
-              break;
-            case 'wednesday':
-              talksWed.push({
-                day: child.val().day,
-                id: child.val().id,
-                time: child.val().time,
-                title: child.val().title,
-                description: child.val().description,
-                site: child.val().site,
-                speaker: child.val().speaker,
-                _key: child.key,
-              });
-              break;
-            case 'thursday':
-              talksThu.push({
-                day: child.val().day,
-                id: child.val().id,
-                time: child.val().time,
-                title: child.val().title,
-                description: child.val().description,
-                site: child.val().site,
-                speaker: child.val().speaker,
-                _key: child.key,
-              });
-              break;
-            case 'friday':
-              talksFri.push({
-                day: child.val().day,
-                id: child.val().id,
-                time: child.val().time,
-                title: child.val().title,
-                description: child.val().description,
-                site: child.val().site,
-                speaker: child.val().speaker,
-                _key: child.key,
-              });
-              break;
-            }
-        });
-      });
-
-      speakersRef.on('value', snap => {
-        snap.forEach(child => {
-          if (child.val().photo) {
-            speakers.push({
-              name: child.val().name,
-              bio: child.val().bio,
-              photo: child.val().photo,
-              degree: child.val().degree,
-              id: child.val().id,
-              _key: child.key,
-            })
-          } else {
-            speakers.push({
-              name: child.val().name,
-              bio: child.val().bio,
-              degree: child.val().degree,
-              id: child.val().id,
-              _key: child.key,
-            })
-          }
-        });
-      });
-
-      userTalksRef.on('value', snap => {
-        snap.forEach((child) => {
-          userTalks.push({
-            user: child.val().user,
-            talk: child.val().talk,
-            _key: child.key,
-          });
-        });
-  
-        userTalksSorted = userTalks;
-  
-        let talksSorted = [];
-        talks.forEach(talk => {
-          for(let i = userTalksSorted.length; i > 0; i--) {
-            if(talk._key == getObjectOfArray(userTalksSorted, i - 1).talk) {
-              talksSorted.push({
-                _key: talk._key,
-              })
-            }
-          }
-        });
-  
-        userTalksSorted = [];
-        talksSorted.forEach(talk => {
-          userTalksSorted.push({
-            user: state.loggedUser.uid,
-            talk: talk._key,
-          });
-        });
-      });
-    }
-
-    calculateImgSize(300, 300);
-    listenForDatabase();
-    firebaseApp.auth().onAuthStateChanged(user => {
-      if (user !== null) {
+      firebaseApp.auth().onAuthStateChanged(user => {
         addUser(user);
 
+        talksRef.on('value', snap => {
+          snap.forEach(child => {
+            if (!!child.val().speaker) {
+              talks.push({
+                day: child.val().day,
+                id: child.val().id,
+                time: child.val().time,
+                title: child.val().title,
+                description: child.val().description,
+                speaker: child.val().speaker,
+                _key: child.key,
+              });
+            } else {
+              talks.push({
+                day: child.val().day,
+                id: child.val().id,
+                time: child.val().time,
+                title: child.val().title,
+                description: child.val().description,
+                _key: child.key,
+              });
+            }
+  
+            switch(child.val().day){
+              case 'monday':
+                talksMon.push({
+                  day: child.val().day,
+                  id: child.val().id,
+                  time: child.val().time,
+                  title: child.val().title,
+                  description: child.val().description,
+                  site: child.val().site,
+                  speaker: child.val().speaker,
+                  _key: child.key,
+                });
+                break;
+              case 'tuesday':
+                talksTue.push({
+                  day: child.val().day,
+                  id: child.val().id,
+                  time: child.val().time,
+                  title: child.val().title,
+                  description: child.val().description,
+                  site: child.val().site,
+                  speaker: child.val().speaker,
+                  _key: child.key,
+                });
+                break;
+              case 'wednesday':
+                talksWed.push({
+                  day: child.val().day,
+                  id: child.val().id,
+                  time: child.val().time,
+                  title: child.val().title,
+                  description: child.val().description,
+                  site: child.val().site,
+                  speaker: child.val().speaker,
+                  _key: child.key,
+                });
+                break;
+              case 'thursday':
+                talksThu.push({
+                  day: child.val().day,
+                  id: child.val().id,
+                  time: child.val().time,
+                  title: child.val().title,
+                  description: child.val().description,
+                  site: child.val().site,
+                  speaker: child.val().speaker,
+                  _key: child.key,
+                });
+                break;
+              case 'friday':
+                talksFri.push({
+                  day: child.val().day,
+                  id: child.val().id,
+                  time: child.val().time,
+                  title: child.val().title,
+                  description: child.val().description,
+                  site: child.val().site,
+                  speaker: child.val().speaker,
+                  _key: child.key,
+                });
+                break;
+              }
+          });
+        });
+  
+        speakersRef.on('value', snap => {
+          snap.forEach(child => {
+            if (!!child.val().photo) {
+              speakers.push({
+                name: child.val().name,
+                photo: child.val().photo,
+                id: child.val().id,
+                _key: child.key,
+              })
+            } else {
+              speakers.push({
+                name: child.val().name,
+                id: child.val().id,
+                _key: child.key,
+              })
+            }
+          });
+        });
+  
+        userTalksRef.on('value', snap => {
+          snap.forEach(child => {
+            userTalks.push({
+              user: child.val().user,
+              talk: child.val().talk,
+              _key: child.key,
+            });
+          });
+  
+          userTalksSorted = userTalks;
+  
+          let talksSorted = []
+          talks.forEach(talk => {
+            for(let i = userTalksSorted.length; i > 0; i--) {
+              if(talk._key == getObjectOfArray(userTalksSorted, i - 1).talk) {
+                talksSorted.push({
+                  _key: talk._key,
+                })
+              }
+            }
+          });
+  
+          userTalksSorted = [];
+          talksSorted.forEach(talkSorted => {
+            userTalksSorted.push({
+              user: user.uid,
+              talk: talkSorted._key,
+            })
+          })
+        });
+        
         setState({
           ...state,
+          logged: true,
+          loggedUser: {
+            displayName: user.displayName,
+            uid: user.uid,
+          },
+          userTalks,
           talksMon,
           talksTue,
           talksWed,
@@ -234,15 +226,12 @@ const SemanaApp = _ => {
           talksFri,
           talks,
           speakers,
-          userTalks: userTalksSorted,
-          logged: true,
-          loggedUser: {
-            displayName: user.displayName,
-            uid: user.uid,
-          }
         })
-      }
-    })
+      })      
+    }
+    
+    calculateImgSize(300, 300);
+    listenForDatabase();
   }, []);
 
   const logIn = async() => {

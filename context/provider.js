@@ -3,9 +3,8 @@ import React, { useState, createContext } from 'react';
 const initialState = {
   logged: false,
   loggedUser: {},
-  userTalks: [],
-  talk: {},
   talkInfoVisible: false,
+  talk: {},
   talks: [],
   talksMon: [],
   talksTue: [],
@@ -13,6 +12,7 @@ const initialState = {
   talksThu: [],
   talksFri: [],
   speakers: [],
+  userTalks: [],
 };
 
 const ContextProvider = ({children}) => {
