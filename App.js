@@ -16,8 +16,13 @@ import SemanaApp from './SemanaApp';
 
 // helpers
 import ContextProvider from './context/provider';
+import useColorScheme from './hooks/useColorScheme';
+
+// constants
+import Colors from './constants/Colors';
 
 const App = _ => {
+  const colorScheme = useColorScheme();
   LogBox.ignoreAllLogs()
   const isLoadingComplete = useCachedResources();
   let [ fontsLoaded ] = useFonts({ Roboto_500Medium });
@@ -33,11 +38,10 @@ const App = _ => {
           <ContextProvider>
             <SemanaApp />
           </ContextProvider>
-          <StatusBar />
+          <StatusBar backgroundColor={Colors[colorScheme].tint} />
         </SafeAreaProvider>
     )
   }
-
 }
 
 export default App;

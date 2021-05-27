@@ -14,14 +14,17 @@ const Item = ({ item, onPress, backgroundColor, textColor }) => (
 
 // helpers
 import { AppContext } from '../context/provider';
+import useColorScheme from '../hooks/useColorScheme';
 
 // constants
 const days = ['lun', 'mar', 'mie', 'jue', 'vie'];
+import Colors from '../constants/Colors';
 
 //Calendario
 const TabOneScreen = _ => {
   const [ state ] = useContext(AppContext)
   const { talksMon, talksTue, talksWed, talksThu, talksFri } = state;
+  const colorScheme = useColorScheme();
 
   const renderTalkCard = talk => <TalkCard talk={talk.item} />
 
@@ -45,7 +48,7 @@ const TabOneScreen = _ => {
           <Tabs renderTabBar={renderTabBar}>
             {
               days.map(day => (
-                <Tab heading={<TabHeading><Text>{day}</Text></TabHeading>} key={day}>
+                <Tab heading={<TabHeading style={{backgroundColor: Colors[colorScheme].tint}}><Text>{day}</Text></TabHeading>} key={day}>
                   <View style={styles.empty}>
                     <FlatList
                       data={getTalksArray(day)}

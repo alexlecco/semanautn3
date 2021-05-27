@@ -9,15 +9,18 @@ import { Text, View } from '../components/Themed';
 
 // helpers
 import { AppContext } from '../context/provider';
+import useColorScheme from '../hooks/useColorScheme';
 import firebaseApp from '../firebase/firebase';
 
 // constants
 const days = ['lun', 'mar', 'mie', 'jue', 'vie'];
+import Colors from '../constants/Colors';
 
 //Mis charlas
 const TabTwoScreen = _ => {
   const [ state, setState ] = useContext(AppContext);
   const { talks, userTalks, loggedUser } = state;
+  const colorScheme = useColorScheme();
   const [ userTalksMon, setUserTalksMon ] = useState([]);
   const [ userTalksTue, setUserTalksTue ] = useState([]);
   const [ userTalksWed, setUserTalksWed ] = useState([]);
@@ -156,7 +159,7 @@ const TabTwoScreen = _ => {
           <Tabs renderTabBar={renderTabBar}>
             {
               days.map(day => (
-                <Tab heading={<TabHeading><Text>{day}</Text></TabHeading>} key={day}>
+                <Tab heading={<TabHeading style={{backgroundColor: Colors[colorScheme].tint}}><Text>{day}</Text></TabHeading>} key={day}>
                   {
                     getTalksArray(day).length !== 0 ?
                       <View style={styles.empty}>

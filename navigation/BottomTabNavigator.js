@@ -55,38 +55,71 @@ const TabBarIcon = (props) => (
 // https://reactnavigation.org/docs/tab-based-navigation#a-stack-navigator-for-each-tab
 const TabOneStack = createStackNavigator();
 
-const TabOneNavigator = () => (
-  <TabOneStack.Navigator>
-    <TabOneStack.Screen
-      name="TabOneScreen"
-      component={TabOneScreen}
-      options={{ headerTitle: title1 }}
-    />
-  </TabOneStack.Navigator>
-);
+const TabOneNavigator = () => {
+  const colorScheme = useColorScheme();
+
+  return(
+    <TabOneStack.Navigator>
+      <TabOneStack.Screen
+        name="TabOneScreen"
+        component={TabOneScreen}
+        options={{
+          headerTitle: title1,
+          headerTintColor:Colors[colorScheme].tabIconDefault,
+          headerStyle: {
+            backgroundColor: Colors[colorScheme].tint,
+            elevation: 0,
+          },
+        }}
+      />
+    </TabOneStack.Navigator>
+  );
+}
 
 const TabTwoStack = createStackNavigator();
 
-const TabTwoNavigator = () => (
-  <TabTwoStack.Navigator>
-    <TabTwoStack.Screen
-      name="TabTwoScreen"
-      component={TabTwoScreen}
-      options={{ headerTitle: title2 }}
-    />
-  </TabTwoStack.Navigator>
-);
+const TabTwoNavigator = () => {
+  const colorScheme = useColorScheme();
+
+  return(
+    <TabTwoStack.Navigator>
+      <TabTwoStack.Screen
+        name="TabTwoScreen"
+        component={TabTwoScreen}
+        options={{
+          headerTitle: title2,
+          headerTintColor:Colors[colorScheme].tabIconDefault,
+          headerStyle: {
+            backgroundColor: Colors[colorScheme].tint,
+            elevation: 0,
+          },
+        }}
+      />
+    </TabTwoStack.Navigator>
+  );
+}
 
 const TabThreeStack = createStackNavigator();
 
-const TabThreeNavigator = () => (
-  <TabThreeStack.Navigator>
-    <TabThreeStack.Screen
-      name="TabThreeScreen"
-      component={TabThreeScreen}
-      options={{ headerTitle: title3 }}
-    />
-  </TabThreeStack.Navigator>
-);
+const TabThreeNavigator = () => {
+  const colorScheme = useColorScheme();
+
+  return(
+    <TabThreeStack.Navigator>
+      <TabThreeStack.Screen
+        name="TabThreeScreen"
+        component={TabThreeScreen}
+        options={{
+          headerTitle: title3,
+          headerTintColor:Colors[colorScheme].tabIconDefault,
+          headerStyle: {
+            backgroundColor: Colors[colorScheme].tint,
+            elevation: 0,
+          },
+        }}
+      />
+    </TabThreeStack.Navigator>
+  );
+}
 
 export default BottomTabNavigator;

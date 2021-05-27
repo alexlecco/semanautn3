@@ -228,29 +228,29 @@ const SemanaApp = _ => {
     if (talkInfoVisible) {
       return(
         <TalkInfo />
-        )
+      )
     } else {
       return(
         <Navigation colorScheme={colorScheme} />
-        )
-      }
-    } else {
-      return(
-        <Container>
-          <View style={styles.container}>      
-            <ImageBackground
-              source={require('./assets/images/login.png')}
-              style={{width: imgWidth, height: imgHeight}}
-            >
-              <View style={styles.loginContainer}>
-                <Button full block onPress={ logIn }>
-                  <Text>{texts.loginText}</Text>
-                </Button>
-              </View>
-            </ImageBackground>
-          </View>
-        </Container>
       )
+    }
+  } else {
+    return(
+      <Container>
+        <View style={styles.container}>      
+          <ImageBackground
+            source={require('./assets/images/login.png')}
+            style={{width: imgWidth, height: imgHeight}}
+          >
+            <View style={styles.loginContainer}>
+              <Button full block onPress={ logIn }>
+                <Text>{texts.loginText}</Text>
+              </Button>
+            </View>
+          </ImageBackground>
+        </View>
+      </Container>
+    )
   }
 }
 

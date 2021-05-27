@@ -16,13 +16,19 @@ import {
   useFonts,
   Roboto_500Medium,
 } from '@expo-google-fonts/roboto';
+import Constants from 'expo-constants';
 
 // helpers
 import { AppContext } from '../context/provider';
+import useColorScheme from '../hooks/useColorScheme';
 import firebaseApp from '../firebase/firebase';
+
+// constants
+import Colors from '../constants/Colors';
 
 const TalkInfo = _ => {
   let [ fontsLoaded ] = useFonts({ Roboto_500Medium });
+  const colorScheme = useColorScheme();
   const [ state, setState ] = useContext(AppContext)
   const { talk, speakers, loggedUser, userTalks } = state;
   const [ buttonText, setButtonText ] = useState('');
@@ -186,7 +192,7 @@ const TalkInfo = _ => {
 
   return(
     <Container style={styles.container}>
-      <Header>
+      <Header style={{backgroundColor: Colors[colorScheme].tint}}>
         <Left>
           <Button transparent onPress={() => showOrHideTalkInfo()}>
             <Icon name='arrow-back' />
@@ -240,13 +246,13 @@ const TalkInfo = _ => {
       
       <View style={styles.buttonsSeparator}></View>
       <View style={styles.dark}>
-        <Button transparent full primary onPress={() => {}} style={{ marginBottom: 20 }}>
-          <Text style={{color: '#ffaf19'}}>
+        <Button transparent full primary onPress={() => {}} style={{ marginBottom: 20, backgroundColor: Colors[colorScheme].tint }}>
+          <Text style={{color: '#fff'}}>
             Compartir
           </Text>
         </Button>
-        <Button transparent full primary onPress={() => {}} style={{ marginBottom: 20 }}>
-          <Text style={{color: '#ffaf19'}}>
+        <Button transparent full primary onPress={() => {}} style={{ marginBottom: 20, backgroundColor: Colors[colorScheme].tint }}>
+          <Text style={{color: '#fff'}}>
             Ver las preguntas de la charla
           </Text>
         </Button>
@@ -281,7 +287,7 @@ const TalkInfo = _ => {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 33 //to fix
+    paddingTop: Constants.statusBarHeight,
   },
   TalkContainer: {
     flexDirection: 'column',
