@@ -5,6 +5,7 @@ import { Container, Tab, Tabs, TabHeading, DefaultTabBar } from 'native-base';
 
 // components
 import TalkCard from '../components/TalkCard';
+import { Text, View } from '../components/Themed';
 const Item = ({ item, onPress, backgroundColor, textColor }) => (
   <TouchableOpacity onPress={onPress} style={[styles.item, backgroundColor]}>
     <Text style={[styles.title, textColor]}>{item.title}</Text>
@@ -12,7 +13,6 @@ const Item = ({ item, onPress, backgroundColor, textColor }) => (
 );
 
 // helpers
-import { Text, View } from '../components/Themed';
 import { AppContext } from '../context/provider';
 
 // constants

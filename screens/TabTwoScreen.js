@@ -5,14 +5,9 @@ import { Container, Tab, Tabs, TabHeading, DefaultTabBar } from 'native-base';
 
 // components
 import TalkCard from '../components/TalkCard';
-const Item = ({ item, onPress, backgroundColor, textColor }) => (
-  <TouchableOpacity onPress={onPress} style={[styles.item, backgroundColor]}>
-    <Text style={[styles.title, textColor]}>{item.title}</Text>
-  </TouchableOpacity>
-);
+import { Text, View } from '../components/Themed';
 
 // helpers
-import { Text, View } from '../components/Themed';
 import { AppContext } from '../context/provider';
 import firebaseApp from '../firebase/firebase';
 
