@@ -1,6 +1,6 @@
 // libraries
 import React, { useState, useEffect, useContext } from 'react';
-import { StyleSheet, View, Image, StatusBar } from 'react-native';
+  import { StyleSheet, View, Image, StatusBar, Text, } from 'react-native';
 import {
   Container,
   Header,
@@ -10,7 +10,6 @@ import {
   Title,
   Content,
   Button,
-  Text,
 } from 'native-base';
 import {
   useFonts,

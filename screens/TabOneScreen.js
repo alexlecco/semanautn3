@@ -1,16 +1,11 @@
 // libraries
 import React, { useContext } from 'react';
-import { FlatList, SafeAreaView, StyleSheet, TouchableOpacity } from 'react-native';
+import { FlatList, SafeAreaView, StyleSheet } from 'react-native';
 import { Container, Tab, Tabs, TabHeading, DefaultTabBar } from 'native-base';
 
 // components
 import TalkCard from '../components/TalkCard';
 import { Text, View } from '../components/Themed';
-const Item = ({ item, onPress, backgroundColor, textColor }) => (
-  <TouchableOpacity onPress={onPress} style={[styles.item, backgroundColor]}>
-    <Text style={[styles.title, textColor]}>{item.title}</Text>
-  </TouchableOpacity>
-);
 
 // helpers
 import { AppContext } from '../context/provider';

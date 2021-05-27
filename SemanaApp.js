@@ -1,14 +1,13 @@
 // libraries
-import React, { useState, useEffect, useContext, } from 'react';
-import { Container, Button, Text } from 'native-base';
+import React, { useEffect, useContext, } from 'react';
+import { Container, Button, } from 'native-base';
 import * as Facebook from 'expo-facebook';
 import {
   StyleSheet,
   View,
   ImageBackground,
-  Dimensions,
-  Image,
   Alert,
+  Text,
 } from 'react-native';
 
 // components
@@ -25,24 +24,10 @@ import texts from './constants/texts';
 
 const SemanaApp = _ => {
   const [state, setState] = useContext(AppContext);
-  const [imgHeight, setImgHeight] = useState(0)
-  const [imgWidth, setImgWidth] = useState(0)
-  const { talkInfoVisible, logged, loggedUser } = state;
+  const { talkInfoVisible, logged } = state;
   const colorScheme = useColorScheme();
   const talksRef = firebaseApp.database().ref().child('talks').orderByChild('time');
   const speakersRef = firebaseApp.database().ref().child('speakers');
-
-  const getLoginScreen = () => texts.loginScreenUrl
-
-  const calculateImgSize = _ => {
-    Image.getSize(getLoginScreen(), (width, height) => {
-      const screenWidth = Dimensions.get('window').width;
-      const scaleFactor = width / screenWidth;
-      const imageHeight = height / scaleFactor;
-      setImgWidth(screenWidth);
-      setImgHeight(imageHeight);
-    })
-  }
 
   const addUser = (loggedUser) => {
     let ref =  firebaseApp.database().ref();
@@ -52,7 +37,7 @@ const SemanaApp = _ => {
       userId: loggedUser.uid,
     }).key;
   }
-  
+
   useEffect(() => {
     let talksMon = [];
     let talksTue = [];
@@ -191,7 +176,6 @@ const SemanaApp = _ => {
       })      
     }
     
-    calculateImgSize(300, 300);
     listenForDatabase();
   }, []);
 
@@ -223,7 +207,7 @@ const SemanaApp = _ => {
       alert(`Error de Login: ${message}`);
     }
   }
-  
+
   if (logged) {
     if (talkInfoVisible) {
       return(
