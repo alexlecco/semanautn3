@@ -4,9 +4,14 @@ import { View, Text, StyleSheet, Dimensions, TouchableWithoutFeedback, } from 'r
 
 // helpers
 import { AppContext } from '../context/provider';
+import useColorScheme from '../hooks/useColorScheme';
+
+// constants
+import Colors from '../constants/Colors';
 
 const TalkCard = ({ talk }) => {
   const [ state, setState ] = useContext(AppContext)
+  const colorScheme = useColorScheme();
 
   const showOrHideTalkInfo = (talk) => {
     setState({
@@ -20,16 +25,16 @@ const TalkCard = ({ talk }) => {
     <TouchableWithoutFeedback
       onPress={() => showOrHideTalkInfo(talk)}
     >
-      <View style={styles.TalkCardContainer}>
+      <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: Colors[colorScheme].palette2, }}>
         <View styke={styles.TalCardColumn}>
           <View style={styles.TalkTimeContainer}>
-            <Text style={styles.TalkText}>{talk.time}</Text>
+            <Text style={{ fontSize: 17, color: Colors[colorScheme].talkCardText, }}>{talk.time}</Text>
           </View>
         </View>
 
         <View style={styles.TalCardColumn}>
           <View style={styles.TalkTitleContainer}>
-            <Text style={styles.TalkText}>{talk.title}</Text>
+            <Text style={{ fontSize: 17, color: Colors[colorScheme].talkCardText, }}>{talk.title}</Text>
           </View>
         </View>
       </View>
@@ -39,11 +44,6 @@ const TalkCard = ({ talk }) => {
 }
 
 const styles = StyleSheet.create({
-  TalkCardContainer: {
-    flexDirection: 'row',
-		alignItems: 'center',
-		backgroundColor: 'black',
-  },
 	TalCardColumn: {
     flexDirection: 'column',
 	},
@@ -59,10 +59,6 @@ const styles = StyleSheet.create({
 		flexWrap: 'wrap',
 		flexDirection: 'row',
 		width: Dimensions.get('window').width - 82,
-	},
-	TalkText: {
-		fontSize: 17,
-    color: 'white',
 	},
 });
 

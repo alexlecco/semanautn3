@@ -1,6 +1,6 @@
 // libraries
 import React, { useState, useEffect, useContext } from 'react';
-import { StyleSheet, View, Image, } from 'react-native';
+import { StyleSheet, View, Image, StatusBar } from 'react-native';
 import {
   Container,
   Header,
@@ -281,6 +281,7 @@ const TalkInfo = _ => {
           {buttonText}
         </Text>
       </Button>
+      <StatusBar backgroundColor={Colors[colorScheme].tint} />
     </Container>
   );
 }

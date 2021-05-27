@@ -49,7 +49,7 @@ const TabOneScreen = _ => {
             {
               days.map(day => (
                 <Tab heading={<TabHeading style={{backgroundColor: Colors[colorScheme].tint}}><Text>{day}</Text></TabHeading>} key={day}>
-                  <View style={styles.empty}>
+                  <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: Colors[colorScheme].background,}}>
                     <FlatList
                       data={getTalksArray(day)}
                       renderItem={renderTalkCard}
@@ -80,12 +80,6 @@ const styles = StyleSheet.create({
     marginVertical: 30,
     height: 1,
     width: '80%',
-  },
-  empty: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#000',
   },
 });
 

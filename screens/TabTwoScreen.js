@@ -162,7 +162,7 @@ const TabTwoScreen = _ => {
                 <Tab heading={<TabHeading style={{backgroundColor: Colors[colorScheme].tint}}><Text>{day}</Text></TabHeading>} key={day}>
                   {
                     getTalksArray(day).length !== 0 ?
-                      <View style={styles.empty}>
+                      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: Colors[colorScheme].background,}}>
                         <FlatList
                           data={userTalks}
                           renderItem={userTalk => renderTimeYesOrNo(userTalk, talks, day) }
@@ -170,8 +170,8 @@ const TabTwoScreen = _ => {
                         />
                       </View>
                     :
-                      <View style={styles.empty}>
-                        <Text style={styles.emptyText}>{message}</Text>
+                      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: Colors[colorScheme].background,}}>
+                        <Text style={{textAlign: 'center', color: Colors[colorScheme].talkCardText,}}>{message}</Text>
                       </View>
                   }
                 </Tab>
@@ -198,16 +198,6 @@ const styles = StyleSheet.create({
     marginVertical: 30,
     height: 1,
     width: '80%',
-  },
-  empty: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#000',
-  },
-  emptyText: {
-    textAlign: 'center',
-    color: '#fff',
   },
 });
 

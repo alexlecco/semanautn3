@@ -16,6 +16,7 @@ export default {
     tint: tintColorLight,
     tabIconDefault: palette2,
     tabIconSelected: tintColorLight,
+    talkCardText: palette5,
   },
   dark: {
     text: palette2,
@@ -23,6 +24,7 @@ export default {
     tint: tintColorDark,
     tabIconDefault: palette2,
     tabIconSelected: tintColorDark,
+    talkCardText: palette2,
   },
   colors: {
     tintColor,
