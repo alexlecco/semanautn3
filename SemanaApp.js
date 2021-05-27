@@ -240,7 +240,7 @@ const SemanaApp = _ => {
         <View style={styles.container}>      
           <ImageBackground
             source={require('./assets/images/login.png')}
-            style={{width: imgWidth, height: imgHeight}}
+            style={styles.image}
           >
             <View style={styles.loginContainer}>
               <Button full block onPress={ logIn }>
@@ -273,6 +273,11 @@ const styles = StyleSheet.create({
     paddingBottom: 40,
     marginBottom: 75,
   },
+  image: {
+        flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center"
+  }
 });
 
 export default SemanaApp;
