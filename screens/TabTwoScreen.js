@@ -14,21 +14,66 @@ const Item = ({ item, onPress, backgroundColor, textColor }) => (
 // helpers
 import { Text, View } from '../components/Themed';
 import { AppContext } from '../context/provider';
+import firebaseApp from '../firebase/firebase';
 
 // constants
 const days = ['lun', 'mar', 'mie', 'jue', 'vie'];
 
 //Mis charlas
 const TabTwoScreen = _ => {
-  const [ state ] = useContext(AppContext);
-  const { talks, userTalks } = state;
+  const [ state, setState ] = useContext(AppContext);
+  const { talks, userTalks, loggedUser } = state;
   const [ userTalksMon, setUserTalksMon ] = useState([]);
   const [ userTalksTue, setUserTalksTue ] = useState([]);
   const [ userTalksWed, setUserTalksWed ] = useState([]);
   const [ userTalksThu, setUserTalksThu ] = useState([]);
   const [ userTalksFri, setUserTalksFri ] = useState([]);
 
-  console.log("state.userTalks:::::::::", state.userTalks)
+  const getObjectOfArray = (array, index) => {
+    return array[index] = array[index] || {};
+  }
+
+  useEffect(() => {
+    let userTalks = [];
+    let userTalksSorted = [];
+
+    const userTalksRef = firebaseApp.database().ref().child('userTalks').orderByChild('user').equalTo(loggedUser.uid);
+    userTalksRef.on('value', snap => {
+      snap.forEach(child => {
+        userTalks.push({
+          user: child.val().user,
+          talk: child.val().talk,
+          _key: child.key,
+        });
+      });
+
+      userTalksSorted = userTalks;
+
+      let talksSorted = []
+      talks.forEach(talk => {
+        for(let i = userTalksSorted.length; i > 0; i--) {
+          if(talk._key == getObjectOfArray(userTalksSorted, i - 1).talk) {
+            talksSorted.push({
+              _key: talk._key,
+            })
+          }
+        }
+      });
+
+      userTalksSorted = [];
+      talksSorted.forEach(talkSorted => {
+        userTalksSorted.push({
+          user: loggedUser.uid,
+          talk: talkSorted._key,
+        })
+      })
+    });
+
+    setState({
+      ...state,
+      userTalks,
+    })
+  }, [])
 
   useEffect(() => {
     const readUserTalksByDay = () => {

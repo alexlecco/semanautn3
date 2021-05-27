@@ -68,16 +68,14 @@ const TalkInfo = _ => {
 
   const askButtonText = (loggedUser, talk) => {
     let text = 'Me interesa';
+    const ref = firebaseApp.database().ref().child('userTalks').orderByChild('user').equalTo(loggedUser.uid);
 
-    firebaseApp.database().ref().child('userTalks')
-      .orderByChild('user')
-      .equalTo(loggedUser.uid)
-      .on('child_added', snap => {
-        const userTalk = snap.val();
-        if(userTalk.talk === talk._key) {
-          text = 'Ya no me interesa';
-        }
-      });
+    ref.on('child_added', snap => {
+      const userTalk = snap.val();
+      if(userTalk.talk === talk._key) {
+        text = 'Ya no me interesa';
+      }
+    });
 
     text === 'Ya no me interesa' ?
       setButtonText('Ya no me interesa') :
@@ -297,6 +295,7 @@ const styles = StyleSheet.create({
     marginTop: 10,
 		flexWrap: 'wrap',
 		flexDirection: 'row',
+    justifyContent: 'center'
 	},
 	TalkBodyContainer: {
 		marginTop: 10,

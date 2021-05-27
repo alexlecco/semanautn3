@@ -31,7 +31,6 @@ const SemanaApp = _ => {
   const colorScheme = useColorScheme();
   const talksRef = firebaseApp.database().ref().child('talks').orderByChild('time');
   const speakersRef = firebaseApp.database().ref().child('speakers');
-  const userTalksRef = firebaseApp.database().ref().child('userTalks');
 
   const getLoginScreen = () => texts.loginScreenUrl
 
@@ -53,10 +52,6 @@ const SemanaApp = _ => {
       userId: loggedUser.uid,
     }).key;
   }
-
-  function getObjectOfArray(array, index) {
-    return array[index] = array[index] || {};
-  }
   
   useEffect(() => {
     let talksMon = [];
@@ -66,8 +61,6 @@ const SemanaApp = _ => {
     let talksFri = [];
     let talks = [];
     let speakers = [];
-    let userTalks = [];
-    let userTalksSorted = [];
 
     function listenForDatabase() {
       firebaseApp.auth().onAuthStateChanged(user => {
@@ -179,37 +172,6 @@ const SemanaApp = _ => {
             }
           });
         });
-  
-        userTalksRef.on('value', snap => {
-          snap.forEach(child => {
-            userTalks.push({
-              user: child.val().user,
-              talk: child.val().talk,
-              _key: child.key,
-            });
-          });
-  
-          userTalksSorted = userTalks;
-  
-          let talksSorted = []
-          talks.forEach(talk => {
-            for(let i = userTalksSorted.length; i > 0; i--) {
-              if(talk._key == getObjectOfArray(userTalksSorted, i - 1).talk) {
-                talksSorted.push({
-                  _key: talk._key,
-                })
-              }
-            }
-          });
-  
-          userTalksSorted = [];
-          talksSorted.forEach(talkSorted => {
-            userTalksSorted.push({
-              user: user.uid,
-              talk: talkSorted._key,
-            })
-          })
-        });
         
         setState({
           ...state,
@@ -218,7 +180,6 @@ const SemanaApp = _ => {
             displayName: user.displayName,
             uid: user.uid,
           },
-          userTalks,
           talksMon,
           talksTue,
           talksWed,
@@ -248,7 +209,6 @@ const SemanaApp = _ => {
       if (type === 'success') {
         const credential = firebaseApp.auth.FacebookAuthProvider.credential(token);
         firebaseApp.auth().signInWithCredential(credential).catch(error => console.log(error));
-        console.log("Login Exitoso!");
 
         // Get the user's name using Facebook's Graph API
         const response = await fetch(`https://graph.facebook.com/me?access_token=${token}`);
