@@ -18,7 +18,6 @@ import Colors from '../constants/Colors';
 const TabOneScreen = _ => {
   const [ state ] = useContext(AppContext)
   const { talksMon, talksTue, talksWed, talksThu, talksFri } = state;
-  console.log("talksFri:::::::", talksFri)
   const colorScheme = useColorScheme();
 
   function getTalksArray(day) {

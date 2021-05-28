@@ -32,7 +32,6 @@ const TalkInfo = _ => {
   let [ fontsLoaded ] = useFonts({ Roboto_500Medium });
   const colorScheme = useColorScheme();
   const [ buttonText, setButtonText ] = useState('');
-  const [ makeTalkQuestionVisible, setMakeTalkQuestionVisible] = useState(false)
   const [ state, setState ] = useContext(AppContext)
   const {
     talk,
@@ -40,6 +39,7 @@ const TalkInfo = _ => {
     loggedUser,
     userTalks,
     talkQuestionsContainerVisible,
+    makeTalkQuestionVisible,
   } = state;
 
   const getSpeakerPhoto = photo => {
@@ -119,6 +119,13 @@ const TalkInfo = _ => {
       talkQuestionsContainerVisible: true
     })
   };
+
+  const showMakeTalkQuestions = () => {
+    setState({
+      ...state,
+      makeTalkQuestionVisible: true
+    })
+  }
 
   const addOrRemoveUserTalk = () => {
     let text = 'Me interesa';
@@ -287,7 +294,7 @@ const TalkInfo = _ => {
             <Button
               full
               style={styles.buttonColor}
-              onPress={() => {}}
+              onPress={showMakeTalkQuestions}
             >
               <Text style={styles.buttonColorText}> Hacer una pregunta </Text>
             </Button>

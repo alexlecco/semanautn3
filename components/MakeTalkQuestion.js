@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import { View, StyleSheet, TextInput, Alert, Text, } from 'react-native';
+import { View, StyleSheet, TextInput, Alert, Text, StatusBar, } from 'react-native';
 import {
   Container,
   Header,
@@ -11,15 +11,18 @@ import {
   Button,
   Form,
 } from 'native-base';
+import Constants from 'expo-constants';
 
 // helpers
 import { AppContext } from '../context/provider';
 import firebaseApp from '../firebase/firebase';
+import useColorScheme from '../hooks/useColorScheme';
 
 // constants
-import colors from '../constants/Colors';
+import Colors from '../constants/Colors';
 
 const MakeTalkQuestion = () => {
+  const colorScheme = useColorScheme();
   const [ body, setBody ] = useState('');
   const [ state, setState ] = useContext(AppContext);
   const { talk, loggedUser } = state;
@@ -44,30 +47,37 @@ const MakeTalkQuestion = () => {
     }
   }
 
+  const hideMakeTalkQuestions = () => {
+    setState({
+      ...state,
+      makeTalkQuestionVisible: false
+    })
+  }
+
   return(
-    <Container>
-      <Header style={{backgroundColor: colors.colors.light}}>
+    <Container style={{flex: 1, paddingTop: Constants.statusBarHeight, backgroundColor: Colors[colorScheme].background,}}>
+      <Header style={{backgroundColor: Colors[colorScheme].tint}}>
         <Left>
           <Button transparent onPress={() => hideMakeTalkQuestions()}>
             <Icon name='arrow-back' />
           </Button>
         </Left>
         <Body>
-          <Title style={{color: colors.colors.white}}> Hacer una pregunta </Title>
+          <Title style={{color: Colors[colorScheme].background}}> Hacer una pregunta </Title>
         </Body>
       </Header>
       
-      <View style={styles.container}>
-        <Text style={[styles.centerText, { fontSize: 20, marginBottom: 10, marginTop: 7 }]}>{ talk.title } </Text>
+      <View style={{ flex: 1, paddingTop: 0, backgroundColor: Colors[colorScheme].background, }}>
+        <Text style={{ textAlign: 'center', color: Colors[colorScheme].talkCardText, fontSize: 20, marginBottom: 10, marginTop: 7 }}>{ talk.title } </Text>
         <Text style={styles.centerText}>
-          Estás por escribir una pregunta que aparecerá en pantalla gigante <Text style={styles.boldText}>junto a tu nombre de usuario</Text>, queremos escucharte:
+          Estás por escribir una pregunta que aparecerá en pantalla gigante <Text style={{fontWeight: 'bold', color: Colors[colorScheme].text,}}>junto a tu nombre de usuario</Text>, queremos escucharte:
         </Text>
 
         <Content padder>
           <Form>
             <TextInput
               multiline={true}
-              style={{color: colors.colors.text1, fontSize: 18}}
+              style={{color: Colors[colorScheme].talkCardText, fontSize: 18}}
               numberOfLines={4}
               placeholder="[tocá aquí para escribir tu pregunta]"
               value={body}
@@ -76,24 +86,21 @@ const MakeTalkQuestion = () => {
         </Content>
 
         <View style={styles.feedbackButtonContainer}>
-          <Button full style={{backgroundColor: colors.colors.light}} onPress={sendTalkQuestion} >
+          <Button full style={{backgroundColor: Colors[colorScheme].tint}} onPress={sendTalkQuestion} >
             <Text>
               Enviar pregunta
             </Text>
           </Button>
         </View>
       </View>
+      <StatusBar backgroundColor={Colors[colorScheme].tint} />
     </Container>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    paddingTop: 0,
-    backgroundColor: colors.colors.dark,
-    paddingLeft: 10,
-    paddingRight: 10,
+
   },
   feedbackButtonContainer: {
     margin: 25,
@@ -102,14 +109,6 @@ const styles = StyleSheet.create({
     flex: 1,
     textAlign: 'center',
   },
-  centerText: {
-    textAlign: 'center',
-    color: colors.colors.text1,
-  },
-  boldText: {
-    fontWeight: 'bold',
-    color: colors.colors.text2,
-  }
 });
 
 export default MakeTalkQuestion;

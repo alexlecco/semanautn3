@@ -13,6 +13,8 @@ const initialState = {
   talksFri: [],
   speakers: [],
   userTalks: [],
+  talkQuestionsContainerVisible: false,
+  makeTalkQuestionVisible: false
 };
 
 const ContextProvider = ({children}) => {

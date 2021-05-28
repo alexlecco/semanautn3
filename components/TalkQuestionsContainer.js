@@ -27,7 +27,6 @@ const TalkQuestionContainer = () => {
   const [ state, setState ] = useContext(AppContext);
   const { talk } = state;
   const message = 'Aún no hay preguntas registradas en este evento';
-  console.log("talkQuestions.length::::::", talkQuestions.length)
 
   useEffect(() => {    
     const listenForTalkQuestions = () => {
