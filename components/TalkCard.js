@@ -1,4 +1,3 @@
-// libraries
 import React, { useContext }  from 'react';
 import { View, Text, StyleSheet, Dimensions, TouchableWithoutFeedback, } from 'react-native';
 
@@ -13,7 +12,7 @@ const TalkCard = ({ talk }) => {
   const [ state, setState ] = useContext(AppContext)
   const colorScheme = useColorScheme();
 
-  const showOrHideTalkInfo = (talk) => {
+  const showTalkInfo = (talk) => {
     setState({
       ...state,
       talk: talk,
@@ -23,7 +22,7 @@ const TalkCard = ({ talk }) => {
 
   return(
     <TouchableWithoutFeedback
-      onPress={() => showOrHideTalkInfo(talk)}
+      onPress={() => showTalkInfo(talk)}
     >
       <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: Colors[colorScheme].palette2, }}>
         <View styke={styles.TalCardColumn}>

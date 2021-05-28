@@ -1,4 +1,3 @@
-// libraries
 import React, { useState, useEffect, useContext } from 'react';
   import { StyleSheet, View, Image, StatusBar, Text, } from 'react-native';
 import {
@@ -17,6 +16,10 @@ import {
 } from '@expo-google-fonts/roboto';
 import Constants from 'expo-constants';
 
+// components
+import TalkQuestionsContainer from './TalkQuestionsContainer';
+import MakeTalkQuestion from './MakeTalkQuestion';
+
 // helpers
 import { AppContext } from '../context/provider';
 import useColorScheme from '../hooks/useColorScheme';
@@ -28,9 +31,16 @@ import Colors from '../constants/Colors';
 const TalkInfo = _ => {
   let [ fontsLoaded ] = useFonts({ Roboto_500Medium });
   const colorScheme = useColorScheme();
-  const [ state, setState ] = useContext(AppContext)
-  const { talk, speakers, loggedUser, userTalks } = state;
   const [ buttonText, setButtonText ] = useState('');
+  const [ makeTalkQuestionVisible, setMakeTalkQuestionVisible] = useState(false)
+  const [ state, setState ] = useContext(AppContext)
+  const {
+    talk,
+    speakers,
+    loggedUser,
+    userTalks,
+    talkQuestionsContainerVisible,
+  } = state;
 
   const getSpeakerPhoto = photo => {
     if (photo) {
@@ -91,7 +101,7 @@ const TalkInfo = _ => {
     askButtonText(loggedUser, talk);
   }, [])
 
-  const showOrHideTalkInfo = () => {
+  const hideTalkInfo = () => {
     setState({
       ...state,
       talk: {},
@@ -102,6 +112,13 @@ const TalkInfo = _ => {
   const getObjectOfArray = (array, index) => {
     return array[index] = array[index] || {};
   }
+
+  const showTalkQuestionsContainer = () => {
+    setState({
+      ...state,
+      talkQuestionsContainerVisible: true
+    })
+  };
 
   const addOrRemoveUserTalk = () => {
     let text = 'Me interesa';
@@ -189,11 +206,19 @@ const TalkInfo = _ => {
     return null
   }
 
+  if (talkQuestionsContainerVisible) {
+    return <TalkQuestionsContainer />
+  }
+
+  if (makeTalkQuestionVisible) {
+    return <MakeTalkQuestion />
+  }
+
   return(
     <Container style={styles.container}>
       <Header style={{backgroundColor: Colors[colorScheme].tint}}>
         <Left>
-          <Button transparent onPress={() => showOrHideTalkInfo()}>
+          <Button transparent onPress={() => hideTalkInfo()}>
             <Icon name='arrow-back' />
           </Button>
         </Left>
@@ -250,7 +275,7 @@ const TalkInfo = _ => {
             Compartir
           </Text>
         </Button>
-        <Button transparent full primary onPress={() => {}} style={{ marginBottom: 20, backgroundColor: Colors[colorScheme].tint }}>
+        <Button transparent full primary onPress={showTalkQuestionsContainer} style={{ marginBottom: 20, backgroundColor: Colors[colorScheme].tint }}>
           <Text style={{color: '#fff'}}>
             Ver las preguntas de la charla
           </Text>
@@ -264,7 +289,7 @@ const TalkInfo = _ => {
               style={styles.buttonColor}
               onPress={() => {}}
             >
-              <Text style={styles.buttonColor}> Hacer una pregunta </Text>
+              <Text style={styles.buttonColorText}> Hacer una pregunta </Text>
             </Button>
             ) : (
               null
@@ -276,7 +301,7 @@ const TalkInfo = _ => {
         style={buttonText === 'Me interesa' ? styles.buttonColor : styles.buttonColor2}
         onPress={addOrRemoveUserTalk}
       >
-        <Text style={buttonText === 'Ya no me interesa' ? styles.buttonText : false }>
+        <Text style={buttonText === 'Ya no me interesa' ? styles.buttonText : styles.buttonText }>
           {buttonText}
         </Text>
       </Button>
@@ -373,6 +398,9 @@ const styles = StyleSheet.create({
   buttonColor: {
     backgroundColor: '#000',
     paddingBottom: 10,
+  },
+  buttonColorText: {
+    color: 'white'
   },
   buttonColor2: {
     backgroundColor: '#000',

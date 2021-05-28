@@ -1,4 +1,3 @@
-// libraries
 import React, { useEffect, useContext, } from 'react';
 import { Container, Button, } from 'native-base';
 import * as Facebook from 'expo-facebook';
@@ -176,6 +175,7 @@ const SemanaApp = _ => {
       })      
     }
     
+    console.log("se leyó de firebase!!!")
     listenForDatabase();
   }, []);
 

@@ -1,4 +1,3 @@
-// libraries
 import React, { useContext } from 'react';
 import { FlatList, SafeAreaView, StyleSheet } from 'react-native';
 import { Container, Tab, Tabs, TabHeading, DefaultTabBar } from 'native-base';
@@ -19,9 +18,8 @@ import Colors from '../constants/Colors';
 const TabOneScreen = _ => {
   const [ state ] = useContext(AppContext)
   const { talksMon, talksTue, talksWed, talksThu, talksFri } = state;
+  console.log("talksFri:::::::", talksFri)
   const colorScheme = useColorScheme();
-
-  const renderTalkCard = talk => <TalkCard talk={talk.item} />
 
   function getTalksArray(day) {
     if (day === 'lun') return talksMon
@@ -47,7 +45,7 @@ const TabOneScreen = _ => {
                   <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: Colors[colorScheme].background,}}>
                     <FlatList
                       data={getTalksArray(day)}
-                      renderItem={renderTalkCard}
+                      renderItem={talk => <TalkCard talk={talk.item} />}
                       keyExtractor={talk => talk._key}
                     />
                   </View>

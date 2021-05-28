@@ -1,4 +1,3 @@
-// libraries
 import React, {useState, useEffect, useContext} from 'react';
 import { FlatList, SafeAreaView, StyleSheet } from 'react-native';
 import { Container, Tab, Tabs, TabHeading, DefaultTabBar } from 'native-base';
