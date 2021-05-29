@@ -37,7 +37,7 @@ const TabOneScreen = _ => {
     <View style={styles.container}>
       <Container>
         <SafeAreaView style={styles.container}>
-          <Tabs renderTabBar={renderTabBar}>
+          <Tabs renderTabBar={renderTabBar} initialPage={0}>
             {
               days.map(day => (
                 <Tab heading={<TabHeading style={{backgroundColor: Colors[colorScheme].tint}}><Text>{day}</Text></TabHeading>} key={day}>

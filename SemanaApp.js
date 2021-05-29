@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, } from 'react';
+import React, { useState, useEffect, useContext, } from 'react';
 import { Container, Button, } from 'native-base';
 import * as Facebook from 'expo-facebook';
 import {
@@ -23,7 +23,8 @@ import texts from './constants/texts';
 
 const SemanaApp = _ => {
   const [state, setState] = useContext(AppContext);
-  const { talkInfoVisible, logged } = state;
+  const [needToLogIn, setNeedToLogIn] = useState(false);
+  const { talkInfoVisible, logged, talks } = state;
   const colorScheme = useColorScheme();
   const talksRef = firebaseApp.database().ref().child('talks').orderByChild('time');
   const speakersRef = firebaseApp.database().ref().child('speakers');
@@ -34,6 +35,7 @@ const SemanaApp = _ => {
     mobileUsersRef.child(loggedUser.uid).set({
       name: loggedUser.displayName,
       userId: loggedUser.uid,
+      date: new Date().toISOString(),
     }).key;
   }
 
@@ -48,14 +50,50 @@ const SemanaApp = _ => {
 
     function listenForDatabase() {
       firebaseApp.auth().onAuthStateChanged(user => {
+        if(!user) {
+          setNeedToLogIn(true)
+          return
+        }
+        setState({
+          ...state,
+          logged: true,
+          loggedUser: {
+            displayName: user.displayName,
+            uid: user.uid,
+          },
+        })
         addUser(user);
+        function updateState() {
+          setState({
+            ...state,
+            logged: true,
+            loggedUser: {
+              displayName: user.displayName,
+              uid: user.uid,
+            },
+            talksMon,
+            talksTue,
+            talksWed,
+            talksThu,
+            talksFri,
+            talks,
+            speakers,
+          })
+          console.log("se escribio el state!!!")
+        }
 
         talksRef.on('value', snap => {
+          talks = [];
+          talksMon = [];
+          talksTue = [];
+          talksWed = [];
+          talksThu = [];
+          talksFri = [];
           snap.forEach(child => {
             if (!!child.val().speaker) {
               talks.push({
                 day: child.val().day,
-                id: child.val().id,
+                id: child.key,
                 time: child.val().time,
                 title: child.val().title,
                 description: child.val().description,
@@ -65,7 +103,7 @@ const SemanaApp = _ => {
             } else {
               talks.push({
                 day: child.val().day,
-                id: child.val().id,
+                id: child.key,
                 time: child.val().time,
                 title: child.val().title,
                 description: child.val().description,
@@ -77,7 +115,7 @@ const SemanaApp = _ => {
               case 'monday':
                 talksMon.push({
                   day: child.val().day,
-                  id: child.val().id,
+                  id: child.key,
                   time: child.val().time,
                   title: child.val().title,
                   description: child.val().description,
@@ -89,7 +127,7 @@ const SemanaApp = _ => {
               case 'tuesday':
                 talksTue.push({
                   day: child.val().day,
-                  id: child.val().id,
+                  id: child.key,
                   time: child.val().time,
                   title: child.val().title,
                   description: child.val().description,
@@ -101,7 +139,7 @@ const SemanaApp = _ => {
               case 'wednesday':
                 talksWed.push({
                   day: child.val().day,
-                  id: child.val().id,
+                  id: child.key,
                   time: child.val().time,
                   title: child.val().title,
                   description: child.val().description,
@@ -113,7 +151,7 @@ const SemanaApp = _ => {
               case 'thursday':
                 talksThu.push({
                   day: child.val().day,
-                  id: child.val().id,
+                  id: child.key,
                   time: child.val().time,
                   title: child.val().title,
                   description: child.val().description,
@@ -125,7 +163,7 @@ const SemanaApp = _ => {
               case 'friday':
                 talksFri.push({
                   day: child.val().day,
-                  id: child.val().id,
+                  id: child.key,
                   time: child.val().time,
                   title: child.val().title,
                   description: child.val().description,
@@ -136,46 +174,32 @@ const SemanaApp = _ => {
                 break;
               }
           });
+          updateState();
         });
   
         speakersRef.on('value', snap => {
+          speakers = [];
           snap.forEach(child => {
             if (!!child.val().photo) {
               speakers.push({
                 name: child.val().name,
                 photo: child.val().photo,
-                id: child.val().id,
+                id: child.key,
                 _key: child.key,
               })
             } else {
               speakers.push({
                 name: child.val().name,
-                id: child.val().id,
+                id: child.key,
                 _key: child.key,
               })
             }
           });
+          updateState();
         });
-        
-        setState({
-          ...state,
-          logged: true,
-          loggedUser: {
-            displayName: user.displayName,
-            uid: user.uid,
-          },
-          talksMon,
-          talksTue,
-          talksWed,
-          talksThu,
-          talksFri,
-          talks,
-          speakers,
-        })
-      })      
+      })
     }
     
-    console.log("se leyó de firebase!!!")
     listenForDatabase();
   }, []);
 
@@ -208,7 +232,7 @@ const SemanaApp = _ => {
     }
   }
 
-  if (logged) {
+  if (logged && talks.length) {
     if (talkInfoVisible) {
       return(
         <TalkInfo />
@@ -227,9 +251,14 @@ const SemanaApp = _ => {
             style={styles.image}
           >
             <View style={styles.loginContainer}>
-              <Button full block onPress={ logIn }>
-                <Text>{texts.loginText}</Text>
-              </Button>
+
+              {
+                needToLogIn &&
+                  <Button full block onPress={ logIn }>
+                    <Text>{texts.loginText}</Text>
+                  </Button>
+              }
+
             </View>
           </ImageBackground>
         </View>
