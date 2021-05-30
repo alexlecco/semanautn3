@@ -20,6 +20,7 @@ const TabTwoScreen = _ => {
   const [ state, setState ] = useContext(AppContext);
   const { talks, userTalks, loggedUser } = state;
   const colorScheme = useColorScheme();
+  const userTalksRef = firebaseApp.database().ref().child('userTalks').orderByChild('user').equalTo(loggedUser.uid);
   const [ userTalksMon, setUserTalksMon ] = useState([]);
   const [ userTalksTue, setUserTalksTue ] = useState([]);
   const [ userTalksWed, setUserTalksWed ] = useState([]);
@@ -33,43 +34,64 @@ const TabTwoScreen = _ => {
   useEffect(() => {
     let userTalks = [];
     let userTalksSorted = [];
+    let userTalksMon = [];
+    let userTalksTue = [];
+    let userTalksWed = [];
+    let userTalksThu = [];
+    let userTalksFri = [];
 
-    const userTalksRef = firebaseApp.database().ref().child('userTalks').orderByChild('user').equalTo(loggedUser.uid);
-    userTalksRef.on('value', snap => {
-      snap.forEach(child => {
-        userTalks.push({
-          user: child.val().user,
-          talk: child.val().talk,
-          _key: child.key,
-        });
-      });
-
-      userTalksSorted = userTalks;
-
-      let talksSorted = []
-      talks.forEach(talk => {
-        for(let i = userTalksSorted.length; i > 0; i--) {
-          if(talk._key == getObjectOfArray(userTalksSorted, i - 1).talk) {
-            talksSorted.push({
-              _key: talk._key,
-            })
-          }
-        }
-      });
-
-      userTalksSorted = [];
-      talksSorted.forEach(talkSorted => {
-        userTalksSorted.push({
-          user: loggedUser.uid,
-          talk: talkSorted._key,
+    function listenForUserTalks() {
+      function updateState() {
+        setState({
+          ...state,
+          userTalksMon,
+          userTalksTue,
+          userTalksWed,
+          userTalksThu,
+          userTalksFri,
+          userTalks: userTalksSorted,
         })
-      })
-    });
+        console.log("se escribio el userTalks!!!")
+      }
 
-    setState({
-      ...state,
-      userTalks,
-    })
+      userTalksRef.on('value', snap => {
+        snap.forEach(child => {
+          userTalks.push({
+            user: child.val().user,
+            talk: child.val().talk,
+            _key: child.key,
+          });
+        });
+
+        userTalksSorted = userTalks;
+
+        let talksSorted = []
+        talks.forEach(talk => {
+          for(let i = userTalksSorted.length; i > 0; i--) {
+            if(talk._key == getObjectOfArray(userTalksSorted, i - 1).talk) {
+              talksSorted.push({
+                _key: talk._key,
+              })
+            }
+          }
+        });
+
+        
+        userTalksSorted = [];
+        talksSorted.forEach(talkSorted => {
+          userTalksSorted.push({
+            user: loggedUser.uid,
+            talk: talkSorted._key,
+          })
+        })
+
+
+
+        updateState();
+      });
+    }
+
+    listenForUserTalks();
   }, [])
 
   useEffect(() => {
@@ -79,6 +101,14 @@ const TabTwoScreen = _ => {
       let arrayUserTalksWed = [];
       let arrayUserTalksThu = [];
       let arrayUserTalksFri = [];
+
+      function update() {
+        setUserTalksMon(arrayUserTalksMon);
+        setUserTalksTue(arrayUserTalksTue);
+        setUserTalksWed(arrayUserTalksWed);
+        setUserTalksThu(arrayUserTalksThu);
+        setUserTalksFri(arrayUserTalksFri);
+      }
   
       for (let i = 0; i < talks.length ; i++) {
         for (let j = 0; j < userTalks.length; j++) {
@@ -103,11 +133,7 @@ const TabTwoScreen = _ => {
           }
         }
       }
-      setUserTalksMon(arrayUserTalksMon);
-      setUserTalksTue(arrayUserTalksTue);
-      setUserTalksWed(arrayUserTalksWed);
-      setUserTalksThu(arrayUserTalksThu);
-      setUserTalksFri(arrayUserTalksFri);
+      update()
     }
 
     readUserTalksByDay();
