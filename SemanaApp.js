@@ -229,7 +229,7 @@ const SemanaApp = _ => {
         const response = await fetch(`https://graph.facebook.com/me?access_token=${token}`);
         Alert.alert(
           '¡Ingresaste correctamente!',
-          `Hola ${(await response.json()).name}!, gracias por participar de la semana de la ingeniería 2021`
+          `Bienvenido/a ${(await response.json()).name}!, gracias por participar de la semana de la ingeniería 2021`
         );
       } else {
         // type === 'cancel'

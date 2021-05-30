@@ -62,7 +62,7 @@ const TalkInfo = _ => {
 
   const getSpeakerPhoto = photo => {
     if (photo) {
-      return `https://firebasestorage.googleapis.com/v0/b/semana-utn-c9f91.appspot.com/o/speakers%2F${photo}.png?alt=media`
+      return `https://firebasestorage.googleapis.com/v0/b/semana-utn-c9f91.appspot.com/o/speakers%2F2021%2F${photo}.png?alt=media`
     } else {
       return 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/1200px-Imagen_no_disponible.svg.png'
     }
@@ -73,9 +73,9 @@ const TalkInfo = _ => {
       speakers.filter(sp => sp._key === speakerId)[0]
     )
   }
-  
-  const speaker = getSpeaker(speakers, talk.speaker)
 
+  const speaker = getSpeaker(speakers, talk.speaker)
+  
   let day = talk.day;
   let dayToShow = '';
   switch(day) {
@@ -248,7 +248,15 @@ const TalkInfo = _ => {
   const onShare = async _ => {
     try {
       const result = await Share.share({
-        message: `Semana de la Ingeniería 2021\nVoy a asistir a la charla: "${talk.title}"\n\n#SemanaUTNFRT #UTNFRT #Semana2021`
+        message:
+`Semana de la Ingeniería 2021
+
+Voy a asistir a la charla: "${talk.title}"
+          
+${getDayName(talk.day)} a las ${talk.time}
+Link: ${talk.link}
+          
+#SemanaUTNFRT #UTNFRT #Semana2021`
       });
       if (result.action === Share.sharedAction) {
         if (result.activityType) {
@@ -263,6 +271,14 @@ const TalkInfo = _ => {
       alert(error.message);
     }
   };
+
+  const getDayName = day => {
+    if (day === 'monday') return 'lunes'
+    if (day === 'tuesday') return 'martes'
+    if (day === 'wednesday') return 'miercoles'
+    if (day === 'thursday') return 'jueves'
+    if (day === 'friday') return 'viernes'
+  }
 
   return(
     <Container style={styles.container}>
@@ -288,12 +304,13 @@ const TalkInfo = _ => {
             !!talk.speaker &&
               <View style={styles.speakerContainer}>
                 <View style={styles.TalkSpeakerContainer}>
-                  <Text style={styles.TalkSpeaker}>
                   {
-                    (talk.speaker && talk.speaker.name !== undefined) ?
-                      speaker.name : ""
+                    (talk.speaker && speaker.name !== undefined) ?
+                      <Text style={styles.TalkSpeakerName}>
+                        {speaker.name}
+                      </Text>
+                    : ""
                   }
-                  </Text>
                 </View>
                 {
                   !!speaker.photo &&
@@ -305,9 +322,6 @@ const TalkInfo = _ => {
                       />
                     </View>
                 }
-                <OpenURLButton url={talk.link}>
-                  <Text style={styles.TalkLink}>Link a la charla</Text>
-                </OpenURLButton>
               <View style={styles.TalkSpeakerBioContainer}>
                 <Text style={styles.TalkSpeakerBio}>
                   {
@@ -323,6 +337,10 @@ const TalkInfo = _ => {
       
       <View style={styles.buttonsSeparator}></View>
       <View style={styles.dark}>
+        {talk.link &&
+            <OpenURLButton url={talk.link}>
+              <Text style={styles.TalkLink}>Ver charla ó evento</Text>
+            </OpenURLButton>}
         <Button transparent full primary onPress={onShare} style={{ marginBottom: 20, backgroundColor: Colors[colorScheme].tint }}>
           <Text style={{color: '#fff'}}>
             Compartir
@@ -410,7 +428,7 @@ const styles = StyleSheet.create({
   TalkLink: {
 		fontSize: 20,
     color: '#ffaf19',
-    paddingTop: 30,
+    paddingBottom: 15,
 	},
   TalkBody: {
 		fontSize: 17,
@@ -420,6 +438,12 @@ const styles = StyleSheet.create({
     fontSize: 17,
     color: '#ffaf19',
     textAlign: 'center',
+  },
+  TalkSpeakerName: {
+    fontSize: 17,
+    color: '#ffaf19',
+    textAlign: 'center',
+    paddingBottom: 20
   },
   TalkSpeakerBio: {
     fontSize: 17,
