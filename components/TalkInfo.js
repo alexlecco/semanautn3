@@ -55,7 +55,7 @@ const TalkInfo = _ => {
 
     return(
       <Button transparent full onPress={handlePress}>
-        {children}
+        <Text style={styles.TalkLink}>{children}</Text>
       </Button>
     )
   }
@@ -309,7 +309,7 @@ Link: ${talk.link}
                       <Text style={styles.TalkSpeakerName}>
                         {speaker.name}
                       </Text>
-                    : ""
+                    : null
                   }
                 </View>
                 {
@@ -326,7 +326,7 @@ Link: ${talk.link}
                 <Text style={styles.TalkSpeakerBio}>
                   {
                     speaker.bio ?
-                      speaker.bio : ""
+                      speaker.bio : null
                   }
                 </Text>
               </View>
@@ -338,9 +338,9 @@ Link: ${talk.link}
       <View style={styles.buttonsSeparator}></View>
       <View style={styles.dark}>
         {talk.link &&
-            <OpenURLButton url={talk.link}>
-              <Text style={styles.TalkLink}>Ver charla ó evento</Text>
-            </OpenURLButton>}
+          <OpenURLButton url={talk.link}>
+            Ver charla ó evento
+          </OpenURLButton>}
         <Button transparent full primary onPress={onShare} style={{ marginBottom: 20, backgroundColor: Colors[colorScheme].tint }}>
           <Text style={{color: '#fff'}}>
             Compartir

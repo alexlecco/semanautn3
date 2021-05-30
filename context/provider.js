@@ -11,6 +11,7 @@ const initialState = {
   talksWed: [],
   talksThu: [],
   talksFri: [],
+  talksSat: [],
   speakers: [],
   userTalks: [],
   talkQuestionsContainerVisible: false,

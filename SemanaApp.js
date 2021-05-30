@@ -45,6 +45,7 @@ const SemanaApp = _ => {
     let talksWed = [];
     let talksThu = [];
     let talksFri = [];
+    let talksSat = [];
     let talks = [];
     let speakers = [];
 
@@ -76,10 +77,10 @@ const SemanaApp = _ => {
             talksWed,
             talksThu,
             talksFri,
+            talksSat,
             talks,
             speakers,
           })
-          console.log("se escribio el state!!!")
         }
 
         talksRef.on('value', snap => {
@@ -89,6 +90,7 @@ const SemanaApp = _ => {
           talksWed = [];
           talksThu = [];
           talksFri = [];
+          talksSat = [];
           snap.forEach(child => {
             if (!!child.val().speaker) {
               talks.push({
@@ -168,6 +170,19 @@ const SemanaApp = _ => {
                 break;
               case 'friday':
                 talksFri.push({
+                  day: child.val().day,
+                  id: child.key,
+                  time: child.val().time,
+                  title: child.val().title,
+                  description: child.val().description,
+                  site: child.val().site,
+                  link: child.val().link,
+                  speaker: child.val().speaker,
+                  _key: child.key,
+                });
+                break;
+              case 'saturday':
+                talksSat.push({
                   day: child.val().day,
                   id: child.key,
                   time: child.val().time,

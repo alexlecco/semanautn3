@@ -11,13 +11,13 @@ import { AppContext } from '../context/provider';
 import useColorScheme from '../hooks/useColorScheme';
 
 // constants
-const days = ['lun', 'mar', 'mie', 'jue', 'vie'];
+const days = ['lun', 'mar', 'mie', 'jue', 'vie', 'sab'];
 import Colors from '../constants/Colors';
 
 //Calendario
 const TabOneScreen = _ => {
   const [ state ] = useContext(AppContext)
-  const { talksMon, talksTue, talksWed, talksThu, talksFri } = state;
+  const { talksMon, talksTue, talksWed, talksThu, talksFri, talksSat } = state;
   const colorScheme = useColorScheme();
 
   function getTalksArray(day) {
@@ -26,6 +26,7 @@ const TabOneScreen = _ => {
     if (day === 'mie') return talksWed
     if (day === 'jue') return talksThu
     if (day === 'vie') return talksFri
+    if (day === 'sab') return talksSat
   }
 
   const renderTabBar = (props) => {

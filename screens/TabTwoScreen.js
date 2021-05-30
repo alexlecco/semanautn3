@@ -12,7 +12,7 @@ import useColorScheme from '../hooks/useColorScheme';
 import firebaseApp from '../firebase/firebase';
 
 // constants
-const days = ['lun', 'mar', 'mie', 'jue', 'vie'];
+const days = ['lun', 'mar', 'mie', 'jue', 'vie', 'sab'];
 import Colors from '../constants/Colors';
 
 //Mis charlas
@@ -26,6 +26,7 @@ const TabTwoScreen = _ => {
   const [ userTalksWed, setUserTalksWed ] = useState([]);
   const [ userTalksThu, setUserTalksThu ] = useState([]);
   const [ userTalksFri, setUserTalksFri ] = useState([]);
+  const [ userTalksSat, setUserTalksSat ] = useState([]);
 
   const getObjectOfArray = (array, index) => {
     return array[index] = array[index] || {};
@@ -39,6 +40,7 @@ const TabTwoScreen = _ => {
     let userTalksWed = [];
     let userTalksThu = [];
     let userTalksFri = [];
+    let userTalksSat = [];
 
     function listenForUserTalks() {
       function updateState() {
@@ -49,6 +51,7 @@ const TabTwoScreen = _ => {
           userTalksWed,
           userTalksThu,
           userTalksFri,
+          userTalksSat,
           userTalks: userTalksSorted,
         })
         console.log("se escribio el userTalks!!!")
@@ -68,7 +71,7 @@ const TabTwoScreen = _ => {
         let talksSorted = []
         talks.forEach(talk => {
           for(let i = userTalksSorted.length; i > 0; i--) {
-            if(talk._key == getObjectOfArray(userTalksSorted, i - 1).talk) {
+            if(talk._key === getObjectOfArray(userTalksSorted, i - 1).talk) {
               talksSorted.push({
                 _key: talk._key,
               })
@@ -76,7 +79,6 @@ const TabTwoScreen = _ => {
           }
         });
 
-        
         userTalksSorted = [];
         talksSorted.forEach(talkSorted => {
           userTalksSorted.push({
@@ -84,8 +86,6 @@ const TabTwoScreen = _ => {
             talk: talkSorted._key,
           })
         })
-
-
 
         updateState();
       });
@@ -101,6 +101,7 @@ const TabTwoScreen = _ => {
       let arrayUserTalksWed = [];
       let arrayUserTalksThu = [];
       let arrayUserTalksFri = [];
+      let arrayUserTalksSat = [];
 
       function update() {
         setUserTalksMon(arrayUserTalksMon);
@@ -108,6 +109,7 @@ const TabTwoScreen = _ => {
         setUserTalksWed(arrayUserTalksWed);
         setUserTalksThu(arrayUserTalksThu);
         setUserTalksFri(arrayUserTalksFri);
+        setUserTalksSat(arrayUserTalksSat);
       }
   
       for (let i = 0; i < talks.length ; i++) {
@@ -129,6 +131,9 @@ const TabTwoScreen = _ => {
               case 'friday':
                 arrayUserTalksFri.push(talks[i]);
                 break;
+              case 'saturday':
+                arrayUserTalksSat.push(talks[i]);
+                break;
             }
           }
         }
@@ -145,6 +150,7 @@ const TabTwoScreen = _ => {
     if (day === 'mie') return userTalksWed
     if (day === 'jue') return userTalksThu
     if (day === 'vie') return userTalksFri
+    if (day === 'sab') return userTalksSat
   }
 
   const renderTabBar = (props) => {
@@ -158,6 +164,7 @@ const TabTwoScreen = _ => {
     if (day === 'mie') return 'wednesday'
     if (day === 'jue') return 'thursday'
     if (day === 'vie') return 'friday'
+    if (day === 'sab') return 'saturday'
   }
 
   const renderTimeYesOrNo = (userTalk, talks, day) => {
@@ -174,8 +181,9 @@ const TabTwoScreen = _ => {
     }
   }
 
-  const message = `Aún no tenés charlas o eventos
-  agregados este día`;
+  const message =
+`Aún no tenés charlas o eventos
+agregados este día`;
 
   return(
     <View style={styles.container}>
@@ -183,24 +191,26 @@ const TabTwoScreen = _ => {
         <SafeAreaView style={styles.container}>
           <Tabs renderTabBar={renderTabBar}>
             {
-              days.map(day => (
-                <Tab heading={<TabHeading style={{backgroundColor: Colors[colorScheme].tint}}><Text>{day}</Text></TabHeading>} key={day}>
-                  {
-                    getTalksArray(day).length !== 0 ?
-                      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: Colors[colorScheme].background,}}>
-                        <FlatList
-                          data={userTalks}
-                          renderItem={userTalk => renderTimeYesOrNo(userTalk, talks, day) }
-                          keyExtractor={userTalk => userTalk.talk}
-                        />
-                      </View>
-                    :
-                      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: Colors[colorScheme].background,}}>
-                        <Text style={{textAlign: 'center', color: Colors[colorScheme].talkCardText,}}>{message}</Text>
-                      </View>
-                  }
-                </Tab>
-              ))
+              days.map(day => {
+                return(
+                  <Tab heading={<TabHeading style={{backgroundColor: Colors[colorScheme].tint}}><Text>{day}</Text></TabHeading>} key={day}>
+                    {
+                      getTalksArray(day).length !== 0 ?
+                        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: Colors[colorScheme].background,}}>
+                          <FlatList
+                            data={userTalks}
+                            renderItem={userTalk => renderTimeYesOrNo(userTalk, talks, day) }
+                            keyExtractor={userTalk => userTalk.talk}
+                          />
+                        </View>
+                      :
+                        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: Colors[colorScheme].background,}}>
+                          <Text style={{textAlign: 'center', color: Colors[colorScheme].talkCardText,}}>{message}</Text>
+                        </View>
+                    }
+                  </Tab>
+                )}
+              )
             }
           </Tabs>
         </SafeAreaView>
