@@ -288,13 +288,13 @@ const TalkInfo = _ => {
             Compartir
           </Text>
         </Button>
-        <Button transparent full primary onPress={showTalkQuestionsContainer} style={{ marginBottom: 20, backgroundColor: Colors[colorScheme].tint }}>
+        {/* <Button transparent full primary onPress={showTalkQuestionsContainer} style={{ marginBottom: 20, backgroundColor: Colors[colorScheme].tint }}>
           <Text style={{color: '#fff'}}>
             Ver las preguntas de la charla
           </Text>
-        </Button>
+        </Button> */}
       </View>
-      <View>
+      {/* <View>
         {
           buttonText === 'Ya no me interesa' ? (
             <Button
@@ -308,7 +308,7 @@ const TalkInfo = _ => {
               null
             )
         }
-      </View>
+      </View> */}
       <Button
         full
         style={buttonText === 'Me interesa' ? styles.buttonColor : styles.buttonColor2}
