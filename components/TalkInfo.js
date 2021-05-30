@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-  import { StyleSheet, View, Image, StatusBar, Text, } from 'react-native';
+  import { StyleSheet, View, Image, StatusBar, Text, BackHandler, } from 'react-native';
 import {
   Container,
   Header,
@@ -96,10 +96,16 @@ const TalkInfo = _ => {
       setButtonText('Ya no me interesa') :
       setButtonText('Me interesa')
   }
+
+  const handleBackButton = () => true;
+
   
   useEffect(() => {
     askButtonText(loggedUser, talk);
-  }, [])
+    BackHandler.addEventListener('hardwareBackPress', handleBackButton);
+
+    return () => BackHandler.removeEventListener('hardwareBackPress', handleBackButton);
+  }, []);
 
   const hideTalkInfo = () => {
     setState({
