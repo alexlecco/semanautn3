@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-  import { StyleSheet, View, Image, StatusBar, Text, BackHandler, } from 'react-native';
+import { StyleSheet, View, Image, StatusBar, Text, BackHandler, Share, } from 'react-native';
 import {
   Container,
   Header,
@@ -227,6 +227,25 @@ const TalkInfo = _ => {
     return <MakeTalkQuestion />
   }
 
+  const onShare = async _ => {
+    try {
+      const result = await Share.share({
+        message: `Semana de la Ingeniería 2021\nVoy a asistir a la charla: "${talk.title}"\n\n#SemanaUTNFRT #UTNFRT #Semana2021`
+      });
+      if (result.action === Share.sharedAction) {
+        if (result.activityType) {
+          // shared with activity type of result.activityType
+        } else {
+          // shared
+        }
+      } else if (result.action === Share.dismissedAction) {
+        // dismissed
+      }
+    } catch (error) {
+      alert(error.message);
+    }
+  };
+
   return(
     <Container style={styles.container}>
       <Header style={{backgroundColor: Colors[colorScheme].tint}}>
@@ -283,7 +302,7 @@ const TalkInfo = _ => {
       
       <View style={styles.buttonsSeparator}></View>
       <View style={styles.dark}>
-        <Button transparent full primary onPress={() => {}} style={{ marginBottom: 20, backgroundColor: Colors[colorScheme].tint }}>
+        <Button transparent full primary onPress={onShare} style={{ marginBottom: 20, backgroundColor: Colors[colorScheme].tint }}>
           <Text style={{color: '#fff'}}>
             Compartir
           </Text>

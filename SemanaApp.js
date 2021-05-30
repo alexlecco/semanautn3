@@ -255,7 +255,7 @@ const SemanaApp = _ => {
               {
                 needToLogIn &&
                   <Button full block onPress={ logIn }>
-                    <Text>{texts.loginText}</Text>
+                    <Text style={{color: '#fff'}}>{texts.loginText}</Text>
                   </Button>
               }
 
