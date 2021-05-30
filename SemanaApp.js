@@ -96,6 +96,7 @@ const SemanaApp = _ => {
                 id: child.key,
                 time: child.val().time,
                 title: child.val().title,
+                link: child.val().link,
                 description: child.val().description,
                 speaker: child.val().speaker,
                 _key: child.key,
@@ -106,6 +107,7 @@ const SemanaApp = _ => {
                 id: child.key,
                 time: child.val().time,
                 title: child.val().title,
+                link: child.val().link,
                 description: child.val().description,
                 _key: child.key,
               });
@@ -120,6 +122,7 @@ const SemanaApp = _ => {
                   title: child.val().title,
                   description: child.val().description,
                   site: child.val().site,
+                  link: child.val().link,
                   speaker: child.val().speaker,
                   _key: child.key,
                 });
@@ -132,6 +135,7 @@ const SemanaApp = _ => {
                   title: child.val().title,
                   description: child.val().description,
                   site: child.val().site,
+                  link: child.val().link,
                   speaker: child.val().speaker,
                   _key: child.key,
                 });
@@ -144,6 +148,7 @@ const SemanaApp = _ => {
                   title: child.val().title,
                   description: child.val().description,
                   site: child.val().site,
+                  link: child.val().link,
                   speaker: child.val().speaker,
                   _key: child.key,
                 });
@@ -156,6 +161,7 @@ const SemanaApp = _ => {
                   title: child.val().title,
                   description: child.val().description,
                   site: child.val().site,
+                  link: child.val().link,
                   speaker: child.val().speaker,
                   _key: child.key,
                 });
@@ -168,6 +174,7 @@ const SemanaApp = _ => {
                   title: child.val().title,
                   description: child.val().description,
                   site: child.val().site,
+                  link: child.val().link,
                   speaker: child.val().speaker,
                   _key: child.key,
                 });

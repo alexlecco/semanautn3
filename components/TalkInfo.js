@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { StyleSheet, View, Image, StatusBar, Text, BackHandler, Share, } from 'react-native';
+import React, { useState, useEffect, useContext, useCallback } from 'react';
+import { StyleSheet, View, Image, StatusBar, Text, BackHandler, Share, Linking, } from 'react-native';
 import {
   Container,
   Header,
@@ -41,6 +41,24 @@ const TalkInfo = _ => {
     talkQuestionsContainerVisible,
     makeTalkQuestionVisible,
   } = state;
+
+  const OpenURLButton = ({ url, children }) => {
+    const handlePress = useCallback( async _ => {
+      const supported = await Linking.canOpenURL(url)
+
+      if (supported) {
+        await Linking.openURL(url);
+      } else {
+        Alert.alert("No se puede abrir el link")
+      }
+    }, [url])
+
+    return(
+      <Button transparent full onPress={handlePress}>
+        {children}
+      </Button>
+    )
+  }
 
   const getSpeakerPhoto = photo => {
     if (photo) {
@@ -287,6 +305,9 @@ const TalkInfo = _ => {
                       />
                     </View>
                 }
+                <OpenURLButton url={talk.link}>
+                  <Text style={styles.TalkLink}>Link a la charla</Text>
+                </OpenURLButton>
               <View style={styles.TalkSpeakerBioContainer}>
                 <Text style={styles.TalkSpeakerBio}>
                   {
@@ -385,6 +406,11 @@ const styles = StyleSheet.create({
   TalkTitle: {
 		fontSize: 20,
     color: '#ffaf19',
+	},
+  TalkLink: {
+		fontSize: 20,
+    color: '#ffaf19',
+    paddingTop: 30,
 	},
   TalkBody: {
 		fontSize: 17,
