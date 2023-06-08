@@ -20,6 +20,7 @@ import useColorScheme from './hooks/useColorScheme';
 import { AppContext } from './context/provider'
 import firebaseApp from './firebase/firebase';
 import texts from './constants/texts';
+import { loginImageURL } from './firebase/storage-urls';
 
 const SemanaApp = _ => {
   const [state, setState] = useContext(AppContext);
@@ -254,33 +255,28 @@ const SemanaApp = _ => {
     }
   }
 
+  // TODOx: invertir !logged
   if (logged && talks.length) {
     if (talkInfoVisible) {
-      return(
-        <TalkInfo />
-      )
+      return <TalkInfo />
     } else {
-      return(
-        <Navigation colorScheme={colorScheme} />
-      )
+      return <Navigation colorScheme={colorScheme} />
     }
   } else {
     return(
       <Container>
         <View style={styles.container}>      
           <ImageBackground
-            source={require('./assets/images/login.png')}
+            source={{uri: loginImageURL}}
             style={styles.image}
+            resizeMode="cover"
           >
             <View style={styles.loginContainer}>
-
-              {
-                needToLogIn &&
-                  <Button full block onPress={ logIn }>
-                    <Text style={{color: '#fff'}}>{texts.loginText}</Text>
-                  </Button>
+              { needToLogIn &&
+                <Button full block onPress={logIn}>
+                  <Text style={{color: '#fff'}}>{texts.loginText}</Text>
+                </Button>
               }
-
             </View>
           </ImageBackground>
         </View>
@@ -309,7 +305,7 @@ const styles = StyleSheet.create({
     marginBottom: 75,
   },
   image: {
-        flex: 1,
+    flex: 1,
     resizeMode: "cover",
     justifyContent: "center"
   }
